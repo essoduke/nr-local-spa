@@ -925,7 +925,7 @@ msgstr "{0}, {1} 停靠站"
 
 msgctxt "line_new_stop_cell"
 msgid "New stops are inserted here"
-msgstr "新的停靠站會安插於此"
+msgstr "新的停靠站會安插在這裡"
 
 msgctxt "line_state"
 msgid "State"
@@ -1125,7 +1125,7 @@ msgstr "{0} 之 {1}，下一期於 {2}"
 
 msgctxt "loan_subtitle"
 msgid "${} months"
-msgstr "${} 每月"
+msgstr "${} / 月"
 
 msgctxt "loan_title"
 msgid "${0} at {1:.3}% ARP on {2} years"
@@ -1157,19 +1157,19 @@ msgstr "地圖名稱優先使用："
 
 msgctxt "matches_n_0"
 msgid "0 coincidencias"
-msgstr "0 符合項目"
+msgstr "0 項符合"
 
 msgctxt "matches_n_1"
 msgid "1 coincidencia"
-msgstr "1 符合項目"
+msgstr "1 項符合"
 
 msgctxt "matches_n_many"
 msgid "%d coincidencias"
-msgstr "%d 符合項目"
+msgstr "%d 項符合"
 
 msgctxt "missing_mod"
 msgid "This mod is enabled in the current game, but it is not installed in this PC. Some textures may be missing."
-msgstr "目前進行的遊戲已啟用此模組，但是本機並未安裝，部份紋理貼圖可能會遺失。"
+msgstr "進行中的遊戲已啟用此模組但是本機尚未安裝，部份紋理貼圖可能會遺失。"
 
 msgctxt "mod_author"
 msgid "Author:"
@@ -1605,7 +1605,7 @@ msgstr "月臺 "
 
 msgctxt "pop_reach"
 msgid "Reach: {}"
-msgstr "人口範圍：{}"
+msgstr "人口涵蓋：{}"
 
 msgctxt "private"
 msgid "Private"
@@ -1709,23 +1709,23 @@ msgstr "自動"
 
 msgctxt "search_section_lines"
 msgid "Lines"
-msgstr "[路線]"
+msgstr "-- 路線 --"
 
 msgctxt "search_section_nearby"
 msgid "Nearby"
-msgstr "[附近的]"
+msgstr "-- 附近的 --"
 
 msgctxt "search_section_stations"
 msgid "Stations"
-msgstr "[車站]"
+msgstr "-- 車站 --"
 
 msgctxt "search_section_trains"
 msgid "Trains"
-msgstr "[列車]"
+msgstr "-- 列車 --"
 
 msgctxt "search_section_world"
 msgid "World"
-msgstr "[世界]"
+msgstr "-- 世界 --"
 
 msgctxt "selection_blueprint_bill"
 msgid "Selected blueprints bill"
@@ -1753,19 +1753,19 @@ msgstr "根據地圖自動命名"
 
 msgctxt "station_pop_area"
 msgid "Area:"
-msgstr "涵蓋區域："
+msgstr "涵蓋範圍："
 
 msgctxt "stations_n_0"
 msgid "0 stations"
-msgstr "0 車站"
+msgstr "0 座車站"
 
 msgctxt "stations_n_1"
 msgid "1 station"
-msgstr "1 車站"
+msgstr "1 座車站"
 
 msgctxt "stations_n_many"
 msgid "%d stations"
-msgstr "%d 車站"
+msgstr "%d 座車站"
 
 msgctxt "steam_chat"
 msgid "Steam Chat and Friends"
@@ -2213,7 +2213,7 @@ msgstr "時區"
 
 msgctxt "traineditor_tz_auto"
 msgid "Auto"
-msgstr "自動"
+msgstr "自動時區"
 
 msgctxt "trains"
 msgid "Trains"
