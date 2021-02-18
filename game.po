@@ -419,7 +419,7 @@ msgstr "重新命名並儲存"
 #v1.1.37
 msgctxt "right_bar_company"
 msgid "Company and accounting"
-msgstr "公司及財務"
+msgstr "公司及帳務"
 
 #v1.1.37
 msgctxt "right_bar_main"
@@ -744,7 +744,7 @@ msgstr "60 分鐘"
 #v1.1.31
 msgctxt "accounting"
 msgid "Accounting"
-msgstr "財務"
+msgstr "帳務"
 
 #v1.1.31
 msgctxt "accounting_cash_total"
