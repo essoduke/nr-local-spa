@@ -1,2397 +1,3457 @@
 # ----------------------------------------------------------
-# unmodified strings
-
-# ----------------------------------------------------------
-# modified strings
-
-# ----------------------------------------------------------
 # new strings
 
-msgctxt "10_minutes"
-msgid "10 minutes"
-msgstr "10 分鐘"
+#v1.1.37
+msgctxt "accounting_found_station_too_full"
+msgid "Compen.: full station"
+msgstr "賠償：車站爆滿"
 
-msgctxt "15_minutes"
-msgid "15 minutes"
-msgstr "15 分鐘"
+#v1.1.37
+msgctxt "accounting_pax_intervention"
+msgid "Compen.: intervention"
+msgstr "賠償：介入列車"
 
-msgctxt "20_minutes"
-msgid "20 minutes"
-msgstr "20 分鐘"
+#v1.1.37
+msgctxt "accounting_ticketing_profit"
+msgid "Profit"
+msgstr "利潤"
 
-msgctxt "30_minutes"
-msgid "30 minutes"
-msgstr "30 分鐘"
+#v1.1.37
+msgctxt "accounting_trains_maintenance"
+msgid "Maintenance"
+msgstr "維護"
 
-msgctxt "5_minutes"
-msgid "5 minutes"
-msgstr "5 分鐘"
+#v1.1.37
+msgctxt "accounting_utc_warn"
+msgid "Accounting time: {} UTC-0"
+msgstr "帳務時間：{} UTC-0"
 
-msgctxt "60_minutes"
-msgid "60 minutes"
-msgstr "60 分鐘"
+#v1.1.37
+msgctxt "client_stream_stats"
+msgid "Client stream stats"
+msgstr "客戶端串流狀態"
 
-msgctxt "accounting"
-msgid "Accounting"
-msgstr "財務"
+#v1.1.37
+msgctxt "continue_game"
+msgid "Continue game"
+msgstr "繼續遊戲"
 
-msgctxt "accounting_cash_total"
-msgid "$ Total"
-msgstr "$ 總計"
+#v1.1.37
+msgctxt "delete_game_tooltip"
+msgid "Move selected game to the trash bin"
+msgstr "刪除選取的存檔"
 
-msgctxt "accounting_construction"
-msgid "Construction"
-msgstr "建造"
+#v1.1.37
+msgctxt "editor_tip_create_prompt_sel"
+msgid "To move or delete tracks, you must select their control points"
+msgstr "要移動或刪除軌道，必須先選取該段軌道的控制點。"
 
-msgctxt "accounting_construction_depots"
-msgid "Depots"
-msgstr "車庫"
+#v1.1.37
+msgctxt "error_too_new_save_v"
+msgid "The game version ({}.{}.{}.{}) that created this save file is newer than your game version ({}.{}.{}.{}). Update the game to load this file."
+msgstr "此存檔的遊戲版本 ({}.{}.{}.{}) 比目前的版本 ({}.{}.{}.{}) 還要新，請更新後再讀取。"
 
-msgctxt "accounting_construction_stations"
-msgid "Stations"
-msgstr "車站"
+#v1.1.37
+msgctxt "error_too_old_save_v"
+msgid "The game version ({}.{}.{}.{}) that created this save file is too old and it cannot be loaded. Try the legacy branches in Steam."
+msgstr "此存檔的遊戲版本 ({}.{}.{}.{}) 已過時導致無法讀取。請嘗試使用舊版本的遊戲程式。"
 
-msgctxt "accounting_construction_total"
-msgid "Total construction"
-msgstr "建造費用合計"
+#v1.1.37
+msgctxt "ev_too_short_warn"
+msgid "Too short stop time and/or train full"
+msgstr "過短的停靠時間 且/或 列車已客滿"
 
-msgctxt "accounting_construction_tracks"
-msgid "Tracks"
-msgstr "軌道"
+#v1.1.37
+msgctxt "file_picker_company"
+msgid "Company:"
+msgstr "公司："
 
-msgctxt "accounting_financing"
-msgid "Financing"
-msgstr "財務"
+#v1.1.37
+msgctxt "file_picker_date"
+msgid "In-game date:"
+msgstr "遊戲內日期："
 
-msgctxt "accounting_financing_credit"
-msgid "Credit"
-msgstr "貸款"
+#v1.1.37
+msgctxt "file_picker_file_modified"
+msgid "File modified:"
+msgstr "檔案異動："
 
-msgctxt "accounting_financing_interest"
-msgid "Interest"
-msgstr "利息"
+#v1.1.37
+msgctxt "file_picker_file_name"
+msgid "File name:"
+msgstr "檔案名稱："
 
-msgctxt "accounting_pax"
-msgid "Passengers"
-msgstr "乘客"
+#v1.1.37
+msgctxt "file_picker_version"
+msgid "Game version:"
+msgstr "遊戲版本："
 
-msgctxt "accounting_pax_boarded"
-msgid "Boarded train"
-msgstr "已上車"
+#v1.1.37
+msgctxt "file_picker_version_old"
+msgid "1.1.35 or earlier (model v{})"
+msgstr "1.1.35 或更早版本 (模組 v{})"
 
-msgctxt "accounting_pax_compensated"
-msgid "Compensated"
-msgstr "已賠償"
+#v1.1.37
+msgctxt "full_date_time"
+msgid "{weekday} {day} {month}, {year} / {hours:02d}:{mins:02d}:{secs:02d}"
+msgstr "{year}年{month}{day} {weekday} / {hours:02d}:{mins:02d}:{secs:02d}"
 
-msgctxt "accounting_pax_lost"
-msgid "Lost"
-msgstr "迷路的乘客"
+#v1.1.37
+msgctxt "host_game_speed"
+msgid "Game speed:"
+msgstr "遊戲速度："
 
-msgctxt "accounting_pax_post"
-msgid "pax"
-msgstr "乘客"
+#v1.1.37
+msgctxt "host_game_speed_warn"
+msgid "Large and complex builds, with many trains and stations, may not be playable at more than 1x speed in a multiplayer session."
+msgstr "大型複雜的建築以及過多的列車和車站，在多人模式可能無法使用 1x 以上的遊戲速度。"
 
-msgctxt "accounting_pax_reached_depot"
-msgid "Reached depot"
-msgstr "被載回車庫"
+#v1.1.37
+msgctxt "info_table_count_tp"
+msgid "How many pax match this grouping criteria"
+msgstr "符合分組條件的乘客數量"
 
-msgctxt "accounting_pax_reached_destination"
-msgid "Reached destination"
-msgstr "抵達目的地"
+#v1.1.37
+msgctxt "info_table_pax_destination_tp"
+msgid "Destination station"
+msgstr "目的地車站"
 
-msgctxt "accounting_pax_reached_transfer"
-msgid "Reached transfer"
-msgstr "完成轉乘"
+#v1.1.37
+msgctxt "info_table_pax_fare_tp"
+msgid "Fare(s) paid so far"
+msgstr "目前為止已支付的車資"
 
-msgctxt "accounting_pax_refunded"
-msgid "Refunded"
-msgstr "已退款"
+#v1.1.37
+msgctxt "info_table_pax_leg_tp"
+msgid "Elapsed time of the current trip leg, including station waits"
+msgstr "目前旅程的預估時間包含了在車站的等候時間"
 
-msgctxt "accounting_pax_refused_fare"
-msgid "Refused too high fare"
-msgstr "票價太高拒乘"
+#v1.1.37
+msgctxt "info_table_pax_next"
+msgid "Next stop"
+msgstr "下一站"
 
-msgctxt "accounting_pax_spawned"
-msgid "Started trip"
-msgstr "開始旅程"
+#v1.1.37
+msgctxt "info_table_pax_next_tp"
+msgid "Next stop station"
+msgstr "下一停靠站"
 
-msgctxt "accounting_pax_waited_too_long"
-msgid "Waited too long"
-msgstr "等候太久"
+#v1.1.37
+msgctxt "info_table_pax_origin_tp"
+msgid "Origin station"
+msgstr "上車地點"
 
-msgctxt "accounting_period_day"
-msgid "Day"
-msgstr "天"
+#v1.1.37
+msgctxt "info_table_pax_sax_tp"
+msgid "Satisfaction"
+msgstr "滿意度"
 
-msgctxt "accounting_period_lifetme"
-msgid "Lifetime"
-msgstr "總遊戲時間"
+#v1.1.37
+msgctxt "info_table_pax_total_tp"
+msgid "Trip total elapsed time"
+msgstr "旅程總預估時間"
 
-msgctxt "accounting_period_month"
-msgid "Month"
-msgstr "月"
+#v1.1.37
+msgctxt "line_list_sort_alpha"
+msgid "Alphabetical"
+msgstr "字母"
 
-msgctxt "accounting_period_quarter"
-msgid "Quarter"
-msgstr "季"
-
-msgctxt "accounting_period_week"
-msgid "Week"
-msgstr "週"
-
-msgctxt "accounting_period_year"
-msgid "Year"
-msgstr "年"
-
-msgctxt "accounting_quarter1"
-msgid "Q1"
-msgstr "第一季"
-
-msgctxt "accounting_quarter2"
-msgid "Q2"
-msgstr "第二季"
-
-msgctxt "accounting_quarter3"
-msgid "Q3"
-msgstr "第三季"
-
-msgctxt "accounting_quarter4"
-msgid "Q4"
-msgstr "第四季"
-
-msgctxt "accounting_ticketing"
-msgid "Ticketing"
-msgstr "車票收入"
-
-msgctxt "accounting_ticketing_compensations"
+#v1.1.37
+msgctxt "line_list_sort_pax_Compensation"
 msgid "Compensations"
 msgstr "賠償"
 
-msgctxt "accounting_ticketing_fares"
+#v1.1.37
+msgctxt "line_list_sort_pax_board"
+msgid "Boarded"
+msgstr "已上車"
+
+#v1.1.37
+msgctxt "line_list_sort_pax_fares"
 msgid "Fares"
 msgstr "車資"
 
-msgctxt "accounting_ticketing_refunds"
+#v1.1.37
+msgctxt "line_list_sort_pax_profit"
+msgid "Profit"
+msgstr "利潤"
+
+#v1.1.37
+msgctxt "line_list_sort_pax_refunds"
 msgid "Refunds"
 msgstr "退款"
 
-msgctxt "accounting_trains"
-msgid "Trains"
-msgstr "列車"
-
-msgctxt "accounting_trains_intervention"
-msgid "Interventions"
-msgstr "介入"
-
-msgctxt "accounting_trains_purchases"
-msgid "New trains"
-msgstr "購買列車"
-
-msgctxt "accounting_trains_running"
-msgid "Running costs"
-msgstr "運行成本"
-
-msgctxt "accounting_trains_maintenance"
-msgid "Maintanance"
-msgstr "維護費用"
-
-msgctxt "accounting_trains_sales"
-msgid "Train sales"
-msgstr "賣出列車"
-
-msgctxt "accounting_week_title"
-msgid "Week of {0} {1} {2}"
-msgstr "{0} {1} {2} 週"
-
-msgctxt "acl_action_allow"
-msgid "Always allow"
-msgstr "總是允許"
-
-msgctxt "acl_action_drop"
-msgid "Ignore"
-msgstr "忽略"
-
-msgctxt "acl_action_queue"
-msgid "Ask me"
-msgstr "詢問我"
-
-msgctxt "acl_allowed"
-msgid "Allowed"
-msgstr "已允許"
-
-msgctxt "acl_denied"
-msgid "Denied"
-msgstr "已拒絕"
-
-msgctxt "acl_friend_action"
-msgid "If an uninvited friend wants to join:"
-msgstr "未受邀請的朋友想要加入："
-
-msgctxt "acl_pending"
-msgid "Pending"
-msgstr "等待中"
-
-msgctxt "acl_stranger_action"
-msgid "If an uninvited stranger wants to join:"
-msgstr "未被邀請的陌生人想要加入："
-
-msgctxt "autosave_interval"
-msgid "Autosave interval:"
-msgstr "自動存檔間隔："
-
-msgctxt "autosave_slots"
-msgid "Autosave slots:"
-msgstr "自動存檔數量："
-
-msgctxt "autosaving"
-msgid "Autosaving..."
-msgstr "自動存檔中..."
-
-msgctxt "back"
-msgid "Back"
-msgstr "返回"
-
-msgctxt "bad_angle"
-msgid "bad angle"
-msgstr "錯誤的角度"
-
-msgctxt "banner_expain_ignore"
-msgid "Ignored join requests can be authorized in the server management window."
-msgstr "可以在主機管理視窗授予已忽略的加入請求。"
-
-msgctxt "banner_join_friend"
-msgid "{} wants to join your game."
-msgstr "{} 想要加入你的遊戲。"
-
-msgctxt "banner_join_stranger"
-msgid "{} (not a friend) wants to join your game."
-msgstr "{} (非好友) 想要加入你的遊戲。"
-
-msgctxt "banner_new_join"
-msgid "{} joined the game."
-msgstr "{} 已加入遊戲。"
-
-msgctxt "banner_prompt_client_join_anon"
-msgid "Do you want to join a game hosted by {}? Your current game will be autosaved and you will quit the current server."
-msgstr "你想要加入由 {} 主持的遊戲嗎？目前的進度會自動儲存，並離開已連接的主機。"
-
-msgctxt "banner_prompt_client_join_user"
-msgid "{0} proposes you to join a game hosted by {1}. Do you want to join? Your current game will be autosaved and you will quit the current server."
-msgstr "{0} 提議希望你加入由 {1} 主持的遊戲，是否想要加入？目前的進度會自動儲存，並離開已連接的主機。"
-
-msgctxt "banner_prompt_game_join_anon"
-msgid "Do you want to join a game hosted by {}? Your current game will be autosaved."
-msgstr "你想要加入由 {} 主持的遊戲嗎？目前的進度會自動儲存，並離開已連接的主機。"
-
-msgctxt "banner_prompt_game_join_user"
-msgid "{0} proposes you to join a game hosted by {1}. Do you want to join? Your current game will be autosaved."
-msgstr "{0} 提議希望你加入由 {1} 主持的遊戲，是否想要加入？目前的進度會自動儲存。"
-
-msgctxt "banner_prompt_nogame_join_anon"
-msgid "Do you want to join a game hosted by {}?"
-msgstr "你想要加入由 {} 主持的遊戲嗎？"
-
-msgctxt "banner_prompt_nogame_join_user"
-msgid "{0} proposes you to join a game hosted by {1}. Do you want to join?"
-msgstr "{0} 提議希望你加入由 {1} 主持的遊戲，是否想要加入？"
-
-msgctxt "banner_prompt_server_join_anon"
-msgid "Do you want to join a game hosted by {}? WARNING: You are currently hosting a game. All your connected players will be disconnected. Your current game will be autosaved."
-msgstr "你想要加入由 {} 主持的遊戲嗎？注意：目前的遊戲是由你建立，所有已連線的玩家都會斷線。目前的進度會自動儲存。"
-
-msgctxt "banner_prompt_server_join_user"
-msgid "{0} proposes you to join a game hosted by {1}. Do you want to join? WARNING: You are currently hosting a game. All your connected players will be disconnected. Your current game will be autosaved."
-msgstr "{0} 提議希望你加入由 {1} 主持的遊戲，是否想要加入？注意：目前的遊戲是由你建立，所有已連線的玩家都會斷線。目前的進度會自動儲存。"
-
-msgctxt "bill_tab_client"
-msgid "By me"
-msgstr "我的"
-
-msgctxt "bill_tab_global"
-msgid "Global"
-msgstr "全世界"
-
-msgctxt "bill_tab_selection"
-msgid "Selection"
-msgstr "已選取的"
-
-msgctxt "build"
-msgid "Build"
-msgstr "建造"
-
-msgctxt "build_all_bp"
-msgid "Build all blueprints"
-msgstr "建造所有藍圖"
-
-msgctxt "build_my_bp"
-msgid "Build my blueprints"
-msgstr "建造我的藍圖"
-
-msgctxt "build_selected_bp"
-msgid "Build selected blueprints"
-msgstr "建造選取的藍圖"
-
-msgctxt "cancel"
-msgid "Cancel"
-msgstr "取消"
-
-msgctxt "cancel_quit"
-msgid "Quit"
-msgstr "離開"
-
-msgctxt "client_blueprint_bill"
-msgid "My blueprint bill"
-msgstr "我的藍圖造價"
-
-msgctxt "client_conn_info"
-msgid "Host: {0} | {1}ms | {2:.2f}%▲ {3:.2f}%▼ | {4}▲ {5}▼ B/s"
-msgstr "主機端：{0} | {1}ms | {2:.2f}%▲ {3:.2f}%▼ | {4}▲ {5}▼ B/s"
-
-msgctxt "company_tab_info"
-msgid "Info"
-msgstr "公司資訊"
-
-msgctxt "confirm_bp"
-msgid "Do you want to build the current blueprint?"
-msgstr "確定要開始建造目前的藍圖嗎？"
-
-msgctxt "confirm_bp_price"
-msgid "Do you want to build the current blueprint for ${}?"
-msgstr "確定要花費 ${} 建造目前的藍圖嗎？"
-
-msgctxt "confirm_construction"
-msgid "Confirm construction"
-msgstr "確認建造"
-
-msgctxt "confirm_delete"
-msgid "Confirm delete"
-msgstr "確認刪除"
-
-msgctxt "confirm_delete_desc"
-msgid "One or more selected tracks are already built. Deleting them will not refund your money. This operation cannot be undone. Are you sure?"
-msgstr "一或多段選取的軌道已完工。刪除既不能退回費用也無法復原，確定嗎？"
-
-msgctxt "conflict_map_hit"
-msgid "water or road hits"
-msgstr "遭遇水域或道路"
-
-msgctxt "conflicts"
-msgid "Conflicts"
-msgstr "發生衝突"
-
-msgctxt "conflicts_pop_desc"
-msgid "One or more tracks have conflicts and cannot be constructed. Move, edit or delete all tracks marked in red."
-msgstr "一或多段軌道因為發生衝突而無法鋪設。請移動、編輯或刪除被標記為紅色的區段。"
-
-msgctxt "connecting_elip"
-msgid "Connecting..."
-msgstr "連接中..."
-
-msgctxt "connection_denied"
-msgid "Connection denied"
-msgstr "拒絕連接"
-
-msgctxt "construct_no_bps"
-msgid "There are no pending track or station blueprints to build"
-msgstr "沒有可建造的軌道或車站藍圖"
-
-msgctxt "construction_conflicts_cash"
-msgid "Not enough money for construction"
-msgstr "沒有足夠的資金可以建造"
-
-msgctxt "construction_conflicts_error"
-msgid "Conflicts block construction"
-msgstr "發生衝突導致無法建造"
-
-msgctxt "copy"
-msgid "Copy"
-msgstr "複製"
-
-msgctxt "credits"
-msgid "Credits"
-msgstr "製作團隊"
-
-msgctxt "credits_acknowledgments"
-msgid "Acknowledgments"
-msgstr "致謝"
-
-msgctxt "credits_art"
-msgid "Art"
-msgstr "美術"
-
-msgctxt "credits_programming"
-msgid "Programming and design"
-msgstr "程式設計"
-
-msgctxt "credits_thanks"
-msgid "Thanks"
-msgstr "感謝"
-
-msgctxt "crossings_n_0"
-msgid "0 crossings"
-msgstr "0 個平交道"
-
-msgctxt "crossings_n_1"
-msgid "1 crossing"
-msgstr "1 個平交道"
-
-msgctxt "crossings_n_many"
-msgid "%d crossings"
-msgstr "%d 個平交道"
-
-msgctxt "custom_admin_level_poi"
-msgid "POI"
-msgstr "POI"
-
-msgctxt "custom_admin_level_transport"
-msgid "Transportation"
-msgstr "運輸"
-
-msgctxt "default_han_font"
-msgid "Default Han font:"
-msgstr "預設漢字字型："
-
-msgctxt "default_han_font_chi"
-msgid "Simplified Chinese"
-msgstr "簡體中文"
-
-msgctxt "default_han_font_jpn"
-msgid "Japanese"
-msgstr "日文"
-
-msgctxt "default_han_font_kor"
-msgid "Korean"
-msgstr "韓文"
-
-msgctxt "default_han_font_zho"
-msgid "Traditional Chinese"
-msgstr "繁體中文"
-
-msgctxt "default_train_name"
-msgid "Train {}"
-msgstr "列車 {}"
-
-msgctxt "delete_tracks"
-msgid "Delete tracks"
-msgstr "刪除軌道"
-
-msgctxt "demand_pax_overall"
-msgid "{:.1f} pax/s"
-msgstr "{:.1f} 乘客/秒"
-
-msgctxt "depot_at"
-msgid "Depot at"
-msgstr "車庫位於"
-
-msgctxt "depots_n_0"
-msgid "0 depots"
-msgstr "0 車庫"
-
-msgctxt "depots_n_1"
-msgid "1 depot"
-msgstr "1 車庫"
-
-msgctxt "depots_n_many"
-msgid "%d depots"
-msgstr "%d 車庫"
-
-msgctxt "description"
-msgid "Description:"
-msgstr "描述："
-
-msgctxt "disabled"
-msgid "Disabled"
-msgstr "已停用"
-
-msgctxt "display_mode"
-msgid "Mode:"
-msgstr "模式："
-
-msgctxt "display_mode_exclusive_fullscreen"
-msgid "Exclusive fullscreen"
-msgstr "獨佔全螢幕"
-
-msgctxt "display_mode_windowed"
-msgid "Windowed"
-msgstr "視窗化"
-
-msgctxt "display_mode_windowed_fullscreen"
-msgid "Windowed fullscreen"
-msgstr "全螢幕視窗化"
-
-msgctxt "display_screen"
-msgid "Display:"
-msgstr "顯示器："
-
-msgctxt "display_screen_leave_alone"
-msgid "Do not set"
-msgstr "不指定"
-
-msgctxt "done"
-msgid "Done"
-msgstr "完成"
-
-msgctxt "editor_add"
-msgid "Append to tracks or create new ones"
-msgstr "新增或延伸軌道"
-
-msgctxt "editor_branch"
-msgid "Create new track branches"
-msgstr "新增軌道支線"
-
-msgctxt "editor_track_depot"
-msgid "Create new depot"
-msgstr "新增車庫"
-
-msgctxt "editor_track_viaduct"
-msgid "Viaduct"
-msgstr "高架軌"
-
-msgctxt "editor_track_ground"
-msgid "Ground"
-msgstr "平面軌"
-
-msgctxt "editor_track_tram"
-msgid "Tram"
-msgstr "路面電車輕軌"
-
-msgctxt "editor_track_tunnel"
-msgid "Tunnel"
-msgstr "地下軌"
-
-msgctxt "editor_move"
-msgid "Move, delete and edit tracks"
-msgstr "移動、刪除及修改軌道"
-
-msgctxt "editor_select_add_platform"
-msgid "Click platform numbers in stations to add stops to the line"
-msgstr "點選車站的月臺編號為此路線加入停靠站"
-
-msgctxt "editor_select_add_waypoint"
-msgid "Click track segments to add waypoints to the line"
-msgstr "點選軌道區段為此路線加入路徑點"
-
-msgctxt "editor_select_pick_depot"
-msgid "Click a depot on the map to set this train slot order"
-msgstr "點選地圖上的車庫以設定此列車的指令"
-
-msgctxt "editor_station"
-msgid "Create new station platforms"
-msgstr "新增車站月臺"
-
-msgctxt "editor_tip_add_esc"
-msgid "Esc to go to edit mode"
-msgstr "Esc 返回編輯模式"
-
-msgctxt "editor_tip_add_left1"
-msgid "Left click on the existing end of track control points to continue an existing track"
-msgstr "滑鼠左鍵點選已存在的軌道末端控制點，以繼續鋪設該軌道"
-
-msgctxt "editor_tip_add_left2"
-msgid "Left click anywhere else to create a new track"
-msgstr "滑鼠左鍵點選任一處以新增軌道"
-
-msgctxt "editor_tip_branch_esc"
-msgid "Esc to go to edit mode"
-msgstr "Esc 返回編輯模式"
-
-msgctxt "editor_tip_branch_left"
-msgid "Left click to create the branch"
-msgstr "點選滑鼠左鍵以新增支線"
-
-msgctxt "editor_tip_branch_mouse"
-msgid "Hover the mouse cursor near an existing track to see a new track branch"
-msgstr "移動滑鼠游標至軌道附近可以預覽新支線"
-
-msgctxt "editor_tip_branch_shift"
-msgid "Press shift for opposite direction"
-msgstr "按下 Shift 切換為對側方向"
-
-msgctxt "editor_tip_cont_esc"
-msgid "Esc to cancel"
-msgstr "Esc 取消"
-
-msgctxt "editor_tip_cont_left"
-msgid "Left click to create a new track segment. Hold Shift to keep creating more segments."
-msgstr "點選滑鼠左鍵以新增軌道區段。按住 Shift 可連續新增。"
-
-msgctxt "editor_tip_cont_mouse"
-msgid "Hover the mouse cursor over an existing end of track to see how it would look linked with your current track"
-msgstr "滑鼠游標移至軌道末端可以檢視連結至軌道的方式"
-
-msgctxt "editor_tip_create_del"
-msgid "Del to delete selected tracks"
-msgstr "Del 可以刪除選取的軌道"
-
-msgctxt "editor_tip_create_drag"
-msgid "Drag any selected track control point to move the selection"
-msgstr "拖曳任何已選取的軌道控制點可以移動"
-
-msgctxt "editor_tip_create_esc"
-msgid "Esc to cancel selection"
-msgstr "Esc 取消選取"
-
-msgctxt "editor_tip_create_left1"
-msgid "Left click on track control points to select"
-msgstr "滑鼠左鍵點選軌道控制點可以選取"
-
-msgctxt "editor_tip_create_left2"
-msgid "Left click on station name plate to edit station details"
-msgstr "滑鼠左鍵點選車站名稱可以編輯細節"
-
-msgctxt "editor_tip_create_left3"
-msgid "Left click on track control points to reset selection"
-msgstr "滑鼠左鍵點選軌道末端控制點可以重新選取"
-
-msgctxt "editor_tip_create_sleft"
-msgid "Shift left click to add or remove points from selection"
-msgstr "Shift + 滑鼠左鍵以加入或刪除已選取的路徑點"
-
-msgctxt "editor_tip_depot_esc"
-msgid "Esc to go to edit mode"
-msgstr "Esc 返回編輯模式"
-
-msgctxt "editor_tip_depot_fin_esc"
-msgid "Esc to cancel"
-msgstr "Esc 取消"
-
-msgctxt "editor_tip_depot_fin_left"
-msgid "Left click to finish creating a new depot"
-msgstr "點選滑鼠左鍵以完成車庫的新增"
-
-msgctxt "editor_tip_depot_left"
-msgid "Left click to create a new depot"
-msgstr "點選滑鼠左鍵以新增車庫"
-
-msgctxt "editor_tip_link_esc"
-msgid "Esc to go to edit mode"
-msgstr "Esc 返回編輯模式"
-
-msgctxt "editor_tip_link_left"
-msgid "Left click to link tracks"
-msgstr "點選滑鼠左鍵以連接軌道"
-
-msgctxt "editor_tip_link_move"
-msgid "Move away the mouse cursor to cancel"
-msgstr "移開滑鼠游標以取消"
-
-msgctxt "editor_tip_move_esc"
-msgid "Esc to cancel movement"
-msgstr "Esc 取消移動"
-
-msgctxt "editor_tip_move_left"
-msgid "Release left button to stop moving control point"
-msgstr "放開滑鼠左鍵以停止移動軌道控制點"
-
-msgctxt "editor_tip_rect_left"
-msgid "Release the left button to end rectangle selection"
-msgstr "放開滑鼠左鍵以完成範圍選取"
-
-msgctxt "editor_tip_station_esc"
-msgid "Esc to go to edit mode"
-msgstr "Esc 返回編輯模式"
-
-msgctxt "editor_tip_station_fin_esc"
-msgid "Esc to cancel"
-msgstr "Esc 取消"
-
-msgctxt "editor_tip_station_fin_left"
-msgid "Left click to finish creating a new station platform"
-msgstr "點選滑鼠左鍵以完成月臺的新增"
-
-msgctxt "editor_tip_station_left"
-msgid "Left click to create a new station platform"
-msgstr "點選滑鼠左鍵以新增月臺"
-
-msgctxt "editor_tip_undo"
-msgid "Ctrl-Z to undo the last edit"
-msgstr "Ctrl-Z 可以復原上一次的編輯"
-
-msgctxt "editor_tip_zoom"
-msgid "Zoom in to edit"
-msgstr "放大以編輯"
-
-msgctxt "editor_warn_zero_leg"
-msgid "At least one travel time is set to 0. Pax AI will get confused when riding this line."
-msgstr "至少有一段的旅程時間被設成 0！搭乘此路線的乘客 AI 可能會被混淆。"
-
-msgctxt "enabled"
-msgid "Enabled"
-msgstr "已啟用"
-
-msgctxt "error_cannot_open_file"
-msgid "Cannot open file: "
-msgstr "無法開啟檔案："
-
-msgctxt "error_corrupted_file"
-msgid "Corrupted file: "
-msgstr "錯誤的檔案："
-
-msgctxt "error_reading_file"
-msgid "Error reading from file"
-msgstr "讀取檔案發生錯誤"
-
-msgctxt "error_reading_file_desc"
-msgid "The system does not allow to read the selected file, or its format is not valid game data"
-msgstr "系統不允許讀取選取的檔案，或該檔案為無效的遊戲資料"
-
-msgctxt "error_save"
-msgid "Corrupted game state"
-msgstr "錯誤的遊戲狀態"
-
-msgctxt "error_saving_internal"
-msgid "Internal error while saving game"
-msgstr "儲存時發生內部錯誤"
-
-msgctxt "error_too_new_save"
-msgid "The game version that created this save file is newer than your game version. Update the game to load this file."
-msgstr "此存檔使用了較新的遊戲版本，請更新之後再重新讀取。"
-
-msgctxt "error_too_old_save"
-msgid "The game version that created this save file is too old and it cannot be loaded."
-msgstr "此存檔使用了過時的遊戲版本，因此無法讀取。"
-
-msgctxt "error_writing_file"
-msgid "Error writing to file"
-msgstr "寫入檔案時發生錯誤"
-
-msgctxt "error_writing_file_desc"
-msgid "The system does not allow to write in the selected file"
-msgstr "系統不允許寫入選取的檔案"
-
-msgctxt "ev_refunds"
-msgid "{} refunds"
-msgstr "{} 退款"
-
-msgctxt "file_header_date"
-msgid "Date"
-msgstr "日期"
-
-msgctxt "file_header_name"
-msgid "Name"
-msgstr "名稱"
-
-msgctxt "friend_state_away"
-msgid "Away"
-msgstr "離開"
-
-msgctxt "friend_state_busy"
-msgid "Busy"
-msgstr "忙碌"
-
-msgctxt "friend_state_connected"
-msgid "Connected"
-msgstr "已連接"
-
-msgctxt "friend_state_connected_here"
-msgid "Conn. here"
-msgstr "已連線，在這裡"
-
-msgctxt "friend_state_connected_other"
-msgid "Conn. elsewhere"
-msgstr "已連線，在其他地方"
-
-msgctxt "friend_state_hosting"
-msgid "Hosting"
-msgstr "主持遊戲"
-
-msgctxt "friend_state_in_game"
-msgid "In-game"
-msgstr "遊戲中"
-
-msgctxt "friend_state_offline"
-msgid "Offline"
-msgstr "離線"
-
-msgctxt "friend_state_online"
-msgid "Online"
-msgstr "線上"
-
-msgctxt "friend_state_snooze"
-msgid "Snooze"
-msgstr "打瞌睡"
-
-msgctxt "friends"
-msgid "Friends"
-msgstr "好友"
-
-msgctxt "global_blueprint_bill"
-msgid "Global blueprint bill"
-msgstr "全世界藍圖的造價"
-
-msgctxt "host_game"
-msgid "Host game"
-msgstr "主持遊戲"
-
-msgctxt "icon_file"
-msgid "Icon file:"
-msgstr "圖示檔："
-
-msgctxt "ignore"
-msgid "Ignore"
-msgstr "忽略"
-
-msgctxt "info_table_count"
-msgid "Count"
-msgstr "人數"
-
-msgctxt "info_table_pax_destination"
-msgid "Destination"
-msgstr "目的地"
-
-msgctxt "info_table_pax_fare"
-msgid "Fare"
-msgstr "票價"
-
-msgctxt "info_table_pax_leg"
-msgid "Leg"
-msgstr "支線"
-
-msgctxt "info_table_pax_origin"
-msgid "Origin"
-msgstr "上車地點"
-
-msgctxt "info_table_pax_sax"
-msgid "Sax"
-msgstr "滿意度"
-
-msgctxt "info_table_pax_total"
-msgid "Total"
-msgstr "總計"
-
-msgctxt "info_train_pax"
-msgid "Pax: {0} / {1}"
-msgstr "乘客：{0} / {1}"
-
-msgctxt "info_train_speed"
-msgid "Speed: {} km/h"
-msgstr "速度: {} km/h"
-
-msgctxt "info_train_speed_short"
-msgid "{} km/h"
-msgstr "{} km/h"
-
-msgctxt "intervention"
-msgid "Intervention"
-msgstr "介入"
-
-msgctxt "invalid_location"
-msgid "Invalid"
-msgstr "無效的地點"
-
-msgctxt "join"
-msgid "Join"
-msgstr "加入"
-
-msgctxt "join_game"
-msgid "Join game"
-msgstr "加入遊戲"
-
-msgctxt "joincode_client_info"
-msgid "Paste a join code to join a player hosted server. If the player is offline or ignores your request, the connection will fail."
-msgstr "貼上邀請碼才能加入玩家主機。如果玩家已離線或忽略你的請求，連線將會失敗。"
-
-msgctxt "joincode_server_info"
-msgid "This join code allows any player to join your hosted game, even if they are not in your friend list. Make sure your Access rules are set to Allow or to Ask, otherwise players will be ignored even if they have a correct join code."
-msgstr "這個邀請碼可以允許任何玩家（包括非好友）加入你主持的遊戲。請確認你的存取規則已設為允許或需要詢問，否則玩家可能會被忽略。"
-
-msgctxt "joint_multiplayer_name"
-msgid "Join multiplayer game"
-msgstr "加入多人遊戲"
-
-msgctxt "key_info"
-msgid "Key: "
-msgstr "按鍵："
-
-msgctxt "language_pick"
-msgid "Language:"
-msgstr "語言："
-
-msgctxt "line_0_stops"
-msgid "0 stops"
-msgstr "0 停靠站"
-
-msgctxt "line_error_no_path_between_stops"
-msgid "Cannot find path!"
-msgstr "找不到路徑！"
-
-msgctxt "line_error_no_path_to_start"
-msgid "Cannot find path to start of line!"
-msgstr "找不到路線的起點！"
-
-msgctxt "line_n_stops"
-msgid "{0}, {1} stops"
-msgstr "{0}, {1} 停靠站"
-
-msgctxt "line_new_stop_cell"
-msgid "New stops are inserted here"
-msgstr "新的停靠站會安插在這裡"
-
-msgctxt "line_state"
-msgid "State"
-msgstr "狀態"
-
-msgctxt "line_stop_arrival_header"
-msgid "Arrival"
-msgstr "抵達"
-
-msgctxt "line_stop_distance_header"
-msgid "Distance"
-msgstr "距離"
-
-msgctxt "line_stop_eta_header"
-msgid "Travel"
-msgstr "旅程"
-
-msgctxt "line_stop_interval_header"
-msgid "Interval"
-msgstr "班距"
-
-msgctxt "line_stop_min_header"
-msgid "Min."
-msgstr "最小"
-
-msgctxt "line_stop_passthru_short"
-msgid "Pass"
-msgstr "通過"
-
-msgctxt "line_stop_wait_header"
-msgid "Wait"
-msgstr "等待"
-
-msgctxt "line_stops"
-msgid "Stops"
-msgstr "停靠"
-
-msgctxt "line_to"
-msgid "{} to"
-msgstr "{} 至"
-
-msgctxt "lineeditor_auto_eta_avg_branch_wait"
-msgid "Avg. branch (mm:ss):"
-msgstr "支線平均時間 (mm:ss):"
-
-msgctxt "lineeditor_auto_eta_run"
-msgid "Estimate travel times"
-msgstr "預估旅程時間"
-
-msgctxt "lineeditor_auto_eta_speed"
-msgid "Ideal speed (km/h):"
-msgstr "預估速度 (km/h)："
-
-msgctxt "lineeditor_auto_interval_run"
-msgid "Set min. interval times"
-msgstr "設定班次間距"
-
-msgctxt "lineeditor_auto_inverval"
-msgid "Min. interval (mm:ss):"
-msgstr "班次間距 (mm:ss)："
-
-msgctxt "lineeditor_bp_station"
-msgid "Build your tracks blueprint to enable this platform"
-msgstr "軌道藍圖建造之後才能啟用這座月臺"
-
-msgctxt "lineeditor_code"
-msgid "Code:"
-msgstr "代號："
-
-msgctxt "lineeditor_color"
-msgid "Color:"
-msgstr "顏色："
-
-msgctxt "lineeditor_name"
-msgid "Name:"
-msgstr "名稱："
-
-msgctxt "lineeditor_price_base"
-msgid "Base ticket price:"
-msgstr "基本票價："
-
-msgctxt "lineeditor_price_km"
-msgid "Price per km:"
-msgstr "每公里票價："
-
-msgctxt "lineeditor_tooltip_add_stop_mode"
-msgid "Add stops to line"
-msgstr "加入停靠站"
-
-msgctxt "lineeditor_tooltip_add_waypoint_mode"
-msgid "Add waypoints to line"
-msgstr "加入路徑點"
-
-msgctxt "lineeditor_tooltip_del"
-msgid "Delete selected line"
-msgstr "刪除已選取的路線"
-
-msgctxt "lineeditor_tooltip_del_stop"
-msgid "Delete selected stop"
-msgstr "刪除已選取的停靠站"
-
-msgctxt "lineeditor_tooltip_down_stop"
-msgid "Move down selected stop"
-msgstr "下移已選取的停靠站"
-
-msgctxt "lineeditor_tooltip_new"
-msgid "Create a new line"
-msgstr "建立新路線"
-
-msgctxt "lineeditor_tooltip_up_stop"
-msgid "Move up selected stop"
-msgstr "上移已選取的停靠站"
-
-msgctxt "lines"
-msgid "Lines"
-msgstr "路線"
-
-msgctxt "lines_n_0"
-msgid "0 lines"
-msgstr "0 條路線"
-
-msgctxt "lines_n_1"
-msgid "1 line"
-msgstr "1 條路線"
-
-msgctxt "lines_n_many"
-msgid "%d lines"
-msgstr "%d 條路線"
-
-msgctxt "load_game"
-msgid "Load game"
-msgstr "讀取存檔"
-
-msgctxt "loading_elip"
-msgid "Loading..."
-msgstr "讀取中..."
-
-msgctxt "loan_balance"
-msgid "Balance:"
-msgstr "貸款餘額："
-
-msgctxt "loan_contract_accept"
-msgid "Take new loan"
-msgstr "申請新的貸款"
-
-msgctxt "loan_contract_amount"
-msgid "$M Amount:"
-msgstr "金額 ($M)："
-
-msgctxt "loan_contract_ko"
-msgid "Not approved"
-msgstr "未核准"
-
-msgctxt "loan_contract_monthly_payment"
-msgid "Monthly payment:"
-msgstr "每月還款金額："
-
-msgctxt "loan_contract_rate"
-msgid "APR:"
-msgstr "年利率："
-
-msgctxt "loan_contract_total_interest"
-msgid "{} months interest:"
-msgstr "{} 個月的利息總計："
-
-msgctxt "loan_contract_years"
-msgid "Years:"
-msgstr "年限:"
-
-msgctxt "loan_created_on"
-msgid "Created on:"
-msgstr "貸款核放日："
-
-msgctxt "loan_n"
-msgid "Loan {}"
-msgstr "貸款 {}"
-
-msgctxt "loan_need_admin"
-msgid "Only admins can take loans"
-msgstr "只有管理員可以申請貸款"
-
-msgctxt "loan_paid_interest"
-msgid "Paid interest:"
-msgstr "已支付利息："
-
-msgctxt "loan_pay_early"
-msgid "Pay early ${}"
-msgstr "提前清償 ${}"
-
-msgctxt "loan_payments"
-msgid "Payments:"
-msgstr "還款："
-
-msgctxt "loan_payments_fmt"
-msgid "{0} out of {1}, next on {2}"
-msgstr "{0} 之 {1}，下一期於 {2}"
-
-msgctxt "loan_subtitle"
-msgid "${} months"
-msgstr "${} / 月"
-
-msgctxt "loan_title"
-msgid "${0} at {1:.3}% ARP on {2} years"
-msgstr "貸款 ${0}，年利率 {1:.3}%，還款期限 {2} 年"
-
-msgctxt "local_mod"
-msgid "Local mod to upload:"
-msgstr "上傳的本機模組："
-
-msgctxt "lonely_station"
-msgid "Lonely Station"
-msgstr "Lonely Sation"
-
-msgctxt "main_options"
-msgid "Options"
-msgstr "選項"
-
-msgctxt "map_names_eng"
-msgid "English"
-msgstr "英文"
-
-msgctxt "map_names_native"
-msgid "Native"
-msgstr "地圖原生語言"
-
-msgctxt "map_names_prio"
-msgid "Map names priority:"
-msgstr "地圖名稱優先使用："
-
-msgctxt "matches_n_0"
-msgid "0 coincidencias"
-msgstr "0 項符合"
-
-msgctxt "matches_n_1"
-msgid "1 coincidencia"
-msgstr "1 項符合"
-
-msgctxt "matches_n_many"
-msgid "%d coincidencias"
-msgstr "%d 項符合"
-
-msgctxt "missing_mod"
-msgid "This mod is enabled in the current game, but it is not installed in this PC. Some textures may be missing."
-msgstr "進行中的遊戲已啟用此模組但是本機尚未安裝，部份紋理貼圖可能會遺失。"
-
-msgctxt "mod_author"
-msgid "Author:"
-msgstr "作者："
-
-msgctxt "mod_desc"
-msgid "Description:"
-msgstr "描述："
-
-msgctxt "mod_name"
-msgid "Name:"
-msgstr "名稱："
-
-msgctxt "mod_source"
-msgid "Source:"
-msgstr "來源："
-
-msgctxt "mod_source_builtin"
-msgid "Built-in"
-msgstr "內建"
-
-msgctxt "mod_source_local"
-msgid "Local"
-msgstr "本機"
-
-msgctxt "mod_source_steamworks_ugc"
-msgid "Steamworks UGC"
-msgstr "Steamworks UGC"
-
-msgctxt "mod_uploader_busy"
-msgid "Uploading mod..."
-msgstr "模組上傳中..."
-
-msgctxt "mod_uploader_info"
-msgid "The mod uploader is a tool for mod developers. If you want to use mods when playing the game, subscribe to them in the Steam Workshop and enable them when creating a new game."
-msgstr "模組上傳器是提供給模組開發者的工具。如果你想要在遊戲內使用模組，請前往 Steam 工作坊訂閱，並在開始新的遊戲時啟用。"
-
-msgctxt "mod_uploader_info_guide"
-msgid "Mod development guide"
-msgstr "模組開發者導覽"
-
-msgctxt "mod_uploader_info_open_browser"
-msgid "Visit Workshop"
-msgstr "瀏覽 Steam 工作坊"
-
-msgctxt "mod_uploader_info_player_workshop"
-msgid "Manage Workshop"
-msgstr "管理工作坊"
-
-msgctxt "mod_uploader_info_use_uploader"
-msgid "Use Mod Uploader"
-msgstr "使用模組上傳器"
-
-msgctxt "mod_uploader_new_mod"
-msgid "New mod"
-msgstr "新模組"
-
-msgctxt "mod_uploader_not_in_game"
-msgid "The mod uploader cannot be used with a loaded game."
-msgstr "模組上傳器無法在遊戲進行時使用。"
-
-msgctxt "mod_uploader_update_mod"
-msgid "Update mod"
-msgstr "更新模組"
-
-msgctxt "mod_uploader_view_ws_mod"
-msgid "View mod in Workshop"
-msgstr "在 Steam 工作坊檢視模組"
-
-msgctxt "mod_version"
-msgid "Version:"
-msgstr "版本："
-
-msgctxt "mode_map_default"
-msgid "Plain map"
-msgstr "無圖層"
-
-msgctxt "mode_map_population"
-msgid "Population overlay"
-msgstr "圖層：人口"
-
-msgctxt "mode_map_tracks"
-msgid "Plain tracks"
-msgstr "圖層：軌道"
-
-msgctxt "mode_map_tracks_lines"
-msgid "Lines overlay"
-msgstr "圖層：路線"
-
-msgctxt "mode_map_tracks_speed"
-msgid "Speed overlay"
-msgstr "圖層：軌道速限"
-
-msgctxt "mods"
+#v1.1.37
+msgctxt "lineeditor_auto_acc_ramp"
+msgid "Acceleration ramp:"
+msgstr "斜坡加速度："
+
+#v1.1.37
+msgctxt "lineeditor_auto_acc_ramp_01"
+msgid "Fixed 0.1 ms-2"
+msgstr "固定 0.1 ms-2"
+
+#v1.1.37
+msgctxt "lineeditor_auto_acc_ramp_02"
+msgid "Fixed 0.2 ms-2"
+msgstr "固定 0.2 ms-2"
+
+#v1.1.37
+msgctxt "lineeditor_auto_acc_ramp_03"
+msgid "Fixed 0.3 ms-2"
+msgstr "固定 0.3 ms-2"
+
+#v1.1.37
+msgctxt "lineeditor_auto_acc_ramp_04"
+msgid "Fixed 0.4 ms-2"
+msgstr "固定 0.4 ms-2"
+
+#v1.1.37
+msgctxt "lineeditor_auto_acc_ramp_05"
+msgid "Fixed 0.5 ms-2"
+msgstr "固定 0.5 ms-2"
+
+#v1.1.37
+msgctxt "lineeditor_auto_eta_max_speed"
+msgid "Train max speed:"
+msgstr "列車速度上限："
+
+#v1.1.37
+msgctxt "lineeditor_auto_eta_title"
+msgid "Leg travel times calculator"
+msgstr "旅程計時器"
+
+#v1.1.37
+msgctxt "lineeditor_auto_inverval_sugg"
+msgid "Min. interval hint:"
+msgstr "最短班距建議："
+
+#v1.1.37
+msgctxt "lineeditor_auto_inverval_title"
+msgid "Min. interval time bulk edit"
+msgstr "批次修改班次間距時間"
+
+#v1.1.37
+msgctxt "lineeditor_auto_wait_title"
+msgid "Min. stop time bulk edit"
+msgstr "批次修改最短停靠時間"
+
+#v1.1.37
+msgctxt "lineeditor_bulk_wait"
+msgid "Min. stop time (h:mm:ss):"
+msgstr "最短停靠時間 (h:mm:ss):"
+
+#v1.1.37
+msgctxt "lineeditor_bulk_wait_run"
+msgid "Set min. stop times"
+msgstr "最短停靠時間"
+
+#v1.1.37
+msgctxt "lineeditor_move_camera"
+msgid "Pan and zoom view when selecting a line or station"
+msgstr "選取路線或車站時自動聚焦並縮放"
+
+#v1.1.37
+msgctxt "lineeditor_tooltip_show_mini_editor"
+msgid "Timing calculator"
+msgstr "計時器"
+
+#v1.1.37
+msgctxt "list_sort_reverse"
+msgid "Reverse"
+msgstr "反向"
+
+#v1.1.37
+msgctxt "max_speed_desc"
+msgid "Map and UI is disabled in max speed mode. Slow down to cancel."
+msgstr "地圖和 UI 會在遊戲加速最快時停用，減速即可恢復。"
+
+#v1.1.37
+msgctxt "mod_disable_in_game"
+msgid "Disable in this game"
+msgstr "在遊戲內停用"
+
+#v1.1.37
+msgctxt "mod_enable_all_installed"
+msgid "Enable all installed mods"
+msgstr "啟用已安裝的模組"
+
+#v1.1.37
+msgctxt "mod_enable_in_game"
+msgid "Enable in this game"
+msgstr "在遊戲內啟用"
+
+#v1.1.37
+msgctxt "mod_icon_hint"
+msgid "JPG format in RGB, max 1MB"
+msgstr "RGB JPG 格式，最大 1MB"
+
+#v1.1.37
+msgctxt "mod_keep_desc"
+msgid "Keep Steamworks description"
+msgstr "保留 Steam 工作坊描述"
+
+#v1.1.37
+msgctxt "mod_keep_icon"
+msgid "Keep Steamworks icon"
+msgstr "保留 Steam 工作坊圖示"
+
+#v1.1.37
+msgctxt "mod_panel_list_title"
+msgid "Subscribed mods:"
+msgstr "訂閱模組："
+
+#v1.1.37
+msgctxt "mod_panel_steamworks"
+msgid "Subscribe to new mods in the Workshop"
+msgstr "在工作坊訂閱新的模組"
+
+#v1.1.37
+msgctxt "mod_sub_all_not_installed"
+msgid "Subscribe to all missing mods"
+msgstr "訂閱所有缺少的模組"
+
+#v1.1.37
+msgctxt "motd"
+msgid "Host message"
+msgstr "主機訊息"
+
+#v1.1.37
+msgctxt "motd_desc"
+msgid "Optionally write here a message to be shown to all clients on joining your game."
+msgstr "其他玩家加入你的遊戲時會顯示這裡填寫的文字(非必要)。"
+
+#v1.1.37
+msgctxt "motd_empty_text"
+msgid "< Host message is empty >"
+msgstr "< 空白的主機訊息 >"
+
+#v1.1.37
+msgctxt "motd_empty_url"
+msgid "< Host chat link is empty or invalid >"
+msgstr "< 主機聊天連結為空白或無效 >"
+
+#v1.1.37
+msgctxt "motd_url_desc"
+msgid "Optionally paste here a URL that clients can visit to join your chat. For example, a Discord invite."
+msgstr "其他玩家可點擊這裡填寫的連結(例如 Discord 邀請)加入聊天(非必要)。"
+
+#v1.1.37
+msgctxt "mpinfo_stats_stream"
+msgid "Stream stats (hoster UI)"
+msgstr "串流狀態 (主機端 UI)"
+
+#v1.1.37
+msgctxt "mvo_user_line_stops"
+msgid "Line stops"
+msgstr "路線停靠"
+
+#v1.1.37
+msgctxt "mvo_user_station_event"
+msgid "Station events"
+msgstr "車站事件"
+
+#v1.1.37
+msgctxt "mvo_user_station_icons"
+msgid "Station icons"
+msgstr "車站圖示"
+
+#v1.1.37
+msgctxt "mvo_user_station_names"
+msgid "Station names"
+msgstr "車站名稱"
+
+#v1.1.37
+msgctxt "mvo_user_train_counters"
+msgid "Train counters"
+msgstr "列車計數"
+
+#v1.1.37
+msgctxt "mvo_user_train_icons"
+msgid "Train icons"
+msgstr "列車圖示"
+
+#v1.1.37
+msgctxt "mvo_user_zoom_out_tracks"
+msgid "Zoomed out tracks"
+msgstr "縮小軌道"
+
+#v1.1.37
+msgctxt "no_line_header"
+msgid "<No line>"
+msgstr "<無路線>"
+
+#v1.1.37
+msgctxt "open"
+msgid "Open"
+msgstr "開啟"
+
+#v1.1.37
+msgctxt "open_games_folder_tooltip"
+msgid "Open saved games folder"
+msgstr "開啟存檔目錄"
+
+#v1.1.37
+msgctxt "overwrite_other_version_file"
+msgid "Overwrite other version file"
+msgstr "覆蓋其他版本的檔案"
+
+#v1.1.37
+msgctxt "ovewrite_other_desc"
+msgid "{} was saved with a different game version. Do you want to overwrite it, or rename it to keep its original contents, then save the game?"
+msgstr "{} 已儲存為不同的遊戲版本。是否要覆蓋或是重新命名後再儲存？"
+
+#v1.1.37
+msgctxt "paxlist_groupby_next"
+msgid "Group by next stop"
+msgstr "以下一站分組"
+
+#v1.1.37
+msgctxt "pending_validations"
+msgid "Validating tracks and stations, {} to go"
+msgstr "正在驗證軌道及車站，剩餘 {}"
+
+#v1.1.37
+msgctxt "rename_save"
+msgid "Rename and save"
+msgstr "重命名並儲存"
+
+#v1.1.37
+msgctxt "right_bar_company"
+msgid "Company and accounting"
+msgstr "公司及財務"
+
+#v1.1.37
+msgctxt "right_bar_main"
+msgid "Main menu"
+msgstr "主選單"
+
+#v1.1.37
+msgctxt "right_bar_map"
+msgid "Map options"
+msgstr "地圖選項"
+
+#v1.1.37
+msgctxt "right_bar_mods"
 msgid "Mods"
 msgstr "模組"
 
-msgctxt "month_april"
-msgid "April"
-msgstr "四月"
-
-msgctxt "month_august"
-msgid "August"
-msgstr "八月"
-
-msgctxt "month_december"
-msgid "December"
-msgstr "十二月"
-
-msgctxt "month_february"
-msgid "February"
-msgstr "二月"
-
-msgctxt "month_january"
-msgid "January"
-msgstr "一月"
-
-msgctxt "month_july"
-msgid "July"
-msgstr "七月"
-
-msgctxt "month_june"
-msgid "June"
-msgstr "六月"
-
-msgctxt "month_march"
-msgid "March"
-msgstr "三月"
-
-msgctxt "month_may"
-msgid "May"
-msgstr "五月"
-
-msgctxt "month_november"
-msgid "November"
-msgstr "十一月"
-
-msgctxt "month_october"
-msgid "October"
-msgstr "十月"
-
-msgctxt "month_september"
-msgid "September"
-msgstr "九月"
-
-msgctxt "month_short_april"
-msgid "Apr"
-msgstr "4 月"
-
-msgctxt "month_short_august"
-msgid "Aug"
-msgstr "8 月"
-
-msgctxt "month_short_december"
-msgid "Dec"
-msgstr "12 月"
-
-msgctxt "month_short_february"
-msgid "Feb"
-msgstr "2 月"
-
-msgctxt "month_short_january"
-msgid "Jan"
-msgstr "1 月"
-
-msgctxt "month_short_july"
-msgid "Jul"
-msgstr "7 月"
-
-msgctxt "month_short_june"
-msgid "Jun"
-msgstr "6 月"
-
-msgctxt "month_short_march"
-msgid "Mar"
-msgstr "3 月"
-
-msgctxt "month_short_may"
-msgid "May"
-msgstr "5 月"
-
-msgctxt "month_short_november"
-msgid "Nov"
-msgstr "11 月"
-
-msgctxt "month_short_october"
-msgid "Oct"
-msgstr "10 月"
-
-msgctxt "month_short_september"
-msgid "Sep"
-msgstr "9 月"
-
-msgctxt "mp_action_allow"
-msgid "Allow"
-msgstr "允許"
-
-msgctxt "mp_action_block"
-msgid "Block"
-msgstr "封鎖"
-
-msgctxt "mp_action_deny"
-msgid "Deny"
-msgstr "拒絕"
-
-msgctxt "mp_action_disconnect"
-msgid "Disconnect"
-msgstr "斷線"
-
-msgctxt "mp_action_forget"
-msgid "Forget"
-msgstr "移除"
-
-msgctxt "mp_action_host_to_invite"
-msgid "Host to invite"
-msgstr "主持遊戲並邀請"
-
-msgctxt "mp_action_invite"
-msgid "Invite"
-msgstr "邀請"
-
-msgctxt "mp_action_req_join"
-msgid "Request join"
-msgstr "要求加入"
-
-msgctxt "mp_client_info"
-msgid "Server information"
-msgstr "主機資訊"
-
-msgctxt "mp_host_label"
-msgid "Host"
-msgstr "主機"
-
-msgctxt "mp_info_acl"
-msgid "Access"
-msgstr "存取"
-
-msgctxt "mp_info_connected"
-msgid "Connected"
-msgstr "已連線"
-
-msgctxt "mp_info_invite"
-msgid "Invite"
-msgstr "邀請"
-
-msgctxt "mp_server_info"
-msgid "Server management"
-msgstr "主機管理"
-
-msgctxt "mpinfo_stats_game"
-msgid "Game stats"
-msgstr "遊戲狀態"
-
-msgctxt "mpinfo_stats_net"
-msgid "Net stats"
-msgstr "網路狀態"
-
-msgctxt "msaa_mode"
-msgid "MSAA:"
-msgstr "MSAA:"
-
-msgctxt "multiplayer"
-msgid "Multiplayer"
-msgstr "多人遊戲"
-
-msgctxt "new_game"
-msgid "New game"
-msgstr "開始新遊戲"
-
-msgctxt "new_game_options"
-msgid "New game options"
-msgstr "新遊戲的選項"
-
-msgctxt "new_loan"
-msgid "New loan"
-msgstr "新的貸款"
-
-msgctxt "new_mod_id_placeholder"
-msgid "<New mod>"
-msgstr "<新的模組>"
-
-msgctxt "new_save_file_name"
-msgid "New save file name:"
-msgstr "新的存檔名稱："
-
-msgctxt "new_save_placeholder"
-msgid "<Create new save>"
-msgstr "<建立新存檔>"
-
-msgctxt "no_cash_pop_desc"
-msgid "Not enough money to build the blueprint. Delete some blueprint tracks or make more money."
-msgstr "資金不足以建造藍圖。請先刪除一些藍圖或賺進更多鈔票。"
-
-msgctxt "ok"
-msgid "OK"
-msgstr "OK"
-
-msgctxt "option_company_name"
-msgid "Company name:"
-msgstr "公司名稱："
-
-msgctxt "option_no_cash"
-msgid "Unlimited money"
-msgstr "無限金錢"
-
-msgctxt "options"
-msgid "Options"
-msgstr "選項"
-
-msgctxt "options_general"
-msgid "General"
-msgstr "常用"
-
-msgctxt "options_graphics"
-msgid "Graphics"
-msgstr "圖像"
-
-msgctxt "options_mods_upload"
-msgid "Uploader"
-msgstr "上傳器"
-
-msgctxt "osm_admin_level_10"
-msgid "Quarter"
-msgstr "Quarter"
-
-msgctxt "osm_admin_level_2"
-msgid "Country"
-msgstr "Country"
-
-msgctxt "osm_admin_level_3"
-msgid "Zone"
-msgstr "Zone"
-
-msgctxt "osm_admin_level_4"
-msgid "State"
-msgstr "State"
-
-msgctxt "osm_admin_level_5"
-msgid "Region"
-msgstr "Region"
-
-msgctxt "osm_admin_level_6"
-msgid "County"
-msgstr "County"
-
-msgctxt "osm_admin_level_7"
-msgid "Metro"
-msgstr "Metro"
-
-msgctxt "osm_admin_level_8"
-msgid "City"
-msgstr "City"
-
-msgctxt "osm_admin_level_9"
-msgid "Ward"
-msgstr "Ward"
-
-msgctxt "overpass_n_0"
-msgid "0 overpasses"
-msgstr "0 座陸橋"
-
-msgctxt "overpass_n_1"
-msgid "1 overpass"
-msgstr "1 座陸橋"
-
-msgctxt "overpass_n_many"
-msgid "%d overpasses"
-msgstr "%d 座陸橋"
-
-msgctxt "overwrite"
-msgid "Overwrite"
-msgstr "覆蓋"
-
-msgctxt "overwrite_file"
-msgid "Overwrite file"
-msgstr "覆蓋檔案"
-
-msgctxt "ovewrite_name"
-msgid "Overwrite {}?"
-msgstr "要覆蓋 {} 嗎？"
-
-msgctxt "paste"
-msgid "Paste"
-msgstr "貼上"
-
-msgctxt "pax_tab"
-msgid "Passengers"
-msgstr "乘客"
-
-msgctxt "pax_waiting"
-msgid "Pax: {0} / {1}"
-msgstr "乘客：{0} / {1}"
-
-msgctxt "pax_waiting_detail"
-msgid "New pax: {0} / Transfer pax: {1} "
-msgstr "新乘客：{0} / 轉乘：{1} "
-
-msgctxt "paxlist_groupby_dest"
-msgid "Group by destination"
-msgstr "以目的地分組"
-
-msgctxt "paxlist_groupby_none"
-msgid "Show all"
-msgstr "全部顯示"
-
-msgctxt "paxlist_groupby_origin"
-msgid "Group by origin"
-msgstr "以上車地點分組"
-
-msgctxt "paxlist_groupby_plan"
-msgid "Show trips"
-msgstr "顯示旅程"
-
-msgctxt "paxlist_n_new_pax"
-msgid "{} new pax"
-msgstr "{} 新乘客"
-
-msgctxt "paxlist_n_pax"
-msgid "{} pax"
-msgstr "{} 乘客"
-
-msgctxt "pick_a_local_mod"
-msgid "Pick a local mod"
-msgstr "選取本機模組"
-
-msgctxt "pick_placeholder"
-msgid "< Pick >"
-msgstr "< 選取 >"
-
-msgctxt "platform_n"
-msgid "Platform "
-msgstr "月臺 "
-
-msgctxt "pop_reach"
-msgid "Reach: {}"
-msgstr "人口涵蓋：{}"
-
-msgctxt "private"
-msgid "Private"
-msgstr "私人"
-
-msgctxt "profile"
-msgid "Profile"
-msgstr "個人檔案"
-
-msgctxt "public"
-msgid "Public"
-msgstr "公開"
-
-msgctxt "purchase"
-msgid "Purchase"
-msgstr "購買"
-
-msgctxt "quickstart_guide"
-msgid "Quickstart guide"
-msgstr "快速上手指南"
-
-msgctxt "quit_desktop"
-msgid "Quit to desktop"
-msgstr "離開至桌面"
-
-msgctxt "quit_game"
-msgid "Quit game"
-msgstr "離開遊戲"
-
-msgctxt "renderer"
-msgid "Renderer:"
-msgstr "算繪："
-
-msgctxt "renderer_dx11"
-msgid "DirectX 11"
-msgstr "DirectX 11"
-
-msgctxt "renderer_opengl"
-msgid "OpenGL 3.1"
-msgstr "OpenGL 3.1"
-
-msgctxt "reset_train"
-msgid "Reset train"
-msgstr "重置列車"
-
-msgctxt "save"
-msgid "Save"
-msgstr "存檔"
-
-msgctxt "save_file_name"
-msgid "Save file name"
-msgstr "存檔名稱"
-
-msgctxt "save_game"
-msgid "Save game"
-msgstr "儲存遊戲"
-
-msgctxt "sax_0"
-msgid "Neutral"
-msgstr "普通"
-
-msgctxt "sax_m1"
-msgid "Mediocre"
-msgstr "不滿意"
-
-msgctxt "sax_m2"
-msgid "Bad"
-msgstr "很不滿意"
-
-msgctxt "sax_m3"
-msgid "Very bad"
-msgstr "非常不滿意"
-
-msgctxt "sax_p1"
-msgid "Good"
-msgstr "滿意"
-
-msgctxt "sax_p2"
-msgid "Very good"
-msgstr "很滿意"
-
-msgctxt "sax_p3"
-msgid "Excellent"
-msgstr "非常滿意"
-
-msgctxt "sax_score"
-msgid "Satisfaction: {:.2f}"
-msgstr "滿意度：{:.2f}"
-
-msgctxt "sax_tooltip"
-msgid "Overall: {0:+.2f} ({1}) | Time: {2:+.2f} | Fare: {3:+.2f}"
-msgstr "整體：{0:+.2f} ({1}) | 時間：{2:+.2f} | 票價：{3:+.2f}"
-
-msgctxt "scaling_mode"
-msgid "Scaling:"
-msgstr "UI 縮放："
-
-msgctxt "scaling_mode_auto"
-msgid "Auto"
-msgstr "自動"
-
-msgctxt "search_section_lines"
-msgid "Lines"
-msgstr "-- 路線 --"
-
-msgctxt "search_section_nearby"
-msgid "Nearby"
-msgstr "-- 附近的 --"
-
-msgctxt "search_section_stations"
-msgid "Stations"
-msgstr "-- 車站 --"
-
-msgctxt "search_section_trains"
-msgid "Trains"
-msgstr "-- 列車 --"
-
-msgctxt "search_section_world"
-msgid "World"
-msgstr "-- 世界 --"
-
-msgctxt "selection_blueprint_bill"
-msgid "Selected blueprints bill"
-msgstr "已選取藍圖的造價"
-
-msgctxt "settings"
-msgid "Settings"
-msgstr "設定"
-
-msgctxt "single_player"
-msgid "Single player"
-msgstr "單人遊戲"
-
-msgctxt "start_game"
-msgid "Start game"
-msgstr "開始遊戲"
-
-msgctxt "station_name_edit"
-msgid "Name:"
-msgstr "車站名稱："
-
-msgctxt "station_name_use_auto"
-msgid "Use automatic name"
-msgstr "根據地圖自動命名"
-
-msgctxt "station_pop_area"
-msgid "Area:"
-msgstr "涵蓋範圍："
-
-msgctxt "stations_n_0"
-msgid "0 stations"
-msgstr "0 座車站"
-
-msgctxt "stations_n_1"
-msgid "1 station"
-msgstr "1 座車站"
-
-msgctxt "stations_n_many"
-msgid "%d stations"
-msgstr "%d 座車站"
-
-msgctxt "steam_chat"
-msgid "Steam Chat and Friends"
-msgstr "Steam 聊天及好友"
-
-msgctxt "steam_chat_client_info"
-msgid "The Join Game options in Steam Chat and Steam Friends can be used to request access to other player games."
-msgstr "Steam 聊天視窗以及好友清單的「加入遊戲」可以用來請求加入玩家的遊戲。"
-
-msgctxt "steam_chat_server_info"
-msgid "The Invite options in Steam Chat and Steam Friends can be used to invite other players to your hosted game. Your settings for the the Access rules apply to Steam invites."
-msgstr "Steam 聊天視窗以及好友清單的「邀請」可以用來邀請好友加入你主持的遊戲。已設置的存取規則會套用至 Steam 邀請功能。"
-
-msgctxt "steam_friends"
-msgid "Steam Friends"
-msgstr "Steam 好友"
-
-msgctxt "steamworks_id"
-msgid "Steamworks ID:"
-msgstr "Steamworks ID:"
-
-msgctxt "stop_idx"
-msgid "Stop {}"
-msgstr "停靠 {}"
-
-msgctxt "stops_n_0"
-msgid "0 stops"
-msgstr "0 停靠站"
-
-msgctxt "stops_n_1"
-msgid "1 stop"
-msgstr "1 停靠站"
-
-msgctxt "stops_n_many"
-msgid "%d stops"
-msgstr "%d 停靠站"
-
-msgctxt "strangers"
-msgid "Strangers"
-msgstr "陌生人"
-
-msgctxt "subs_in_workshop"
-msgid "Subscribe in Workshop"
-msgstr "從 Steam 工作坊訂閱"
-
-msgctxt "subscribe_to_mods"
-msgid "Subscribe to mods"
-msgstr "訂閱模組"
-
-msgctxt "time_h_m"
-msgid "{0}h {1}m"
-msgstr "{0} 小時 {1} 分鐘"
-
-msgctxt "time_m"
-msgid "{}m"
-msgstr "{} 分"
-
-msgctxt "time_s"
-msgid "{}s"
-msgstr "{} 秒"
-
-msgctxt "title"
-msgid "Title:"
-msgstr "標題："
-
-msgctxt "tooltip_demand"
-msgid "Local {0}% | Regional {1}% | Long distance {2}%"
-msgstr "本地 {0}% | 區域 {1}% | 長距離 {2}%"
-
-msgctxt "total"
-msgid "Total"
-msgstr "總計"
-
-msgctxt "track_editor"
-msgid "Tracks"
-msgstr "軌道"
-
-msgctxt "track_ground"
-msgid "Ground"
-msgstr "平面"
-
-msgctxt "track_ground_crossings"
-msgid "Ground (with road crossings)"
-msgstr "平面 (道路使用平交道)"
-
-msgctxt "track_ground_underpasses"
-msgid "Ground"
-msgstr "平面 (道路使用地下道)"
-
-msgctxt "track_hits"
-msgid "track hits"
-msgstr "軌道碰撞"
-
-msgctxt "track_metro1"
-msgid "Metro depth 1"
-msgstr "地鐵深度 1"
-
-msgctxt "track_metro2"
-msgid "Metro depth 2"
-msgstr "地鐵深度 2"
-
-msgctxt "track_tram"
-msgid "Tram"
-msgstr "平面輕軌"
-
-msgctxt "track_trench"
-msgid "Trench"
-msgstr "壕溝軌道"
-
-msgctxt "track_tunnel1"
-msgid "Tunnel"
-msgstr "地下軌"
-
-msgctxt "track_tunnel2"
-msgid "Tunnel depth 4"
-msgstr "地下軌深度 4"
-
-msgctxt "track_viaduct"
-msgid "Viaduct"
-msgstr "高架軌"
-
-msgctxt "train_base_color_edit"
-msgid "Base color:"
-msgstr "基礎顏色："
-
-msgctxt "train_bill"
-msgid "Train bill"
-msgstr "列車採購金額"
-
-msgctxt "train_clone"
-msgid "Clone"
-msgstr "複製"
-
-msgctxt "train_code_edit"
-msgid "Serial:"
-msgstr "列車代號："
-
-msgctxt "train_decal_color_edit"
-msgid "Decal color:"
-msgstr "塗裝顏色："
-
-msgctxt "train_decal_edit"
-msgid "Decal:"
-msgstr "塗裝："
-
-msgctxt "train_decal_pick_edit"
-msgid "Pick a decal"
-msgstr "選取塗裝樣式"
-
-msgctxt "train_decal_use_line_color"
-msgid "Use line color"
-msgstr "和路線顏色相同"
-
-msgctxt "train_info_destination"
-msgid "Destination:"
-msgstr "目的地："
-
-msgctxt "train_info_dim"
-msgid "Dimensions:"
-msgstr "規格尺寸："
-
-msgctxt "train_info_dim_d"
-msgid "{0} cars / {1:.2f}m / {2:.2f}m"
-msgstr "{0} 節車廂 / {1:.2f} 公尺 / {2:.2f} 公尺"
-
-msgctxt "train_info_empty_mass"
-msgid "Empty mass:"
-msgstr "車輛空重："
-
-msgctxt "train_info_force"
-msgid "Tractive force:"
-msgstr "牽引力："
-
-msgctxt "train_info_line"
-msgid "Line:"
-msgstr "路線："
-
-msgctxt "train_info_location"
-msgid "Location:"
-msgstr "地點："
-
-msgctxt "train_info_maintenance_cost"
-msgid "Maintenance cost:"
-msgstr "維護費用："
-
-msgctxt "train_info_maintenance_cost_f"
-msgid "${} per day"
-msgstr "${} / 每日"
-
-msgctxt "train_info_mass"
-msgid "Mass / empty:"
-msgstr "重量 / 空重："
-
-msgctxt "train_info_max_pax"
-msgid "Max pax:"
-msgstr "乘客數上限："
-
-msgctxt "train_info_max_speed"
-msgid "Max speed:"
-msgstr "最高速度："
-
-msgctxt "train_info_pax"
-msgid "Pax / max:"
-msgstr "乘客 / 上限："
-
-msgctxt "train_info_running_cost"
-msgid "Running cost:"
-msgstr "運行成本："
-
-msgctxt "train_info_running_cost_f"
-msgid "${:.4} per km per pax"
-msgstr "${:.4} / 每人每公里"
-
-msgctxt "train_info_speed"
-msgid "Speed / max:"
-msgstr "速度 / 上限："
-
-msgctxt "train_info_status"
-msgid "Status:"
-msgstr "狀態："
-
-msgctxt "train_info_status_circulation"
-msgid "Running"
-msgstr "運行中"
-
-msgctxt "train_info_status_in_storage"
-msgid "Stored"
-msgstr "已停放"
-
-msgctxt "train_info_status_lost_or_bad_orders"
-msgid "Lost or bad orders"
-msgstr "找不到或無效的指令"
-
-msgctxt "train_info_status_no_path_to_destination"
-msgid "No path to destination"
-msgstr "找不到前往目的地的路徑"
-
-msgctxt "train_info_storing"
-msgid "Storing in:"
-msgstr "停放於："
-
-msgctxt "train_intervention_dialog_desc"
-msgid "This intervention will reset the train position to its next stop or depot, pay the costs of relocation, refund its fares, and pay a compensation fine. The price is ${}."
-msgstr "介入會將列車重置於下一個停靠站或車庫。必須支付重置費用、乘客的退款和賠償，總金額為 ${}。"
-
-msgctxt "train_intervention_dialog_title"
-msgid "Train intervention"
-msgstr "介入列車"
-
-msgctxt "train_invalid_order"
-msgid "Invalid order"
-msgstr "無效的命令"
-
-msgctxt "train_list_filter_alert"
-msgid "Only alert warnings"
-msgstr "發出警示"
-
-msgctxt "train_list_filter_all_lines"
-msgid "All lines"
-msgstr "所有路線"
-
-msgctxt "train_list_filter_all_models"
-msgid "All models"
-msgstr "所有車型"
-
-msgctxt "train_model_edit"
-msgid "Model:"
-msgstr "車型："
-
-msgctxt "train_n_cars_edit"
-msgid "Cars:"
-msgstr "車廂："
-
-msgctxt "train_n_units"
-msgid "Units:"
-msgstr "單位："
-
-msgctxt "train_name_edit"
-msgid "Name:"
-msgstr "名稱："
-
-msgctxt "train_purchase_no_cash"
-msgid "Not enough money for purchase"
-msgstr "資金不足，無法購買"
-
-msgctxt "train_purchase_no_cash_desc"
-msgid "Not enough money to purchase the train(s). Pick a cheaper train, less trains, less cars, or make more money."
-msgstr "資金不足，無法購買列車。請選擇較便宜的車型、較少的車廂或賺進更多鈔票。"
-
-msgctxt "train_sched_add"
-msgid "Toggle new slots mode"
-msgstr "切換新增時段模式"
-
-msgctxt "train_sched_add_help"
-msgid "Click anywhere to add a new schedule slot"
-msgstr "點選任意時間以加入時段"
-
-msgctxt "train_sched_clear_all_multi"
-msgid "Delete all {} slots"
-msgstr "刪除 {} 的全部時段"
-
-msgctxt "train_sched_clear_all_single"
-msgid "Delete all slots"
-msgstr "刪除所有時段"
-
-msgctxt "train_sched_clear_day"
-msgid "Delete all {0} slots from train {1}"
-msgstr "刪除列車 {1} 於 {0} 的全部時段"
-
-msgctxt "train_sched_copy_day"
-msgid "Copy all {0} slots from train {1}"
-msgstr "複製列車 {1} 於 {0} 的全部時段"
-
-msgctxt "train_sched_copy_slot"
-msgid "Copy selected slot"
-msgstr "複製已選取的時段"
-
-msgctxt "train_sched_copy_week"
-msgid "Copy entire week schedule of train {}"
-msgstr "從列車 {} 複製一週的排程表"
-
-msgctxt "train_sched_del"
-msgid "Delete selected slot"
-msgstr "刪除已選取的時段"
-
-msgctxt "train_sched_depot_pick"
-msgid "Pick depot"
-msgstr "選取車庫"
-
-msgctxt "train_sched_line"
-msgid "Line:"
-msgstr "路線："
-
-msgctxt "train_sched_new_slot"
-msgid "New"
-msgstr "新增"
-
-msgctxt "train_sched_noun_all"
-msgid "All"
-msgstr "全部"
-
-msgctxt "train_sched_noun_day"
-msgid "Day"
-msgstr "天"
-
-msgctxt "train_sched_noun_slot"
-msgid "Slot"
-msgstr "時段"
-
-msgctxt "train_sched_noun_train"
-msgid "Train"
-msgstr "列車"
-
-msgctxt "train_sched_noun_week"
-msgid "Week"
-msgstr "週"
-
-msgctxt "train_sched_noun_week_all"
-msgid "Week *"
-msgstr "週*"
-
-msgctxt "train_sched_paste_all_day"
-msgid "Paste slots in every day"
-msgstr "每一天都貼入時段"
-
-msgctxt "train_sched_paste_all_train"
-msgid "Paste slots in every train {} schedule"
-msgstr "將時段貼入至每輛列車於 {} 的排程表"
-
-msgctxt "train_sched_paste_day"
-msgid "Paste slots on train {0} {1} schedule"
-msgstr "將時段貼入至列車 {0} 於 {1} 的排程表"
-
-msgctxt "train_sched_paste_week"
-msgid "Replace entire week schedule in train {}"
-msgstr "替換列車 {} 的一週排程表"
-
-msgctxt "train_sched_paste_week_all"
-msgid "Replace entire week schedule in all trains"
-msgstr "替換所有列車的一週排程表"
-
-msgctxt "train_sched_slot_kind"
-msgid "Order:"
-msgstr "指令："
-
-msgctxt "train_sched_slot_kind_depot"
-msgid "Store in depot"
-msgstr "停放於車庫"
-
-msgctxt "train_sched_slot_kind_line"
-msgid "Run a line"
-msgstr "運行路線"
-
-msgctxt "train_sched_start"
-msgid "Start time:"
-msgstr "開始時間："
-
-msgctxt "train_sched_start_stop"
-msgid "Start from:"
-msgstr "開始地點："
-
-msgctxt "train_total_price_1"
-msgid "Total for 1 unit"
-msgstr "1 單位合計"
-
-msgctxt "train_total_price_many"
-msgid "Total for %d units"
-msgstr "%d 單位合計"
-
-msgctxt "traineditor_clear_selection"
-msgid "Clear selection"
-msgstr "清除選取"
-
-msgctxt "traineditor_delete_all_selected"
-msgid "Delete selected trains"
-msgstr "刪除選取的列車"
-
-msgctxt "traineditor_overflow_desc"
-msgid "Too many trains selected to show the slot editor, but it is still possible to use some bulk editing operations."
-msgstr "時段編輯器內選取了過多的列車，但還是可以使用一部份的批次操作。"
-
-msgctxt "traineditor_select_all"
-msgid "Select all trains"
-msgstr "選取所有列車"
-
-msgctxt "traineditor_tooltip_buy_mode"
-msgid "Purchase new trains"
-msgstr "購買新列車"
-
-msgctxt "traineditor_tooltip_del"
-msgid "Delete selected train"
-msgstr "刪除選取的列車"
-
-msgctxt "traineditor_tooltip_list_mode"
-msgid "List trains and edit their details and schedule"
-msgstr "顯示列車並修改細節和排程表"
-
-msgctxt "traineditor_tooltip_sched_mode"
-msgid "Edit the schedule of multiple trains simultaneously"
-msgstr "同時編輯多輛列車的排程表"
-
-msgctxt "traineditor_tooltip_tz_selector"
-msgid "Time zone"
-msgstr "時區"
-
-msgctxt "traineditor_tz_auto"
-msgid "Auto"
-msgstr "自動時區"
-
-msgctxt "trains"
-msgid "Trains"
-msgstr "列車"
-
-msgctxt "trains_models_n_0"
-msgid "0 models"
-msgstr "0 種車型"
-
-msgctxt "trains_models_n_1"
-msgid "1 model"
-msgstr "1 種車型"
-
-msgctxt "trains_models_n_many"
-msgid "%d models"
-msgstr "%d 種車型"
-
-msgctxt "trains_n_0"
-msgid "0 trains"
-msgstr "0 輛列車"
-
-msgctxt "trains_n_1"
-msgid "1 train"
-msgstr "1 輛列車"
-
-msgctxt "trains_n_many"
-msgid "%d trains"
-msgstr "%d 輛列車"
-
-msgctxt "ugc_error_conn"
-msgid "Error while connecting with Steamworks"
-msgstr "連結至 Steam 工作坊時發生錯誤"
-
-msgctxt "ugc_error_logged"
-msgid "Must be logged into Steam to perform this action"
-msgstr "必須登入 Steam 才能執行這項操作"
-
-msgctxt "ugc_error_priv"
-msgid "Not enough privileges with the current user account in Steam"
-msgstr "目前登入的 Steam 帳號沒有足夠的權限"
-
-msgctxt "ugc_error_timeout"
-msgid "Timeout while connecting with Steam"
-msgstr "Steam 連接逾時"
-
-msgctxt "ugc_some_rule_req"
-msgid "Selected local mod is empty"
-msgstr "選取的本機模組是空的"
-
-msgctxt "ugc_valid_desc_req"
-msgid "Description is required"
-msgstr "描述必須填寫"
-
-msgctxt "ugc_valid_desc_too_long"
-msgid "Description is too long"
-msgstr "描述太長"
-
-msgctxt "ugc_valid_folder_req"
-msgid "A valid local mod is required"
-msgstr "必須是有效的本機模組"
-
-msgctxt "ugc_valid_image_req"
-msgid "An icon image file is required"
-msgstr "圖示檔為必要"
-
+#v1.1.37
+msgctxt "right_bar_online"
+msgid "Multiplayer status"
+msgstr "多人遊戲狀態"
+
+#v1.1.37
+msgctxt "right_bar_search"
+msgid "Search"
+msgstr "尋找"
+
+#v1.1.37
+msgctxt "sax_refund_warn_fare"
+msgid "Refund risk due to fare"
+msgstr "因票價導致的退款風險"
+
+#v1.1.37
+msgctxt "sax_tooltip2"
+msgid "{0} (Neutral at {1}, ${2:.2f})"
+msgstr "{0} (普通於 {1}，${2:.2f})"
+
+#v1.1.37
+msgctxt "sax_tooltip_new"
+msgid "Expects {0}, ${1:.2f}"
+msgstr "預估 {0}，${1:.2f}"
+
+#v1.1.37
+msgctxt "station_name_empty"
+msgid "<Empty name>"
+msgstr "<未命名>"
+
+#v1.1.37
+msgctxt "stream_ahead_desc"
+msgid "You are ahead of the host. Pausing your clock to wait for it."
+msgstr "進度已超越主機端，請先暫停遊戲等候。"
+
+#v1.1.37
+msgctxt "stream_catch_up_desc"
+msgid "You are falling behind the host. Speeding up the clock to catch up."
+msgstr "進度已落後主機端，請加速遊戲以跟上主機"
+
+#v1.1.37
+msgctxt "train_info_dynamics"
+msgid "Dynamics:"
+msgstr "動力："
+
+#v1.1.37
+msgctxt "train_info_total_power"
+msgid "Total power:"
+msgstr "動力合計"
+
+#v1.1.37
+msgctxt "train_list_filter_all"
+msgid "All trains"
+msgstr "所有列車"
+
+#v1.1.37
+msgctxt "train_list_filter_by_line"
+msgid "Group by line"
+msgstr "以路線分組"
+
+#v1.1.37
+msgctxt "train_list_filter_by_model"
+msgid "Group by model"
+msgstr "以車型分組"
+
+#v1.1.37
+msgctxt "train_list_filter_depot"
+msgid "In depot"
+msgstr "於車庫內"
+
+#v1.1.37
+msgctxt "train_sched_pause_warn"
+msgid "Unpause the game to apply orders. Orders may take some time to apply."
+msgstr "解除暫停以套用命令，可能會需要一些時間。"
+
+#v1.1.37
+msgctxt "traineditor_move_camera"
+msgid "Focus camera when selecting a train"
+msgstr "選取列車時開啟追蹤鏡頭"
+
+#v1.1.37
+msgctxt "traineditor_sell_all_selected"
+msgid "Sell selected trains"
+msgstr "售出選取的列車"
+
+#v1.1.37
+msgctxt "traineditor_tooltip_sell"
+msgid "Sell selected train"
+msgstr "售出選取的列車"
+
+#v1.1.37
 msgctxt "ugc_valid_title_req"
 msgid "Title is required"
 msgstr "標題必須填寫"
 
+#v1.1.37
+msgctxt "used_active_mod"
+msgid "This mod is used by one or more objects in the game, and cannot be disabled."
+msgstr "此模組已在遊戲內被使用一或多個物件，無法停用。"
+
+#v1.1.37
+msgctxt "wrong_protocol_desc"
+msgid "Your serialization and protocol do not match with the server. Make sure both your game and the server are running exactly the same game version, as displayed in the main menu."
+msgstr "序列化和通訊協定和主機端並不相容，請確認使用的遊戲版本和主機端完全一致（版本號顯示於主選單）。"
+
+#v1.1.37
+msgctxt "wrong_schema_mod"
+msgid "This mod data is enabled in the current game, but its installed files require a newer game version. Update the game."
+msgstr "目前的遊戲已啟用這個模組，但是模組需要更新的遊戲版本，請更新遊戲。"
+
+
+
+# ----------------------------------------------------------
+# modified strings
+
+#v1.1.37
+msgctxt "accounting_pax_lost"
+msgid "Compen.: lost"
+msgstr "賠償：迷路"
+
+#v1.1.37
+msgctxt "accounting_pax_reached_depot"
+msgid "Refund: reached depot"
+msgstr "退款：被載回車庫"
+
+#v1.1.37
+msgctxt "accounting_pax_refunded"
+msgid "Refunded (incl. compen.)"
+msgstr "退款 (含賠償)"
+
+#v1.1.37
+msgctxt "accounting_pax_refused_fare"
+msgid "Refund: too high fare"
+msgstr "退款：車資太高"
+
+#v1.1.37
+msgctxt "accounting_pax_waited_too_long"
+msgid "Compen.: waited too long"
+msgstr "賠償：等候太久"
+
+#v1.1.37
+msgctxt "conflicts_pop_desc"
+msgid "One or more tracks have conflicts and cannot be constructed, or their validation is still pending. Move, edit or delete all tracks marked in red."
+msgstr "一或多段軌道因為發生衝突而無法鋪設，或正在等待確認。請移動、編輯或刪除被標記為紅色的區段。"
+
+#v1.1.37
+msgctxt "editor_add"
+msgid "Append to tracks or create [N]ew ones"
+msgstr "新增或延伸軌道 [N]"
+
+#v1.1.37
+msgctxt "editor_branch"
+msgid "Create new track [B]ranches"
+msgstr "新增軌道支線 [B]"
+
+#v1.1.37
+msgctxt "editor_depot"
+msgid "Create new de[P]ot"
+msgstr "建立車站 [P]"
+
+#v1.1.37
+msgctxt "editor_move"
+msgid "[M]ove, delete and edit tracks"
+msgstr "移動、刪除及修改軌道 [M]"
+
+#v1.1.37
+msgctxt "editor_station"
+msgid "Create new s[T]ation platforms"
+msgstr "新增車站月臺 [T]"
+
+#v1.1.37
+msgctxt "editor_tip_create_left1"
+msgid "Left click on track or station control points to select them"
+msgstr "滑鼠左鍵點選軌道控制點可以選取"
+
+#v1.1.37
+msgctxt "editor_tip_create_left2"
+msgid "Left click on station name plates to edit station details"
+msgstr "滑鼠左鍵點選車站名稱可以編輯細節"
+
+#v1.1.37
+msgctxt "editor_tip_create_left3"
+msgid "Left click on track or station control points to reset selection"
+msgstr "滑鼠左鍵點選軌道末端控制點可以重新選取"
+
+#v1.1.37
+msgctxt "editor_warn_zero_leg"
+msgid "At least one travel time is set to 0. Pax AI will get confused when riding this line. Try the timing calculator."
+msgstr "至少有一段的旅程時間被設成 0！搭乘此路線的乘客 AI 可能會被混淆。"
+
+#v1.1.37
+msgctxt "error_too_old_save"
+msgid "The game version that created this save file is too old and it cannot be loaded. Try the older v1.1 legacy branches in Steam."
+msgstr "此存檔使用了過時的遊戲版本，因此無法讀取。請使用 v1.1 之前的舊版本。"
+
+#v1.1.37
+msgctxt "info_table_count"
+msgid "#"
+msgstr "#"
+
+#v1.1.37
+msgctxt "info_table_pax_fare"
+msgid "Paid"
+msgstr "已支付"
+
+#v1.1.37
+msgctxt "lineeditor_auto_eta_run"
+msgid "Estimate leg travel times"
+msgstr "預估旅程時間"
+
+#v1.1.37
+msgctxt "lineeditor_auto_inverval"
+msgid "Min. interval (h:mm:ss):"
+msgstr "班次間距 (h:mm:ss)"
+
+#v1.1.37
+msgctxt "loan_n"
+msgid "Loan {0} of {1}"
+msgstr "貸款 {0} 之 {1}"
+
+#v1.1.37
+msgctxt "missing_mod"
+msgid "This mod data is enabled in the current game, but it is not installed in this PC. Some textures might be missing."
+msgstr "進行中的遊戲已啟用此模組但是本機尚未安裝，部份紋理貼圖可能會遺失。"
+
+#v1.1.37
+msgctxt "mode_map_default"
+msgid "Plain map [Home]"
+msgstr "無圖層 [Home]"
+
+#v1.1.37
+msgctxt "mode_map_population"
+msgid "Population overlay [Home]"
+msgstr "圖層：人口 [Home]"
+
+#v1.1.37
+msgctxt "mode_map_tracks"
+msgid "Plain tracks [End]"
+msgstr "圖層：軌道 [End]"
+
+#v1.1.37
+msgctxt "mode_map_tracks_lines"
+msgid "Lines overlay [End]"
+msgstr "圖層：路線 [End]"
+
+#v1.1.37
+msgctxt "mode_map_tracks_speed"
+msgid "Speed overlay [End]"
+msgstr "圖層：時速 [End]"
+
+#v1.1.37
+msgctxt "paxlist_n_new_pax"
+msgid "{} new"
+msgstr "{} 新的"
+
+#v1.1.37
+msgctxt "subscribe_to_mods"
+msgid "Subscribe to new mods"
+msgstr "訂閱模組"
+
+#v1.1.37
+msgctxt "train_info_maintenance_cost"
+msgid "Maintenance cost:"
+msgstr "維護成本："
+
+#v1.1.37
+msgctxt "train_list_filter_alert"
+msgid "With alert warnings"
+msgstr "發出示警"
+
+
+
+# ----------------------------------------------------------
+# unmodified strings
+
+#v1.1.31
+msgctxt "10_minutes"
+msgid "10 minutes"
+msgstr "10 分鐘"
+
+#v1.1.31
+msgctxt "15_minutes"
+msgid "15 minutes"
+msgstr "15 分鐘"
+
+#v1.1.31
+msgctxt "20_minutes"
+msgid "20 minutes"
+msgstr "20 分鐘"
+
+#v1.1.31
+msgctxt "30_minutes"
+msgid "30 minutes"
+msgstr "30 分鐘"
+
+#v1.1.31
+msgctxt "5_minutes"
+msgid "5 minutes"
+msgstr "5 分鐘"
+
+#v1.1.31
+msgctxt "60_minutes"
+msgid "60 minutes"
+msgstr "60 分鐘"
+
+#v1.1.31
+msgctxt "accounting"
+msgid "Accounting"
+msgstr "財務"
+
+#v1.1.31
+msgctxt "accounting_cash_total"
+msgid "$ Total"
+msgstr "$ 總計"
+
+#v1.1.31
+msgctxt "accounting_construction"
+msgid "Construction"
+msgstr "建造"
+
+#v1.1.31
+msgctxt "accounting_construction_depots"
+msgid "Depots"
+msgstr "車庫"
+
+#v1.1.31
+msgctxt "accounting_construction_stations"
+msgid "Stations"
+msgstr "車站"
+
+#v1.1.31
+msgctxt "accounting_construction_total"
+msgid "Total construction"
+msgstr "建造費用合計"
+
+#v1.1.31
+msgctxt "accounting_construction_tracks"
+msgid "Tracks"
+msgstr "軌道"
+
+#v1.1.31
+msgctxt "accounting_financing"
+msgid "Financing"
+msgstr "財務"
+
+#v1.1.31
+msgctxt "accounting_financing_credit"
+msgid "Credit"
+msgstr "貸款"
+
+#v1.1.31
+msgctxt "accounting_financing_interest"
+msgid "Interest"
+msgstr "利息"
+
+#v1.1.31
+msgctxt "accounting_pax"
+msgid "Passengers"
+msgstr "乘客"
+
+#v1.1.31
+msgctxt "accounting_pax_boarded"
+msgid "Boarded train"
+msgstr "已上車"
+
+#v1.1.31
+msgctxt "accounting_pax_compensated"
+msgid "Compensated"
+msgstr "已賠償"
+
+#v1.1.31
+msgctxt "accounting_pax_post"
+msgid "pax"
+msgstr "乘客"
+
+#v1.1.31
+msgctxt "accounting_pax_reached_destination"
+msgid "Reached destination"
+msgstr "抵達目的地"
+
+#v1.1.31
+msgctxt "accounting_pax_reached_transfer"
+msgid "Reached transfer"
+msgstr "完成轉乘"
+
+#v1.1.31
+msgctxt "accounting_pax_spawned"
+msgid "Started trip"
+msgstr "開始旅程"
+
+#v1.1.31
+msgctxt "accounting_period_day"
+msgid "Day"
+msgstr "天"
+
+#v1.1.31
+msgctxt "accounting_period_lifetme"
+msgid "Lifetime"
+msgstr "遊戲時間"
+
+#v1.1.31
+msgctxt "accounting_period_month"
+msgid "Month"
+msgstr "月"
+
+#v1.1.31
+msgctxt "accounting_period_quarter"
+msgid "Quarter"
+msgstr "季"
+
+#v1.1.31
+msgctxt "accounting_period_week"
+msgid "Week"
+msgstr "週"
+
+#v1.1.31
+msgctxt "accounting_period_year"
+msgid "Year"
+msgstr "年"
+
+#v1.1.31
+msgctxt "accounting_quarter1"
+msgid "Q1"
+msgstr "第一季"
+
+#v1.1.31
+msgctxt "accounting_quarter2"
+msgid "Q2"
+msgstr "第二季"
+
+#v1.1.31
+msgctxt "accounting_quarter3"
+msgid "Q3"
+msgstr "第三季"
+
+#v1.1.31
+msgctxt "accounting_quarter4"
+msgid "Q4"
+msgstr "第四季"
+
+#v1.1.31
+msgctxt "accounting_ticketing"
+msgid "Ticketing"
+msgstr "車票收入"
+
+#v1.1.31
+msgctxt "accounting_ticketing_compensations"
+msgid "Compensations"
+msgstr "賠償"
+
+#v1.1.31
+msgctxt "accounting_ticketing_fares"
+msgid "Fares"
+msgstr "車資"
+
+#v1.1.31
+msgctxt "accounting_ticketing_refunds"
+msgid "Refunds"
+msgstr "退款"
+
+#v1.1.31
+msgctxt "accounting_trains"
+msgid "Trains"
+msgstr "列車"
+
+#v1.1.31
+msgctxt "accounting_trains_intervention"
+msgid "Interventions"
+msgstr "介入"
+
+#v1.1.31
+msgctxt "accounting_trains_purchases"
+msgid "New trains"
+msgstr "購買列車"
+
+#v1.1.31
+msgctxt "accounting_trains_running"
+msgid "Running costs"
+msgstr "運行成本"
+
+#v1.1.31
+msgctxt "accounting_trains_sales"
+msgid "Train sales"
+msgstr "賣出列車"
+
+#v1.1.31
+msgctxt "accounting_week_title"
+msgid "Week of {0} {1} {2}"
+msgstr "{0} {1} {2} 週"
+
+#v1.1.31
+msgctxt "acl_action_allow"
+msgid "Always allow"
+msgstr "總是允許"
+
+#v1.1.31
+msgctxt "acl_action_drop"
+msgid "Ignore"
+msgstr "忽略"
+
+#v1.1.31
+msgctxt "acl_action_queue"
+msgid "Ask me"
+msgstr "詢問我"
+
+#v1.1.31
+msgctxt "acl_allowed"
+msgid "Allowed"
+msgstr "允許"
+
+#v1.1.31
+msgctxt "acl_denied"
+msgid "Denied"
+msgstr "拒絕"
+
+#v1.1.31
+msgctxt "acl_friend_action"
+msgid "If an uninvited friend wants to join:"
+msgstr "未受邀請的朋友想要加入："
+
+#v1.1.31
+msgctxt "acl_pending"
+msgid "Pending"
+msgstr "待決"
+
+#v1.1.31
+msgctxt "acl_stranger_action"
+msgid "If an uninvited stranger wants to join:"
+msgstr "未被邀請的陌生人想要加入："
+
+#v1.1.31
+msgctxt "autosave_interval"
+msgid "Autosave interval:"
+msgstr "自動存檔間隔："
+
+#v1.1.31
+msgctxt "autosave_slots"
+msgid "Autosave slots:"
+msgstr "自動存檔數量："
+
+#v1.1.31
+msgctxt "autosaving"
+msgid "Autosaving..."
+msgstr "自動存檔中..."
+
+#v1.1.31
+msgctxt "back"
+msgid "Back"
+msgstr "返回"
+
+#v1.1.31
+msgctxt "bad_angle"
+msgid "bad angle"
+msgstr "錯誤的角度"
+
+#v1.1.31
+msgctxt "banner_expain_ignore"
+msgid "Ignored join requests can be authorized in the server management window."
+msgstr "可以在主機管理視窗授予已忽略的加入請求。"
+
+#v1.1.31
+msgctxt "banner_join_friend"
+msgid "{} wants to join your game."
+msgstr "{} 想要加入你的遊戲。"
+
+#v1.1.31
+msgctxt "banner_join_stranger"
+msgid "{} (not a friend) wants to join your game."
+msgstr "{} (非好友) 想要加入你的遊戲。"
+
+#v1.1.31
+msgctxt "banner_new_join"
+msgid "{} joined the game."
+msgstr "{} 已加入遊戲。"
+
+#v1.1.31
+msgctxt "banner_prompt_client_join_anon"
+msgid "Do you want to join a game hosted by {}? Your current game will be autosaved and you will quit the current server."
+msgstr "你想要加入由 {} 主持的遊戲嗎？目前的進度會自動儲存，並離開已連接的主機。"
+
+#v1.1.31
+msgctxt "banner_prompt_client_join_user"
+msgid "{0} proposes you to join a game hosted by {1}. Do you want to join? Your current game will be autosaved and you will quit the current server."
+msgstr "{0} 提議希望你加入由 {1} 主持的遊戲，是否想要加入？目前的進度會自動儲存，並離開已連接的主機。"
+
+#v1.1.31
+msgctxt "banner_prompt_game_join_anon"
+msgid "Do you want to join a game hosted by {}? Your current game will be autosaved."
+msgstr "你想要加入由 {} 主持的遊戲嗎？目前的進度會自動儲存，並離開已連接的主機。"
+
+#v1.1.31
+msgctxt "banner_prompt_game_join_user"
+msgid "{0} proposes you to join a game hosted by {1}. Do you want to join? Your current game will be autosaved."
+msgstr "{0} 提議希望你加入由 {1} 主持的遊戲，是否想要加入？目前的進度會自動儲存。"
+
+#v1.1.31
+msgctxt "banner_prompt_nogame_join_anon"
+msgid "Do you want to join a game hosted by {}?"
+msgstr "你想要加入由 {} 主持的遊戲嗎？目前的進度會自動儲存，並離開已連接的主機。"
+
+#v1.1.31
+msgctxt "banner_prompt_nogame_join_user"
+msgid "{0} proposes you to join a game hosted by {1}. Do you want to join?"
+msgstr "{0} 提議希望你加入由 {1} 主持的遊戲，是否想要加入？目前的進度會自動儲存。"
+
+#v1.1.31
+msgctxt "banner_prompt_server_join_anon"
+msgid "Do you want to join a game hosted by {}? WARNING: You are currently hosting a game. All your connected players will be disconnected. Your current game will be autosaved."
+msgstr "你想要加入由 {} 主持的遊戲嗎？注意：目前的遊戲是由你建立，所有已連線的玩家都會斷線。目前的進度會自動儲存。"
+
+#v1.1.31
+msgctxt "banner_prompt_server_join_user"
+msgid "{0} proposes you to join a game hosted by {1}. Do you want to join? WARNING: You are currently hosting a game. All your connected players will be disconnected. Your current game will be autosaved."
+msgstr "{0} 提議希望你加入由 {1} 主持的遊戲，是否想要加入？注意：目前的遊戲是由你建立，所有已連線的玩家都會斷線。目前的進度會自動儲存。"
+
+#v1.1.31
+msgctxt "bill_tab_client"
+msgid "By me"
+msgstr "我的"
+
+#v1.1.31
+msgctxt "bill_tab_global"
+msgid "Global"
+msgstr "全世界"
+
+#v1.1.31
+msgctxt "bill_tab_selection"
+msgid "Selection"
+msgstr "已選取"
+
+#v1.1.31
+msgctxt "build"
+msgid "Build"
+msgstr "建造"
+
+#v1.1.31
+msgctxt "build_all_bp"
+msgid "Build all blueprints"
+msgstr "建造所有藍圖"
+
+#v1.1.31
+msgctxt "build_my_bp"
+msgid "Build my blueprints"
+msgstr "建造我的藍圖"
+
+#v1.1.31
+msgctxt "build_selected_bp"
+msgid "Build selected blueprints"
+msgstr "建造選取的藍圖"
+
+#v1.1.31
+msgctxt "cancel"
+msgid "Cancel"
+msgstr "取消"
+
+#v1.1.31
+msgctxt "cancel_quit"
+msgid "Quit"
+msgstr "離開"
+
+#v1.1.31
+msgctxt "client_blueprint_bill"
+msgid "My blueprint bill"
+msgstr "我的藍圖造價"
+
+#v1.1.31
+msgctxt "client_conn_info"
+msgid "Host: {0} | {1}ms | {2:.2f}%▲ {3:.2f}%▼ | {4}▲ {5}▼ B/s"
+msgstr "主機端：{0} | {1}ms | {2:.2f}%▲ {3:.2f}%▼ | {4}▲ {5}▼ B/s"
+
+#v1.1.31
+msgctxt "company_tab_info"
+msgid "Info"
+msgstr "公司資訊"
+
+#v1.1.31
+msgctxt "confirm_bp"
+msgid "Do you want to build the current blueprint?"
+msgstr "確定要開始建造目前的藍圖嗎？"
+
+#v1.1.31
+msgctxt "confirm_bp_price"
+msgid "Do you want to build the current blueprint for ${}?"
+msgstr "確定要花費 ${} 建造目前的藍圖嗎？"
+
+#v1.1.31
+msgctxt "confirm_construction"
+msgid "Confirm construction"
+msgstr "確認建造"
+
+#v1.1.31
+msgctxt "confirm_delete"
+msgid "Confirm delete"
+msgstr "確認刪除"
+
+#v1.1.31
+msgctxt "confirm_delete_desc"
+msgid "One or more selected tracks are already built. Deleting them will not refund your money. This operation cannot be undone. Are you sure?"
+msgstr "一或多段選取的軌道已完工。刪除既不能退回費用也無法復原，確定嗎？"
+
+#v1.1.31
+msgctxt "conflict_map_hit"
+msgid "water or road hits"
+msgstr "遭遇水域或道路"
+
+#v1.1.31
+msgctxt "conflicts"
+msgid "Conflicts"
+msgstr "發生衝突"
+
+#v1.1.31
+msgctxt "connecting_elip"
+msgid "Connecting..."
+msgstr "正在連接..."
+
+#v1.1.31
+msgctxt "connection_denied"
+msgid "Connection denied"
+msgstr "拒絕連接"
+
+#v1.1.31
+msgctxt "construct_no_bps"
+msgid "There are no pending track or station blueprints to build"
+msgstr "沒有可建造的軌道或車站藍圖"
+
+#v1.1.31
+msgctxt "construction_conflicts_cash"
+msgid "Not enough money for construction"
+msgstr "沒有足夠的資金可以建造"
+
+#v1.1.31
+msgctxt "construction_conflicts_error"
+msgid "Conflicts block construction"
+msgstr "發生衝突導致無法建造"
+
+#v1.1.31
+msgctxt "copy"
+msgid "Copy"
+msgstr "複製"
+
+#v1.1.31
+msgctxt "credits"
+msgid "Credits"
+msgstr "製作人員"
+
+#v1.1.31
+msgctxt "credits_acknowledgments"
+msgid "Acknowledgments"
+msgstr "致謝"
+
+#v1.1.31
+msgctxt "credits_art"
+msgid "Art"
+msgstr "美術"
+
+#v1.1.31
+msgctxt "credits_programming"
+msgid "Programming and design"
+msgstr "程式設計"
+
+#v1.1.31
+msgctxt "credits_thanks"
+msgid "Thanks"
+msgstr "感謝"
+
+#v1.1.31
+msgctxt "crossings_n_0"
+msgid "0 crossings"
+msgstr "0 平交道"
+
+#v1.1.31
+msgctxt "crossings_n_1"
+msgid "1 crossing"
+msgstr "1 平交道"
+
+#v1.1.31
+msgctxt "crossings_n_many"
+msgid "%d crossings"
+msgstr "%d 平交道"
+
+#v1.1.31
+msgctxt "custom_admin_level_poi"
+msgid "POI"
+msgstr "興趣點"
+
+#v1.1.31
+msgctxt "custom_admin_level_transport"
+msgid "Transportation"
+msgstr "運輸"
+
+#v1.1.31
+msgctxt "default_han_font"
+msgid "Default Han font:"
+msgstr "預設漢字字型："
+
+#v1.1.31
+msgctxt "default_han_font_chi"
+msgid "Simplified Chinese"
+msgstr "簡體中文"
+
+#v1.1.31
+msgctxt "default_han_font_jpn"
+msgid "Japanese"
+msgstr "日文"
+
+#v1.1.31
+msgctxt "default_han_font_kor"
+msgid "Korean"
+msgstr "韓文"
+
+#v1.1.31
+msgctxt "default_han_font_zho"
+msgid "Traditional Chinese"
+msgstr "繁體中文"
+
+#v1.1.31
+msgctxt "default_train_name"
+msgid "Train {}"
+msgstr "列車 {}"
+
+#v1.1.31
+msgctxt "delete_tracks"
+msgid "Delete tracks"
+msgstr "刪除軌道"
+
+#v1.1.31
+msgctxt "demand_pax_overall"
+msgid "{:.1f} pax/s"
+msgstr "{:.1f} 乘客/秒"
+
+#v1.1.31
+msgctxt "depot_at"
+msgid "Depot at"
+msgstr "車庫位於"
+
+#v1.1.31
+msgctxt "depots_n_0"
+msgid "0 depots"
+msgstr "0 車庫"
+
+#v1.1.31
+msgctxt "depots_n_1"
+msgid "1 depot"
+msgstr "1 車庫"
+
+#v1.1.31
+msgctxt "depots_n_many"
+msgid "%d depots"
+msgstr "%d 車庫"
+
+#v1.1.31
+msgctxt "description"
+msgid "Description:"
+msgstr "描述："
+
+#v1.1.31
+msgctxt "disabled"
+msgid "Disabled"
+msgstr "已停用"
+
+#v1.1.31
+msgctxt "display_mode"
+msgid "Mode:"
+msgstr "模式："
+
+#v1.1.31
+msgctxt "display_mode_exclusive_fullscreen"
+msgid "Exclusive fullscreen"
+msgstr "全螢幕"
+
+#v1.1.31
+msgctxt "display_mode_windowed"
+msgid "Windowed"
+msgstr "視窗化"
+
+#v1.1.31
+msgctxt "display_mode_windowed_fullscreen"
+msgid "Windowed fullscreen"
+msgstr "全螢幕視窗化"
+
+#v1.1.31
+msgctxt "display_screen"
+msgid "Display:"
+msgstr "顯示器："
+
+#v1.1.31
+msgctxt "display_screen_leave_alone"
+msgid "Do not set"
+msgstr "不指定"
+
+#v1.1.31
+msgctxt "done"
+msgid "Done"
+msgstr "完成"
+
+#v1.1.31
+msgctxt "editor_select_add_platform"
+msgid "Click platform numbers in stations to add stops to the line"
+msgstr "點選車站的月臺編號為此路線加入停靠站"
+
+#v1.1.31
+msgctxt "editor_select_add_waypoint"
+msgid "Click track segments to add waypoints to the line"
+msgstr "點選軌道區段為此路線加入路徑點"
+
+#v1.1.31
+msgctxt "editor_select_pick_depot"
+msgid "Click a depot on the map to set this train slot order"
+msgstr "點選地圖上的車庫以設定此列車的指令"
+
+#v1.1.31
+msgctxt "editor_tip_add_esc"
+msgid "Esc to go to edit mode"
+msgstr "Esc 返回編輯模式"
+
+#v1.1.31
+msgctxt "editor_tip_add_left1"
+msgid "Left click on the existing end of track control points to continue an existing track"
+msgstr "滑鼠左鍵點選已存在的軌道末端控制點，以繼續鋪設該軌道"
+
+#v1.1.31
+msgctxt "editor_tip_add_left2"
+msgid "Left click anywhere else to create a new track"
+msgstr "滑鼠左鍵點選任一處以新增軌道"
+
+#v1.1.31
+msgctxt "editor_tip_branch_esc"
+msgid "Esc to go to edit mode"
+msgstr "Esc 返回編輯模式"
+
+#v1.1.31
+msgctxt "editor_tip_branch_left"
+msgid "Left click to create the branch"
+msgstr "點選滑鼠左鍵以新增支線""
+
+#v1.1.31
+msgctxt "editor_tip_branch_mouse"
+msgid "Hover the mouse cursor near an existing track to see a new track branch"
+msgstr "移動滑鼠游標至軌道附近可以預覽新支線"
+
+#v1.1.31
+msgctxt "editor_tip_branch_shift"
+msgid "Press shift for opposite direction"
+msgstr "按下 Shift 切換為對側方向"
+
+#v1.1.31
+msgctxt "editor_tip_cont_esc"
+msgid "Esc to cancel"
+msgstr "Esc 取消"
+
+#v1.1.31
+msgctxt "editor_tip_cont_left"
+msgid "Left click to create a new track segment. Hold Shift to keep creating more segments."
+msgstr "點選滑鼠左鍵以新增軌道區段。按住 Shift 可連續新增。"
+
+#v1.1.31
+msgctxt "editor_tip_cont_mouse"
+msgid "Hover the mouse cursor over an existing end of track to see how it would look linked with your current track"
+msgstr "滑鼠游標移至軌道末端可以檢視連結至軌道的方式"
+
+#v1.1.31
+msgctxt "editor_tip_create_del"
+msgid "Del to delete selected tracks"
+msgstr "Del 可以刪除選取的軌道"
+
+#v1.1.31
+msgctxt "editor_tip_create_drag"
+msgid "Drag any selected track control point to move the selection"
+msgstr "拖曳任何已選取的軌道控制點可以移動"
+
+#v1.1.31
+msgctxt "editor_tip_create_esc"
+msgid "Esc to cancel selection"
+msgstr "Esc 取消選取"
+
+#v1.1.31
+msgctxt "editor_tip_create_sleft"
+msgid "Shift left click to add or remove points from selection"
+msgstr "Shift + 滑鼠左鍵以加入或刪除已選取的路徑點"
+
+#v1.1.31
+msgctxt "editor_tip_depot_esc"
+msgid "Esc to go to edit mode"
+msgstr "Esc 返回編輯模式"
+
+#v1.1.31
+msgctxt "editor_tip_depot_fin_esc"
+msgid "Esc to cancel"
+msgstr "Esc 取消"
+
+#v1.1.31
+msgctxt "editor_tip_depot_fin_left"
+msgid "Left click to finish creating a new depot"
+msgstr "點選滑鼠左鍵以完成車庫的新增"
+
+#v1.1.31
+msgctxt "editor_tip_depot_left"
+msgid "Left click to create a new depot"
+msgstr "點選滑鼠左鍵以新增車庫"
+
+#v1.1.31
+msgctxt "editor_tip_link_esc"
+msgid "Esc to go to edit mode"
+msgstr "Esc 返回編輯模式"
+
+#v1.1.31
+msgctxt "editor_tip_link_left"
+msgid "Left click to link tracks"
+msgstr "點選滑鼠左鍵以連接軌道"
+
+#v1.1.31
+msgctxt "editor_tip_link_move"
+msgid "Move away the mouse cursor to cancel"
+msgstr "移開滑鼠游標以取消"
+
+#v1.1.31
+msgctxt "editor_tip_move_esc"
+msgid "Esc to cancel movement"
+msgstr "Esc 取消移動"
+
+#v1.1.31
+msgctxt "editor_tip_move_left"
+msgid "Release left button to stop moving control point"
+msgstr "放開滑鼠左鍵以停止移動軌道控制點"
+
+#v1.1.31
+msgctxt "editor_tip_rect_left"
+msgid "Release the left button to end rectangle selection"
+msgstr "放開滑鼠左鍵以完成範圍選取"
+
+#v1.1.31
+msgctxt "editor_tip_station_esc"
+msgid "Esc to go to edit mode"
+msgstr "Esc 返回編輯模式"
+
+#v1.1.31
+msgctxt "editor_tip_station_fin_esc"
+msgid "Esc to cancel"
+msgstr "Esc 取消"
+
+#v1.1.31
+msgctxt "editor_tip_station_fin_left"
+msgid "Left click to finish creating a new station platform"
+msgstr "點選滑鼠左鍵以完成月臺的新增"
+
+#v1.1.31
+msgctxt "editor_tip_station_left"
+msgid "Left click to create a new station platform"
+msgstr "點選滑鼠左鍵以新增月臺"
+
+#v1.1.31
+msgctxt "editor_tip_undo"
+msgid "Ctrl-Z to undo the last edit"
+msgstr "Ctrl-Z 可以復原上一次的編輯"
+
+#v1.1.31
+msgctxt "editor_tip_zoom"
+msgid "Zoom in to edit"
+msgstr "放大以編輯"
+
+#v1.1.31
+msgctxt "enabled"
+msgid "Enabled"
+msgstr "已啟用"
+
+#v1.1.31
+msgctxt "error_cannot_open_file"
+msgid "Cannot open file: "
+msgstr "無法開啟檔案："
+
+#v1.1.31
+msgctxt "error_corrupted_file"
+msgid "Corrupted file: "
+msgstr "錯誤的檔案："
+
+#v1.1.31
+msgctxt "error_reading_file"
+msgid "Error reading from file"
+msgstr "讀取檔案發生錯誤"
+
+#v1.1.31
+msgctxt "error_reading_file_desc"
+msgid "The system does not allow to read the selected file, or its format is not valid game data"
+msgstr "系統不允許讀取選取的檔案，或該檔案為無效的遊戲資料"
+
+#v1.1.31
+msgctxt "error_save"
+msgid "Corrupted game state"
+msgstr "錯誤的遊戲狀態"
+
+#v1.1.31
+msgctxt "error_saving_internal"
+msgid "Internal error while saving game"
+msgstr "儲存時發生內部錯誤"
+
+#v1.1.31
+msgctxt "error_too_new_save"
+msgid "The game version that created this save file is newer than your game version. Update the game to load this file."
+msgstr "此存檔使用了較新的遊戲版本，請更新之後再重新讀取。"
+
+#v1.1.31
+msgctxt "error_writing_file"
+msgid "Error writing to file"
+msgstr "寫入檔案時發生錯誤"
+
+#v1.1.31
+msgctxt "error_writing_file_desc"
+msgid "The system does not allow to write in the selected file"
+msgstr "系統不允許寫入選取的檔案"
+
+#v1.1.31
+msgctxt "ev_refunds"
+msgid "{} refunds"
+msgstr "{} 退款"
+
+#v1.1.31
+msgctxt "file_header_date"
+msgid "Date"
+msgstr "日期"
+
+#v1.1.31
+msgctxt "file_header_name"
+msgid "Name"
+msgstr "名稱"
+
+#v1.1.31
+msgctxt "friend_state_away"
+msgid "Away"
+msgstr "離開"
+
+#v1.1.31
+msgctxt "friend_state_busy"
+msgid "Busy"
+msgstr "忙碌"
+
+#v1.1.31
+msgctxt "friend_state_connected"
+msgid "Connected"
+msgstr "已連接"
+
+#v1.1.31
+msgctxt "friend_state_connected_here"
+msgid "Conn. here"
+msgstr "已連線，在這裡"
+
+#v1.1.31
+msgctxt "friend_state_connected_other"
+msgid "Conn. elsewhere"
+msgstr "已連線，在其他地方"
+
+#v1.1.31
+msgctxt "friend_state_hosting"
+msgid "Hosting"
+msgstr "主持遊戲"
+
+#v1.1.31
+msgctxt "friend_state_in_game"
+msgid "In-game"
+msgstr "遊戲中"
+
+#v1.1.31
+msgctxt "friend_state_offline"
+msgid "Offline"
+msgstr "離線"
+
+#v1.1.31
+msgctxt "friend_state_online"
+msgid "Online"
+msgstr "線上"
+
+#v1.1.31
+msgctxt "friend_state_snooze"
+msgid "Snooze"
+msgstr "打瞌睡"
+
+#v1.1.31
+msgctxt "friends"
+msgid "Friends"
+msgstr "好友"
+
+#v1.1.31
+msgctxt "global_blueprint_bill"
+msgid "Global blueprint bill"
+msgstr "全世界藍圖的造價"
+
+#v1.1.31
+msgctxt "host_game"
+msgid "Host game"
+msgstr "主持遊戲"
+
+#v1.1.31
+msgctxt "icon_file"
+msgid "Icon file:"
+msgstr "圖示檔："
+
+#v1.1.31
+msgctxt "ignore"
+msgid "Ignore"
+msgstr "忽略"
+
+#v1.1.31
+msgctxt "info_table_pax_destination"
+msgid "Destination"
+msgstr "目的地"
+
+#v1.1.31
+msgctxt "info_table_pax_leg"
+msgid "Leg"
+msgstr "支線"
+
+#v1.1.31
+msgctxt "info_table_pax_origin"
+msgid "Origin"
+msgstr "上車地點"
+
+#v1.1.31
+msgctxt "info_table_pax_sax"
+msgid "Sax"
+msgstr "滿意度"
+
+#v1.1.31
+msgctxt "info_table_pax_total"
+msgid "Total"
+msgstr "總計"
+
+#v1.1.31
+msgctxt "info_train_pax"
+msgid "Pax: {0} / {1}"
+msgstr "乘客：{0} / {1}"
+
+#v1.1.31
+msgctxt "info_train_speed"
+msgid "Speed: {} km/h"
+msgstr "時速：{} km/h"
+
+#v1.1.31
+msgctxt "info_train_speed_short"
+msgid "{} km/h"
+msgstr "{} km/h"
+
+#v1.1.31
+msgctxt "intervention"
+msgid "Intervention"
+msgstr "介入"
+
+#v1.1.31
+msgctxt "invalid_location"
+msgid "Invalid"
+msgstr "無效的地點"
+
+#v1.1.31
+msgctxt "join"
+msgid "Join"
+msgstr "加入"
+
+#v1.1.31
+msgctxt "join_game"
+msgid "Join game"
+msgstr "加入遊戲"
+
+#v1.1.31
+msgctxt "joincode_client_info"
+msgid "Paste a join code to join a player hosted server. If the player is offline or ignores your request, the connection will fail."
+msgstr "貼上邀請碼才能加入玩家主機。如果玩家已離線或忽略你的請求，連線將會失敗。"
+
+#v1.1.31
+msgctxt "joincode_server_info"
+msgid "This join code allows any player to join your hosted game, even if they are not in your friend list. Make sure your Access rules are set to Allow or to Ask, otherwise players will be ignored even if they have a correct join code."
+msgstr "這個邀請碼可以允許任何玩家 (包括非好友) 加入你主持的遊戲。請確認你的存取規則已設為允許或需要詢問，否則玩家可能會被忽略。"
+
+#v1.1.31
+msgctxt "joint_multiplayer_name"
+msgid "Join multiplayer game"
+msgstr "加入多人遊戲"
+
+#v1.1.31
+msgctxt "key_info"
+msgid "Key: "
+msgstr "按鍵："
+
+#v1.1.31
+msgctxt "language_pick"
+msgid "Language:"
+msgstr "語言："
+
+#v1.1.31
+msgctxt "line_0_stops"
+msgid "0 stops"
+msgstr "0 停靠站"
+
+#v1.1.31
+msgctxt "line_error_no_path_between_stops"
+msgid "Cannot find path!"
+msgstr "找不到路徑！"
+
+#v1.1.31
+msgctxt "line_error_no_path_to_start"
+msgid "Cannot find path to start of line!"
+msgstr "找不到路線的起點！"
+
+#v1.1.31
+msgctxt "line_n_stops"
+msgid "{0}, {1} stops"
+msgstr "{0}，{1} 停靠站"
+
+#v1.1.31
+msgctxt "line_new_stop_cell"
+msgid "New stops are inserted here"
+msgstr "新的停靠站會安插在這裡"
+
+#v1.1.31
+msgctxt "line_state"
+msgid "State"
+msgstr "狀態"
+
+#v1.1.31
+msgctxt "line_stop_arrival_header"
+msgid "Arrival"
+msgstr "抵達"
+
+#v1.1.31
+msgctxt "line_stop_distance_header"
+msgid "Distance"
+msgstr "距離"
+
+#v1.1.31
+msgctxt "line_stop_eta_header"
+msgid "Travel"
+msgstr "旅程"
+
+#v1.1.31
+msgctxt "line_stop_interval_header"
+msgid "Interval"
+msgstr "班距"
+
+#v1.1.31
+msgctxt "line_stop_min_header"
+msgid "Min."
+msgstr "最小"
+
+#v1.1.31
+msgctxt "line_stop_passthru_short"
+msgid "Pass"
+msgstr "通過"
+
+#v1.1.31
+msgctxt "line_stop_wait_header"
+msgid "Wait"
+msgstr "等待"
+
+#v1.1.31
+msgctxt "line_stops"
+msgid "Stops"
+msgstr "停靠"
+
+#v1.1.31
+msgctxt "line_to"
+msgid "{} to"
+msgstr "{} 至"
+
+#v1.1.31
+msgctxt "lineeditor_auto_eta_speed"
+msgid "Ideal speed (km/h):"
+msgstr "預估時速 (km/h):"
+
+#v1.1.31
+msgctxt "lineeditor_auto_interval_run"
+msgid "Set min. interval times"
+msgstr "設定班次間距"
+
+#v1.1.31
+msgctxt "lineeditor_bp_station"
+msgid "Build your tracks blueprint to enable this platform"
+msgstr "軌道藍圖建造之後才能啟用這座月臺"
+
+#v1.1.31
+msgctxt "lineeditor_code"
+msgid "Code:"
+msgstr "代號："
+
+#v1.1.31
+msgctxt "lineeditor_color"
+msgid "Color:"
+msgstr "顏色："
+
+#v1.1.31
+msgctxt "lineeditor_name"
+msgid "Name:"
+msgstr "名稱："
+
+#v1.1.31
+msgctxt "lineeditor_price_base"
+msgid "Base ticket price:"
+msgstr "基本票價："
+
+#v1.1.31
+msgctxt "lineeditor_price_km"
+msgid "Price per km:"
+msgstr "每公里票價："
+
+#v1.1.31
+msgctxt "lineeditor_tooltip_add_stop_mode"
+msgid "Add stops to line"
+msgstr "加入停靠站"
+
+#v1.1.31
+msgctxt "lineeditor_tooltip_add_waypoint_mode"
+msgid "Add waypoints to line"
+msgstr "加入路徑點"
+
+#v1.1.31
+msgctxt "lineeditor_tooltip_del"
+msgid "Delete selected line"
+msgstr "刪除已選取的路線"
+
+#v1.1.31
+msgctxt "lineeditor_tooltip_del_stop"
+msgid "Delete selected stop"
+msgstr "刪除已選取的停靠站"
+
+#v1.1.31
+msgctxt "lineeditor_tooltip_down_stop"
+msgid "Move down selected stop"
+msgstr "下移已選取的停靠站"
+
+#v1.1.31
+msgctxt "lineeditor_tooltip_new"
+msgid "Create a new line"
+msgstr "建立新路線"
+
+#v1.1.31
+msgctxt "lineeditor_tooltip_up_stop"
+msgid "Move up selected stop"
+msgstr "上移已選取的停靠站"
+
+#v1.1.31
+msgctxt "lines"
+msgid "Lines"
+msgstr "路線"
+
+#v1.1.31
+msgctxt "lines_n_0"
+msgid "0 lines"
+msgstr "0 條路線"
+
+#v1.1.31
+msgctxt "lines_n_1"
+msgid "1 line"
+msgstr "1 條路線"
+
+#v1.1.31
+msgctxt "lines_n_many"
+msgid "%d lines"
+msgstr "%d 條路線"
+
+#v1.1.31
+msgctxt "load_game"
+msgid "Load game"
+msgstr "讀取存檔"
+
+#v1.1.31
+msgctxt "loading_elip"
+msgid "Loading..."
+msgstr "讀取中..."
+
+#v1.1.31
+msgctxt "loan_balance"
+msgid "Balance:"
+msgstr "貸款餘額："
+
+#v1.1.31
+msgctxt "loan_contract_accept"
+msgid "Take new loan"
+msgstr "申請新的貸款"
+
+#v1.1.31
+msgctxt "loan_contract_amount"
+msgid "$M Amount:"
+msgstr "金額 ($M)："
+
+#v1.1.31
+msgctxt "loan_contract_ko"
+msgid "Not approved"
+msgstr "未核准"
+
+#v1.1.31
+msgctxt "loan_contract_monthly_payment"
+msgid "Monthly payment:"
+msgstr "每月還款金額："
+
+#v1.1.31
+msgctxt "loan_contract_rate"
+msgid "APR:"
+msgstr "年利率："
+
+#v1.1.31
+msgctxt "loan_contract_total_interest"
+msgid "{} months interest:"
+msgstr "{} 個月的利息總計："
+
+#v1.1.31
+msgctxt "loan_contract_years"
+msgid "Years:"
+msgstr "年限："
+
+#v1.1.31
+msgctxt "loan_created_on"
+msgid "Created on:"
+msgstr "貸款核放日："
+
+#v1.1.31
+msgctxt "loan_need_admin"
+msgid "Only admins can take loans"
+msgstr "只有管理員可以申請貸款"
+
+#v1.1.31
+msgctxt "loan_paid_interest"
+msgid "Paid interest:"
+msgstr "已支付利息："
+
+#v1.1.31
+msgctxt "loan_pay_early"
+msgid "Pay early ${}"
+msgstr "提早清償 ${}"
+
+#v1.1.31
+msgctxt "loan_payments"
+msgid "Payments:"
+msgstr "還款："
+
+#v1.1.31
+msgctxt "loan_payments_fmt"
+msgid "{0} out of {1}, next on {2}"
+msgstr "{0} 之 {1}，下一期於 {2}"
+
+#v1.1.31
+msgctxt "loan_subtitle"
+msgid "${} per month"
+msgstr "${} / 每月"
+
+#v1.1.31
+msgctxt "loan_title"
+msgid "${0} at {1:.3}% APR in {2} years"
+msgstr "貸款 ${0}，年利率 {1:.3}%，還款期限 {2} 年"
+
+#v1.1.31
+msgctxt "local_mod"
+msgid "Local mod to upload:"
+msgstr "上傳的本機模組："
+
+#v1.1.31
+msgctxt "lonely_station"
+msgid "Lonely Station"
+msgstr "Estación Solitaria"
+
+#v1.1.31
+msgctxt "main_options"
+msgid "Options"
+msgstr "選項"
+
+#v1.1.31
+msgctxt "map_names_eng"
+msgid "English"
+msgstr "英文"
+
+#v1.1.31
+msgctxt "map_names_native"
+msgid "Native"
+msgstr "地圖原生語言"
+
+#v1.1.31
+msgctxt "map_names_prio"
+msgid "Map names priority:"
+msgstr "地圖名稱優先使用："
+
+#v1.1.31
+msgctxt "mod_author"
+msgid "Author:"
+msgstr "作者："
+
+#v1.1.31
+msgctxt "mod_desc"
+msgid "Description:"
+msgstr "描述："
+
+#v1.1.31
+msgctxt "mod_name"
+msgid "Name:"
+msgstr "名稱："
+
+#v1.1.31
+msgctxt "mod_source"
+msgid "Source:"
+msgstr "來源："
+
+#v1.1.31
+msgctxt "mod_source_builtin"
+msgid "Built-in"
+msgstr "內建"
+
+#v1.1.31
+msgctxt "mod_source_local"
+msgid "Local"
+msgstr "本機"
+
+#v1.1.31
+msgctxt "mod_source_steamworks_ugc"
+msgid "Steamworks UGC"
+msgstr "Steamworks UGC"
+
+#v1.1.31
+msgctxt "mod_uploader_busy"
+msgid "Uploading mod..."
+msgstr "模組上傳中..."
+
+#v1.1.31
+msgctxt "mod_uploader_info"
+msgid "The mod uploader is a tool for mod developers. If you want to use mods when playing the game, subscribe to them in the Steam Workshop and enable them when creating a new game."
+msgstr "模組上傳器是提供給模組開發者的工具。如果你想要在遊戲內使用模組，請前往 Steam 工作坊訂閱，並在開始新的遊戲時啟用。"
+
+#v1.1.31
+msgctxt "mod_uploader_info_guide"
+msgid "Mod development guide"
+msgstr "模組開發者導覽"
+
+#v1.1.31
+msgctxt "mod_uploader_info_open_browser"
+msgid "Visit Workshop"
+msgstr "瀏覽 Steam 工作坊"
+
+#v1.1.31
+msgctxt "mod_uploader_info_player_workshop"
+msgid "Manage Workshop"
+msgstr "管理工作坊"
+
+#v1.1.31
+msgctxt "mod_uploader_info_use_uploader"
+msgid "Use Mod Uploader"
+msgstr "使用模組上傳器"
+
+#v1.1.31
+msgctxt "mod_uploader_new_mod"
+msgid "New mod"
+msgstr "新模組"
+
+#v1.1.31
+msgctxt "mod_uploader_not_in_game"
+msgid "The mod uploader cannot be used with a loaded game."
+msgstr "模組上傳器無法在遊戲進行時使用。"
+
+#v1.1.31
+msgctxt "mod_uploader_update_mod"
+msgid "Update mod"
+msgstr "更新模組"
+
+#v1.1.31
+msgctxt "mod_uploader_view_ws_mod"
+msgid "View mod in Workshop"
+msgstr "在 Steam 工作坊檢視"
+
+#v1.1.31
+msgctxt "mod_version"
+msgid "Version:"
+msgstr "版本："
+
+#v1.1.31
+msgctxt "mods"
+msgid "Mods"
+msgstr "模組"
+
+#v1.1.31
+msgctxt "month_april"
+msgid "April"
+msgstr "四月"
+
+#v1.1.31
+msgctxt "month_august"
+msgid "August"
+msgstr "八月"
+
+#v1.1.31
+msgctxt "month_december"
+msgid "December"
+msgstr "十二月"
+
+#v1.1.31
+msgctxt "month_february"
+msgid "February"
+msgstr "二月"
+
+#v1.1.31
+msgctxt "month_january"
+msgid "January"
+msgstr "一月"
+
+#v1.1.31
+msgctxt "month_july"
+msgid "July"
+msgstr "七月"
+
+#v1.1.31
+msgctxt "month_june"
+msgid "June"
+msgstr "六月"
+
+#v1.1.31
+msgctxt "month_march"
+msgid "March"
+msgstr "三月"
+
+#v1.1.31
+msgctxt "month_may"
+msgid "May"
+msgstr "五月"
+
+#v1.1.31
+msgctxt "month_november"
+msgid "November"
+msgstr "十一月"
+
+#v1.1.31
+msgctxt "month_october"
+msgid "October"
+msgstr "十月"
+
+#v1.1.31
+msgctxt "month_september"
+msgid "September"
+msgstr "九月"
+
+#v1.1.31
+msgctxt "month_short_april"
+msgid "Apr"
+msgstr "4月"
+
+#v1.1.31
+msgctxt "month_short_august"
+msgid "Aug"
+msgstr "8月"
+
+#v1.1.31
+msgctxt "month_short_december"
+msgid "Dec"
+msgstr "12月"
+
+#v1.1.31
+msgctxt "month_short_february"
+msgid "Feb"
+msgstr "2月"
+
+#v1.1.31
+msgctxt "month_short_january"
+msgid "Jan"
+msgstr "1月"
+
+#v1.1.31
+msgctxt "month_short_july"
+msgid "Jul"
+msgstr "7月"
+
+#v1.1.31
+msgctxt "month_short_june"
+msgid "Jun"
+msgstr "6月"
+
+#v1.1.31
+msgctxt "month_short_march"
+msgid "Mar"
+msgstr "3月"
+
+#v1.1.31
+msgctxt "month_short_may"
+msgid "May"
+msgstr "5月"
+
+#v1.1.31
+msgctxt "month_short_november"
+msgid "Nov"
+msgstr "11月"
+
+#v1.1.31
+msgctxt "month_short_october"
+msgid "Oct"
+msgstr "10月"
+
+#v1.1.31
+msgctxt "month_short_september"
+msgid "Sep"
+msgstr "9月"
+
+#v1.1.31
+msgctxt "mp_action_allow"
+msgid "Allow"
+msgstr "允許"
+
+#v1.1.31
+msgctxt "mp_action_block"
+msgid "Block"
+msgstr "封鎖"
+
+#v1.1.31
+msgctxt "mp_action_deny"
+msgid "Deny"
+msgstr "拒絕"
+
+#v1.1.31
+msgctxt "mp_action_disconnect"
+msgid "Disconnect"
+msgstr "斷線"
+
+#v1.1.31
+msgctxt "mp_action_forget"
+msgid "Forget"
+msgstr "移除"
+
+#v1.1.31
+msgctxt "mp_action_host_to_invite"
+msgid "Host to invite"
+msgstr "主持遊戲並邀請"
+
+#v1.1.31
+msgctxt "mp_action_invite"
+msgid "Invite"
+msgstr "邀請"
+
+#v1.1.31
+msgctxt "mp_action_req_join"
+msgid "Request join"
+msgstr "要求加入"
+
+#v1.1.31
+msgctxt "mp_client_info"
+msgid "Server information"
+msgstr "主機資訊"
+
+#v1.1.31
+msgctxt "mp_host_label"
+msgid "Host"
+msgstr "主機"
+
+#v1.1.31
+msgctxt "mp_info_acl"
+msgid "Access"
+msgstr "存取"
+
+#v1.1.31
+msgctxt "mp_info_connected"
+msgid "Connected"
+msgstr "已連線"
+
+#v1.1.31
+msgctxt "mp_info_invite"
+msgid "Invite"
+msgstr "邀請"
+
+#v1.1.31
+msgctxt "mp_server_info"
+msgid "Server management"
+msgstr "主機管理"
+
+#v1.1.31
+msgctxt "mpinfo_stats_game"
+msgid "Game stats"
+msgstr "遊戲狀態"
+
+#v1.1.31
+msgctxt "mpinfo_stats_net"
+msgid "Net stats"
+msgstr "網路狀態"
+
+#v1.1.31
+msgctxt "msaa_mode"
+msgid "MSAA:"
+msgstr "MSAA:"
+
+#v1.1.31
+msgctxt "multiplayer"
+msgid "Multiplayer"
+msgstr "多人遊戲"
+
+#v1.1.31
+msgctxt "new_game"
+msgid "New game"
+msgstr "開始新遊戲"
+
+#v1.1.31
+msgctxt "new_game_options"
+msgid "New game options"
+msgstr "新遊戲的選項"
+
+#v1.1.31
+msgctxt "new_loan"
+msgid "New loan"
+msgstr "新的貸款"
+
+#v1.1.31
+msgctxt "new_mod_id_placeholder"
+msgid "<New mod>"
+msgstr "<新模組>"
+
+#v1.1.31
+msgctxt "new_save_file_name"
+msgid "New save file name:"
+msgstr "新存檔名稱："
+
+#v1.1.31
+msgctxt "new_save_placeholder"
+msgid "<Create new save>"
+msgstr "<建立新存檔>"
+
+#v1.1.31
+msgctxt "no_cash_pop_desc"
+msgid "Not enough money to build the blueprint. Delete some blueprint tracks or make more money."
+msgstr "資金不足以建造藍圖。請先刪除一些藍圖或賺進更多鈔票。"
+
+#v1.1.31
+msgctxt "ok"
+msgid "OK"
+msgstr "OK"
+
+#v1.1.31
+msgctxt "option_company_name"
+msgid "Company name:"
+msgstr "公司名稱："
+
+#v1.1.31
+msgctxt "option_no_cash"
+msgid "Unlimited money"
+msgstr "無限金錢"
+
+#v1.1.31
+msgctxt "options"
+msgid "Options"
+msgstr "選項"
+
+#v1.1.31
+msgctxt "options_general"
+msgid "General"
+msgstr "常用"
+
+#v1.1.31
+msgctxt "options_graphics"
+msgid "Graphics"
+msgstr "圖像"
+
+#v1.1.31
+msgctxt "options_mods_upload"
+msgid "Uploader"
+msgstr "上傳器"
+
+#v1.1.31
+msgctxt "osm_admin_level_10"
+msgid "Quarter"
+msgstr "Barrio"
+
+#v1.1.31
+msgctxt "osm_admin_level_2"
+msgid "Country"
+msgstr "País"
+
+#v1.1.31
+msgctxt "osm_admin_level_3"
+msgid "Zone"
+msgstr "Zona"
+
+#v1.1.31
+msgctxt "osm_admin_level_4"
+msgid "State"
+msgstr "Estado"
+
+#v1.1.31
+msgctxt "osm_admin_level_5"
+msgid "Region"
+msgstr "Región"
+
+#v1.1.31
+msgctxt "osm_admin_level_6"
+msgid "County"
+msgstr "Comarca"
+
+#v1.1.31
+msgctxt "osm_admin_level_7"
+msgid "Metro"
+msgstr "Metro"
+
+#v1.1.31
+msgctxt "osm_admin_level_8"
+msgid "City"
+msgstr "Ciudad"
+
+#v1.1.31
+msgctxt "osm_admin_level_9"
+msgid "Ward"
+msgstr "Distrito"
+
+#v1.1.31
+msgctxt "overpass_n_0"
+msgid "0 overpasses"
+msgstr "0 座陸橋"
+
+#v1.1.31
+msgctxt "overpass_n_1"
+msgid "1 overpass"
+msgstr "1 座陸橋"
+
+#v1.1.31
+msgctxt "overpass_n_many"
+msgid "%d overpasses"
+msgstr "%d 座陸橋"
+
+#v1.1.31
+msgctxt "overwrite"
+msgid "Overwrite"
+msgstr "覆蓋"
+
+#v1.1.31
+msgctxt "overwrite_file"
+msgid "Overwrite file"
+msgstr "覆蓋檔案"
+
+#v1.1.31
+msgctxt "ovewrite_name"
+msgid "Overwrite {}?"
+msgstr "要覆蓋 {} 嗎？"
+
+#v1.1.31
+msgctxt "paste"
+msgid "Paste"
+msgstr "貼上"
+
+#v1.1.31
+msgctxt "pax_tab"
+msgid "Passengers"
+msgstr "乘客"
+
+#v1.1.31
+msgctxt "pax_waiting"
+msgid "Pax: {0} / {1}"
+msgstr "乘客：{0} / {1}"
+
+#v1.1.31
+msgctxt "pax_waiting_detail"
+msgid "New pax: {0} / Transfer pax: {1} "
+msgstr "新乘客：{0} / 轉乘：{1} "
+
+#v1.1.31
+msgctxt "paxlist_groupby_dest"
+msgid "Group by destination"
+msgstr "以目的地分組"
+
+#v1.1.31
+msgctxt "paxlist_groupby_none"
+msgid "Show all"
+msgstr "全部顯示"
+
+#v1.1.31
+msgctxt "paxlist_groupby_origin"
+msgid "Group by origin"
+msgstr "以上車地點分組"
+
+#v1.1.31
+msgctxt "paxlist_groupby_plan"
+msgid "Show trips"
+msgstr "顯示旅程"
+
+#v1.1.31
+msgctxt "paxlist_n_pax"
+msgid "{} pax"
+msgstr "{} 乘客"
+
+#v1.1.31
+msgctxt "pick_a_local_mod"
+msgid "Pick a local mod"
+msgstr "選取本機模組"
+
+#v1.1.31
+msgctxt "pick_placeholder"
+msgid "< Pick >"
+msgstr "< 選取 >"
+
+#v1.1.31
+msgctxt "platform_n"
+msgid "Platform "
+msgstr "月臺 "
+
+#v1.1.31
+msgctxt "pop_reach"
+msgid "Reach: {}"
+msgstr "人口涵蓋：{}"
+
+#v1.1.31
+msgctxt "private"
+msgid "Private"
+msgstr "私人"
+
+#v1.1.31
+msgctxt "profile"
+msgid "Profile"
+msgstr "個人檔案"
+
+#v1.1.31
+msgctxt "public"
+msgid "Public"
+msgstr "公開"
+
+#v1.1.31
+msgctxt "purchase"
+msgid "Purchase"
+msgstr "購買"
+
+#v1.1.31
+msgctxt "quickstart_guide"
+msgid "Quickstart guide"
+msgstr "快速上手指南"
+
+#v1.1.31
+msgctxt "quit_desktop"
+msgid "Quit to desktop"
+msgstr "離開至桌面"
+
+#v1.1.31
+msgctxt "quit_game"
+msgid "Quit game"
+msgstr "離開遊戲"
+
+#v1.1.31
+msgctxt "renderer"
+msgid "Renderer:"
+msgstr "算繪："
+
+#v1.1.31
+msgctxt "renderer_dx11"
+msgid "DirectX 11"
+msgstr "DirectX 11"
+
+#v1.1.31
+msgctxt "renderer_opengl"
+msgid "OpenGL 3.1"
+msgstr "OpenGL 3.1"
+
+#v1.1.31
+msgctxt "reset_train"
+msgid "Reset train"
+msgstr "重置列車"
+
+#v1.1.31
+msgctxt "save"
+msgid "Save"
+msgstr "儲存"
+
+#v1.1.31
+msgctxt "save_file_name"
+msgid "Save file name"
+msgstr "存檔名稱"
+
+#v1.1.31
+msgctxt "save_game"
+msgid "Save game"
+msgstr "儲存遊戲"
+
+#v1.1.31
+msgctxt "sax_0"
+msgid "Neutral"
+msgstr "普通"
+
+#v1.1.31
+msgctxt "sax_m1"
+msgid "Mediocre"
+msgstr "不滿意"
+
+#v1.1.31
+msgctxt "sax_m2"
+msgid "Bad"
+msgstr "很不滿意"
+
+#v1.1.31
+msgctxt "sax_m3"
+msgid "Very bad"
+msgstr "非常不滿意"
+
+#v1.1.31
+msgctxt "sax_p1"
+msgid "Good"
+msgstr "滿意"
+
+#v1.1.31
+msgctxt "sax_p2"
+msgid "Very good"
+msgstr "很滿意"
+
+#v1.1.31
+msgctxt "sax_p3"
+msgid "Excellent"
+msgstr "非常滿意"
+
+#v1.1.31
+msgctxt "sax_score"
+msgid "Satisfaction: {:.2f}"
+msgstr "滿意度：{:.2f}"
+
+#v1.1.31
+msgctxt "scaling_mode"
+msgid "Scaling:"
+msgstr "UI 縮放："
+
+#v1.1.31
+msgctxt "scaling_mode_auto"
+msgid "Auto"
+msgstr "自動"
+
+#v1.1.31
+msgctxt "search_section_lines"
+msgid "Lines"
+msgstr "-- 路線 --"
+
+#v1.1.31
+msgctxt "search_section_nearby"
+msgid "Nearby"
+msgstr "-- 鄰近 --"
+
+#v1.1.31
+msgctxt "search_section_stations"
+msgid "Stations"
+msgstr "-- 車站 --"
+
+#v1.1.31
+msgctxt "search_section_trains"
+msgid "Trains"
+msgstr "-- 列車 --"
+
+#v1.1.31
+msgctxt "search_section_world"
+msgid "World"
+msgstr "-- 世界 --"
+
+#v1.1.31
+msgctxt "selection_blueprint_bill"
+msgid "Selected blueprints bill"
+msgstr "已選取藍圖的造價"
+
+#v1.1.31
+msgctxt "settings"
+msgid "Settings"
+msgstr "設定"
+
+#v1.1.31
+msgctxt "single_player"
+msgid "Single player"
+msgstr "單人遊戲"
+
+#v1.1.31
+msgctxt "start_game"
+msgid "Start game"
+msgstr "開始遊戲"
+
+#v1.1.31
+msgctxt "station_name_edit"
+msgid "Name:"
+msgstr "車站名稱："
+
+#v1.1.31
+msgctxt "station_name_use_auto"
+msgid "Use automatic name"
+msgstr "根據地圖自動命名"
+
+#v1.1.31
+msgctxt "station_pop_area"
+msgid "Area:"
+msgstr "涵蓋範圍："
+
+#v1.1.31
+msgctxt "stations_n_0"
+msgid "0 stations"
+msgstr "0 車站"
+
+#v1.1.31
+msgctxt "stations_n_1"
+msgid "1 station"
+msgstr "1 車站"
+
+#v1.1.31
+msgctxt "stations_n_many"
+msgid "%d stations"
+msgstr "%d 車站"
+
+#v1.1.31
+msgctxt "steam_chat"
+msgid "Steam Chat and Friends"
+msgstr "Steam 聊天及好友"
+
+#v1.1.31
+msgctxt "steam_chat_client_info"
+msgid "The Join Game options in Steam Chat and Steam Friends can be used to request access to other player games."
+msgstr "Steam 聊天視窗以及好友清單的「加入遊戲」可以用來請求加入玩家的遊戲。"
+
+#v1.1.31
+msgctxt "steam_chat_server_info"
+msgid "The Invite options in Steam Chat and Steam Friends can be used to invite other players to your hosted game. Your settings for the the Access rules apply to Steam invites."
+msgstr "Steam 聊天視窗以及好友清單的「邀請」可以用來邀請好友加入你主持的遊戲。已設置的存取規則會套用至 Steam 邀請功能。"
+
+#v1.1.31
+msgctxt "steam_friends"
+msgid "Steam Friends"
+msgstr "Steam 好友"
+
+#v1.1.31
+msgctxt "steamworks_id"
+msgid "Steamworks ID:"
+msgstr "Steamworks ID:"
+
+#v1.1.31
+msgctxt "stop_idx"
+msgid "Stop {}"
+msgstr "停靠 {}"
+
+#v1.1.31
+msgctxt "stops_n_0"
+msgid "0 stops"
+msgstr "0 停靠站"
+
+#v1.1.31
+msgctxt "stops_n_1"
+msgid "1 stop"
+msgstr "1 停靠站"
+
+#v1.1.31
+msgctxt "stops_n_many"
+msgid "%d stops"
+msgstr "%d 停靠站"
+
+#v1.1.31
+msgctxt "strangers"
+msgid "Strangers"
+msgstr "陌生人"
+
+#v1.1.31
+msgctxt "subs_in_workshop"
+msgid "Subscribe in Workshop"
+msgstr "從 Steam 工作坊訂閱"
+
+#v1.1.31
+msgctxt "time_h_m"
+msgid "{0}h {1}m"
+msgstr "{0} 小時 {1} 分鐘"
+
+#v1.1.31
+msgctxt "time_m"
+msgid "{}m"
+msgstr "{} 分"
+
+#v1.1.31
+msgctxt "time_s"
+msgid "{}s"
+msgstr "{} 秒"
+
+#v1.1.31
+msgctxt "title"
+msgid "Title:"
+msgstr "標題："
+
+#v1.1.31
+msgctxt "tooltip_demand"
+msgid "Local {0}% | Regional {1}% | Long distance {2}%"
+msgstr "本地 {0}% | 區域 {1}% | 長距離 {2}%"
+
+#v1.1.31
+msgctxt "total"
+msgid "Total"
+msgstr "總計"
+
+#v1.1.31
+msgctxt "track_editor"
+msgid "Tracks"
+msgstr "軌道"
+
+#v1.1.31
+msgctxt "track_ground"
+msgid "Ground"
+msgstr "平面"
+
+#v1.1.31
+msgctxt "track_ground_crossings"
+msgid "Ground (with road crossings)"
+msgstr "平面 (道路使用平交道)"
+
+#v1.1.31
+msgctxt "track_ground_underpasses"
+msgid "Ground"
+msgstr "平面 (道路使用地下道)"
+
+#v1.1.31
+msgctxt "track_hits"
+msgid "track hits"
+msgstr "軌道碰撞"
+
+#v1.1.31
+msgctxt "track_metro1"
+msgid "Metro depth 1"
+msgstr "地鐵 #1"
+
+#v1.1.31
+msgctxt "track_metro2"
+msgid "Metro depth 2"
+msgstr "地鐵 #2"
+
+#v1.1.31
+msgctxt "track_tram"
+msgid "Tram"
+msgstr "輕軌"
+
+#v1.1.31
+msgctxt "track_trench"
+msgid "Trench"
+msgstr "壕溝"
+
+#v1.1.31
+msgctxt "track_tunnel1"
+msgid "Tunnel"
+msgstr "地下"
+
+#v1.1.31
+msgctxt "track_tunnel2"
+msgid "Tunnel depth 4"
+msgstr "地下 #4"
+
+#v1.1.31
+msgctxt "track_viaduct"
+msgid "Viaduct"
+msgstr "高架"
+
+#v1.1.31
+msgctxt "train_base_color_edit"
+msgid "Base color:"
+msgstr "基礎顏色："
+
+#v1.1.31
+msgctxt "train_bill"
+msgid "Train bill"
+msgstr "列車採購金額"
+
+#v1.1.31
+msgctxt "train_clone"
+msgid "Clone"
+msgstr "複製"
+
+#v1.1.31
+msgctxt "train_code_edit"
+msgid "Serial:"
+msgstr "列車代號："
+
+#v1.1.31
+msgctxt "train_decal_color_edit"
+msgid "Decal color:"
+msgstr "塗裝顏色："
+
+#v1.1.31
+msgctxt "train_decal_edit"
+msgid "Decal:"
+msgstr "塗裝："
+
+#v1.1.31
+msgctxt "train_decal_pick_edit"
+msgid "Pick a decal"
+msgstr "選取塗裝樣式"
+
+#v1.1.31
+msgctxt "train_decal_use_line_color"
+msgid "Use line color"
+msgstr "和路線顏色相同"
+
+#v1.1.31
+msgctxt "train_info_destination"
+msgid "Destination:"
+msgstr "目的地："
+
+#v1.1.31
+msgctxt "train_info_dim"
+msgid "Dimensions:"
+msgstr "規格尺寸："
+
+#v1.1.31
+msgctxt "train_info_dim_d"
+msgid "{0} cars / {1:.2f}m / {2:.2f}m"
+msgstr "{0} 節車廂 / {1:.2f} 公尺 / {2:.2f} 公尺"
+
+#v1.1.31
+msgctxt "train_info_empty_mass"
+msgid "Empty mass:"
+msgstr "車輛空重："
+
+#v1.1.31
+msgctxt "train_info_line"
+msgid "Line:"
+msgstr "路線："
+
+#v1.1.31
+msgctxt "train_info_location"
+msgid "Location:"
+msgstr "地點："
+
+#v1.1.31
+msgctxt "train_info_maintenance_cost_f"
+msgid "${} per day"
+msgstr "${} / 每日"
+
+#v1.1.31
+msgctxt "train_info_mass"
+msgid "Mass / empty:"
+msgstr "重量 / 空重："
+
+#v1.1.31
+msgctxt "train_info_max_pax"
+msgid "Max pax:"
+msgstr "乘客上限："
+
+#v1.1.31
+msgctxt "train_info_max_speed"
+msgid "Max speed:"
+msgstr "最高速度："
+
+#v1.1.31
+msgctxt "train_info_pax"
+msgid "Pax / max:"
+msgstr "乘客 / 上限："
+
+#v1.1.31
+msgctxt "train_info_running_cost"
+msgid "Running cost:"
+msgstr "運行成本："
+
+#v1.1.31
+msgctxt "train_info_running_cost_f"
+msgid "${:.4} per km per pax"
+msgstr "${:.4} / 每人每公里"
+
+#v1.1.31
+msgctxt "train_info_speed"
+msgid "Speed / max:"
+msgstr "速度 / 上限："
+
+#v1.1.31
+msgctxt "train_info_status"
+msgid "Status:"
+msgstr "狀態："
+
+#v1.1.31
+msgctxt "train_info_status_circulation"
+msgid "Running"
+msgstr "運行中"
+
+#v1.1.31
+msgctxt "train_info_status_in_storage"
+msgid "Stored"
+msgstr "已停放"
+
+#v1.1.31
+msgctxt "train_info_status_lost_or_bad_orders"
+msgid "Lost or bad orders"
+msgstr "找不到或無效的指令"
+
+#v1.1.31
+msgctxt "train_info_status_no_path_to_destination"
+msgid "No path to destination"
+msgstr "找不到前往目的地的路徑"
+
+#v1.1.31
+msgctxt "train_info_storing"
+msgid "Storing in:"
+msgstr "停放於："
+
+#v1.1.31
+msgctxt "train_intervention_dialog_desc"
+msgid "This intervention will reset the train position to its next stop or depot, pay the costs of relocation, refund its fares, and pay a compensation fine. The price is ${}."
+msgstr "介入會將列車重置於下一個停靠站或車庫。必須支付重置費用、乘客的退款和賠償，總金額為 ${}。"
+
+#v1.1.31
+msgctxt "train_intervention_dialog_title"
+msgid "Train intervention"
+msgstr "介入列車"
+
+#v1.1.31
+msgctxt "train_invalid_order"
+msgid "Invalid order"
+msgstr "無效的命令"
+
+#v1.1.31
+msgctxt "train_model_edit"
+msgid "Model:"
+msgstr "車型："
+
+#v1.1.31
+msgctxt "train_n_cars_edit"
+msgid "Cars:"
+msgstr "車廂："
+
+#v1.1.31
+msgctxt "train_n_units"
+msgid "Units:"
+msgstr "單位："
+
+#v1.1.31
+msgctxt "train_name_edit"
+msgid "Name:"
+msgstr "名稱："
+
+#v1.1.31
+msgctxt "train_purchase_no_cash"
+msgid "Not enough money for purchase"
+msgstr "資金不足，無法購買"
+
+#v1.1.31
+msgctxt "train_purchase_no_cash_desc"
+msgid "Not enough money to purchase the train(s). Pick a cheaper train, less trains, less cars, or make more money."
+msgstr "資金不足，無法購買列車。請選擇較便宜的車型、較少的車廂或賺進更多鈔票。"
+
+#v1.1.31
+msgctxt "train_sched_add"
+msgid "Toggle new slots mode"
+msgstr "切換新增時段模式"
+
+#v1.1.31
+msgctxt "train_sched_add_help"
+msgid "Click anywhere to add a new schedule slot"
+msgstr "點選任意時間以加入時段"
+
+#v1.1.31
+msgctxt "train_sched_clear_all_multi"
+msgid "Delete all {} slots"
+msgstr "刪除 {} 的全部時段"
+
+#v1.1.31
+msgctxt "train_sched_clear_all_single"
+msgid "Delete all slots"
+msgstr "刪除所有時段"
+
+#v1.1.31
+msgctxt "train_sched_clear_day"
+msgid "Delete all {0} slots from train {1}"
+msgstr "刪除列車 {1} 於 {0} 的全部時段"
+
+#v1.1.31
+msgctxt "train_sched_copy_day"
+msgid "Copy all {0} slots from train {1}"
+msgstr "複製列車 {1} 於 {0} 的全部時段"
+
+#v1.1.31
+msgctxt "train_sched_copy_slot"
+msgid "Copy selected slot"
+msgstr "複製已選取的時段"
+
+#v1.1.31
+msgctxt "train_sched_copy_week"
+msgid "Copy entire week schedule of train {}"
+msgstr "msgstr "從列車 {} 複製一週的排程表"
+
+#v1.1.31
+msgctxt "train_sched_del"
+msgid "Delete selected slot"
+msgstr "刪除已選取的時段"
+
+#v1.1.31
+msgctxt "train_sched_depot_pick"
+msgid "Pick depot"
+msgstr "選取車庫"
+
+#v1.1.31
+msgctxt "train_sched_line"
+msgid "Line:"
+msgstr "路線："
+
+#v1.1.31
+msgctxt "train_sched_new_slot"
+msgid "New"
+msgstr "新增"
+
+#v1.1.31
+msgctxt "train_sched_noun_all"
+msgid "All"
+msgstr "全部"
+
+#v1.1.31
+msgctxt "train_sched_noun_day"
+msgid "Day"
+msgstr "天"
+
+#v1.1.31
+msgctxt "train_sched_noun_slot"
+msgid "Slot"
+msgstr "時段"
+
+#v1.1.31
+msgctxt "train_sched_noun_train"
+msgid "Train"
+msgstr "列車"
+
+#v1.1.31
+msgctxt "train_sched_noun_week"
+msgid "Week"
+msgstr "週"
+
+#v1.1.31
+msgctxt "train_sched_noun_week_all"
+msgid "Week *"
+msgstr "週*"
+
+#v1.1.31
+msgctxt "train_sched_paste_all_day"
+msgid "Paste slots in every day"
+msgstr "每一天都貼入時段"
+
+#v1.1.31
+msgctxt "train_sched_paste_all_train"
+msgid "Paste slots in every train {} schedule"
+msgstr "將時段貼入至每輛列車於 {} 的排程表"
+
+#v1.1.31
+msgctxt "train_sched_paste_day"
+msgid "Paste slots on train {0} {1} schedule"
+msgstr "將時段貼入至列車 {0} 於 {1} 的排程表""
+
+#v1.1.31
+msgctxt "train_sched_paste_week"
+msgid "Replace entire week schedule in train {}"
+msgstr "替換列車 {} 的一週排程表"
+
+#v1.1.31
+msgctxt "train_sched_paste_week_all"
+msgid "Replace entire week schedule in all trains"
+msgstr "替換所有列車的一週排程表"
+
+#v1.1.31
+msgctxt "train_sched_slot_kind"
+msgid "Order:"
+msgstr "指令："
+
+#v1.1.31
+msgctxt "train_sched_slot_kind_depot"
+msgid "Store in depot"
+msgstr "停放於車庫"
+
+#v1.1.31
+msgctxt "train_sched_slot_kind_line"
+msgid "Run a line"
+msgstr "運行路線"
+
+#v1.1.31
+msgctxt "train_sched_start"
+msgid "Start time:"
+msgstr "開始時間："
+
+#v1.1.31
+msgctxt "train_sched_start_stop"
+msgid "Start from:"
+msgstr "開始地點："
+
+#v1.1.31
+msgctxt "train_total_price_1"
+msgid "Total for 1 unit"
+msgstr "1 單位合計"
+
+#v1.1.31
+msgctxt "train_total_price_many"
+msgid "Total for %d units"
+msgstr "%d 單位合計"
+
+#v1.1.31
+msgctxt "traineditor_clear_selection"
+msgid "Clear selection"
+msgstr "清除已選取"
+
+#v1.1.31
+msgctxt "traineditor_overflow_desc"
+msgid "Too many trains selected to show the slot editor, but it is still possible to use some bulk editing operations."
+msgstr "時段編輯器內選取了過多的列車，但還是可以使用一部份的批次操作。"
+
+#v1.1.31
+msgctxt "traineditor_select_all"
+msgid "Select all trains"
+msgstr "選取所有列車"
+
+#v1.1.31
+msgctxt "traineditor_tooltip_buy_mode"
+msgid "Purchase new trains"
+msgstr "購買新列車"
+
+#v1.1.31
+msgctxt "traineditor_tooltip_list_mode"
+msgid "List trains and edit their details and schedule"
+msgstr "顯示列車並修改細節和排程表"
+
+#v1.1.31
+msgctxt "traineditor_tooltip_sched_mode"
+msgid "Edit the schedule of multiple trains simultaneously"
+msgstr "同時編輯多輛列車的排程表"
+
+#v1.1.31
+msgctxt "traineditor_tooltip_tz_selector"
+msgid "Time zone"
+msgstr "時區"
+
+#v1.1.31
+msgctxt "traineditor_tz_auto"
+msgid "Auto"
+msgstr "自動時區"
+
+#v1.1.31
+msgctxt "trains"
+msgid "Trains"
+msgstr "列車"
+
+#v1.1.31
+msgctxt "trains_models_n_0"
+msgid "0 models"
+msgstr "0 種車型"
+
+#v1.1.31
+msgctxt "trains_models_n_1"
+msgid "1 model"
+msgstr "1 種車型"
+
+#v1.1.31
+msgctxt "trains_models_n_many"
+msgid "%d models"
+msgstr "%d 種車型"
+
+#v1.1.31
+msgctxt "trains_n_0"
+msgid "0 trains"
+msgstr "0 輛列車"
+
+#v1.1.31
+msgctxt "trains_n_1"
+msgid "1 train"
+msgstr "1 輛列車"
+
+#v1.1.31
+msgctxt "trains_n_many"
+msgid "%d trains"
+msgstr "%d 輛列車"
+
+#v1.1.31
+msgctxt "ugc_error_conn"
+msgid "Error while connecting with Steamworks"
+msgstr "連結至 Steam 工作坊時發生錯誤"
+
+#v1.1.31
+msgctxt "ugc_error_logged"
+msgid "Must be logged into Steam to perform this action"
+msgstr "必須登入 Steam 才能執行這項操作"
+
+#v1.1.31
+msgctxt "ugc_error_priv"
+msgid "Not enough privileges with the current user account in Steam"
+msgstr "目前登入的 Steam 帳號沒有足夠的權限"
+
+#v1.1.31
+msgctxt "ugc_error_timeout"
+msgid "Timeout while connecting with Steam"
+msgstr "Steam 連接逾時"
+
+#v1.1.31
+msgctxt "ugc_some_rule_req"
+msgid "Selected local mod is empty"
+msgstr "選取的本機模組是空的"
+
+#v1.1.31
+msgctxt "ugc_valid_desc_req"
+msgid "Description is required"
+msgstr "描述必須填寫"
+
+#v1.1.31
+msgctxt "ugc_valid_desc_too_long"
+msgid "Description is too long"
+msgstr "描述太長"
+
+#v1.1.31
+msgctxt "ugc_valid_folder_req"
+msgid "A valid local mod is required"
+msgstr "必須是有效的本機模組"
+
+#v1.1.31
+msgctxt "ugc_valid_image_req"
+msgid "An icon image file is required"
+msgstr "圖示檔為必要"
+
+#v1.1.31
 msgctxt "ugc_valid_title_too_long"
 msgid "Title is too long"
 msgstr "標題太長"
 
+#v1.1.31
 msgctxt "ugc_warn_already"
 msgid "A Mod is still being created and/or updated, please wait"
 msgstr "模組仍在建立/上傳，請稍後"
 
+#v1.1.31
 msgctxt "unit_price"
 msgid "Unit price"
 msgstr "單位金額"
 
+#v1.1.31
 msgctxt "unknown"
 msgid "Unknown"
-msgstr "未知的"
+msgstr "未知"
 
+#v1.1.31
 msgctxt "update_note"
 msgid "Update note:"
-msgstr "更新備註："
+msgstr "更新說明："
 
+#v1.1.31
 msgctxt "upload_mod"
 msgid "Upload mod"
 msgstr "上傳模組"
 
+#v1.1.31
 msgctxt "view_in_workshop"
 msgid "View in Workshop"
-msgstr "在 Steam 工作坊檢視"
+msgstr "在工作坊檢視"
 
+#v1.1.31
 msgctxt "visibility"
 msgid "Visibility:"
-msgstr "可見範圍："
+msgstr "可視："
 
+#v1.1.31
 msgctxt "vsync_mode"
 msgid "VSync:"
 msgstr "垂直同步："
 
+#v1.1.31
 msgctxt "warning"
 msgid "Warning"
 msgstr "警告"
 
+#v1.1.31
 msgctxt "waypoint"
 msgid "Waypoint"
 msgstr "路徑點"
 
+#v1.1.31
 msgctxt "weekday_friday"
 msgid "Friday"
 msgstr "星期五"
 
+#v1.1.31
 msgctxt "weekday_monday"
 msgid "Monday"
 msgstr "星期一"
 
+#v1.1.31
 msgctxt "weekday_saturday"
 msgid "Saturday"
 msgstr "星期六"
 
+#v1.1.31
 msgctxt "weekday_short_friday"
 msgid "Fri"
 msgstr "週五"
 
+#v1.1.31
 msgctxt "weekday_short_monday"
 msgid "Mon"
 msgstr "週一"
 
+#v1.1.31
 msgctxt "weekday_short_saturday"
 msgid "Sat"
 msgstr "週六"
 
+#v1.1.31
 msgctxt "weekday_short_sunday"
 msgid "Sun"
 msgstr "週日"
 
+#v1.1.31
 msgctxt "weekday_short_thursday"
 msgid "Thu"
 msgstr "週四"
 
+#v1.1.31
 msgctxt "weekday_short_tuesday"
 msgid "Tue"
 msgstr "週二"
 
+#v1.1.31
 msgctxt "weekday_short_wednesday"
 msgid "Wed"
 msgstr "週三"
 
+#v1.1.31
 msgctxt "weekday_sunday"
 msgid "Sunday"
 msgstr "星期日"
 
+#v1.1.31
 msgctxt "weekday_thursday"
 msgid "Thursday"
 msgstr "星期四"
 
+#v1.1.31
 msgctxt "weekday_tuesday"
 msgid "Tuesday"
 msgstr "星期二"
 
+#v1.1.31
 msgctxt "weekday_wednesday"
 msgid "Wednesday"
 msgstr "星期三"
 
+#v1.1.31
 msgctxt "workshop_more_langs"
 msgid "More languages"
 msgstr "更多語言"
 
+#v1.1.31
 msgctxt "wrong_length"
 msgid "wrong length"
 msgstr "錯誤的長度"
-
-msgctxt "wrong_protocol"
-msgid "Protocol mismatch with server. Make sure both your client and the server are updated to the latest game version."
-msgstr "和主機端的通訊協定不相符。請確認客戶/主機端的遊戲都已更新至最新版本。"
-
