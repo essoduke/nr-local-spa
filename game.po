@@ -49,17 +49,17 @@ msgstr "要移動或刪除軌道，必須先選取該段軌道的控制點。"
 #v1.1.37
 msgctxt "error_too_new_save_v"
 msgid "The game version ({}.{}.{}.{}) that created this save file is newer than your game version ({}.{}.{}.{}). Update the game to load this file."
-msgstr "此存檔的遊戲版本 ({}.{}.{}.{}) 比目前的版本 ({}.{}.{}.{}) 還要新，請更新後再讀取。"
+msgstr "此存檔的遊戲版本 ({}.{}.{}.{}) 比目前版本 ({}.{}.{}.{}) 還要新，請更新後再讀取。"
 
 #v1.1.37
 msgctxt "error_too_old_save_v"
 msgid "The game version ({}.{}.{}.{}) that created this save file is too old and it cannot be loaded. Try the legacy branches in Steam."
-msgstr "此存檔的遊戲版本 ({}.{}.{}.{}) 已過時導致無法讀取。請嘗試使用舊版本的遊戲程式。"
+msgstr "此存檔的遊戲版本 ({}.{}.{}.{}) 已過時導致無法讀取。請嘗試使用舊版的遊戲程式。"
 
 #v1.1.37
 msgctxt "ev_too_short_warn"
 msgid "Too short stop time and/or train full"
-msgstr "過短的停靠時間 且/或 列車已客滿"
+msgstr "過短的停靠時間 / 列車已客滿"
 
 #v1.1.37
 msgctxt "file_picker_company"
@@ -89,7 +89,7 @@ msgstr "遊戲版本："
 #v1.1.37
 msgctxt "file_picker_version_old"
 msgid "1.1.35 or earlier (model v{})"
-msgstr "1.1.35 或更早版本 (模組 v{})"
+msgstr "1.1.35 或更早的版本 (模組 v{})"
 
 #v1.1.37
 msgctxt "full_date_time"
@@ -104,7 +104,7 @@ msgstr "遊戲速度："
 #v1.1.37
 msgctxt "host_game_speed_warn"
 msgid "Large and complex builds, with many trains and stations, may not be playable at more than 1x speed in a multiplayer session."
-msgstr "大型複雜的建築以及過多的列車和車站，在多人模式可能無法使用 1x 以上的遊戲速度。"
+msgstr "大型複雜的建造以及過多的列車和車站，在多人模式可能無法使用 1x 以上的遊戲速度。"
 
 #v1.1.37
 msgctxt "info_table_count_tp"
@@ -134,7 +134,7 @@ msgstr "下一站"
 #v1.1.37
 msgctxt "info_table_pax_next_tp"
 msgid "Next stop station"
-msgstr "下一停靠站"
+msgstr "下一站"
 
 #v1.1.37
 msgctxt "info_table_pax_origin_tp"
@@ -149,7 +149,7 @@ msgstr "滿意度"
 #v1.1.37
 msgctxt "info_table_pax_total_tp"
 msgid "Trip total elapsed time"
-msgstr "旅程總預估時間"
+msgstr "旅程預估時間"
 
 #v1.1.37
 msgctxt "line_list_sort_alpha"
@@ -224,7 +224,7 @@ msgstr "旅程計時器"
 #v1.1.37
 msgctxt "lineeditor_auto_inverval_sugg"
 msgid "Min. interval hint:"
-msgstr "最短班距建議："
+msgstr "最小班距建議："
 
 #v1.1.37
 msgctxt "lineeditor_auto_inverval_title"
@@ -234,17 +234,17 @@ msgstr "批次修改班次間距時間"
 #v1.1.37
 msgctxt "lineeditor_auto_wait_title"
 msgid "Min. stop time bulk edit"
-msgstr "批次修改最短停靠時間"
+msgstr "批次修改最小停靠時間"
 
 #v1.1.37
 msgctxt "lineeditor_bulk_wait"
 msgid "Min. stop time (h:mm:ss):"
-msgstr "最短停靠時間 (h:mm:ss):"
+msgstr "最小停靠時間 (h:mm:ss):"
 
 #v1.1.37
 msgctxt "lineeditor_bulk_wait_run"
 msgid "Set min. stop times"
-msgstr "最短停靠時間"
+msgstr "最小停靠時間"
 
 #v1.1.37
 msgctxt "lineeditor_move_camera"
@@ -284,7 +284,7 @@ msgstr "在遊戲內啟用"
 #v1.1.37
 msgctxt "mod_icon_hint"
 msgid "JPG format in RGB, max 1MB"
-msgstr "RGB JPG 格式，最大 1MB"
+msgstr "JPG 格式為 RGB，最大 1MB"
 
 #v1.1.37
 msgctxt "mod_keep_desc"
@@ -319,7 +319,7 @@ msgstr "主機訊息"
 #v1.1.37
 msgctxt "motd_desc"
 msgid "Optionally write here a message to be shown to all clients on joining your game."
-msgstr "其他玩家加入你的遊戲時會顯示這裡填寫的文字(非必要)。"
+msgstr "(非必要)其他玩家加入你的遊戲時會顯示這裡填寫的文字。"
 
 #v1.1.37
 msgctxt "motd_empty_text"
@@ -334,7 +334,7 @@ msgstr "< 主機聊天連結為空白或無效 >"
 #v1.1.37
 msgctxt "motd_url_desc"
 msgid "Optionally paste here a URL that clients can visit to join your chat. For example, a Discord invite."
-msgstr "其他玩家可點擊這裡填寫的連結(例如 Discord 邀請)加入聊天(非必要)。"
+msgstr "(非必要)其他玩家可點擊這裡填寫的連結(例如 Discord 邀請)加入聊天。"
 
 #v1.1.37
 msgctxt "mpinfo_stats_stream"
@@ -399,7 +399,7 @@ msgstr "覆蓋其他版本的檔案"
 #v1.1.37
 msgctxt "ovewrite_other_desc"
 msgid "{} was saved with a different game version. Do you want to overwrite it, or rename it to keep its original contents, then save the game?"
-msgstr "{} 已儲存為不同的遊戲版本。是否要覆蓋或是重新命名後再儲存？"
+msgstr "{} 已儲存為不同的遊戲版本。是否要覆蓋？或是重新命名後再儲存？"
 
 #v1.1.37
 msgctxt "paxlist_groupby_next"
@@ -414,7 +414,7 @@ msgstr "正在驗證軌道及車站，剩餘 {}"
 #v1.1.37
 msgctxt "rename_save"
 msgid "Rename and save"
-msgstr "重命名並儲存"
+msgstr "重新命名並儲存"
 
 #v1.1.37
 msgctxt "right_bar_company"
@@ -449,12 +449,12 @@ msgstr "尋找"
 #v1.1.37
 msgctxt "sax_refund_warn_fare"
 msgid "Refund risk due to fare"
-msgstr "因票價導致的退款風險"
+msgstr "票價導致的退款風險"
 
 #v1.1.37
 msgctxt "sax_tooltip2"
 msgid "{0} (Neutral at {1}, ${2:.2f})"
-msgstr "{0} (普通於 {1}，${2:.2f})"
+msgstr "{0} (初始於 {1}，${2:.2f})"
 
 #v1.1.37
 msgctxt "sax_tooltip_new"
@@ -474,7 +474,7 @@ msgstr "進度已超越主機端，請先暫停遊戲等候。"
 #v1.1.37
 msgctxt "stream_catch_up_desc"
 msgid "You are falling behind the host. Speeding up the clock to catch up."
-msgstr "進度已落後主機端，請加速遊戲以跟上主機"
+msgstr "進度已落後主機端，請加速遊戲跟上主機"
 
 #v1.1.37
 msgctxt "train_info_dynamics"
@@ -504,7 +504,7 @@ msgstr "以車型分組"
 #v1.1.37
 msgctxt "train_list_filter_depot"
 msgid "In depot"
-msgstr "於車庫內"
+msgstr "在車庫"
 
 #v1.1.37
 msgctxt "train_sched_pause_warn"
@@ -534,17 +534,17 @@ msgstr "標題必須填寫"
 #v1.1.37
 msgctxt "used_active_mod"
 msgid "This mod is used by one or more objects in the game, and cannot be disabled."
-msgstr "此模組已在遊戲內被使用一或多個物件，無法停用。"
+msgstr "此模組在遊戲內已被使用一或多個物件，無法停用。"
 
 #v1.1.37
 msgctxt "wrong_protocol_desc"
 msgid "Your serialization and protocol do not match with the server. Make sure both your game and the server are running exactly the same game version, as displayed in the main menu."
-msgstr "序列化和通訊協定和主機端並不相容，請確認使用的遊戲版本和主機端完全一致（版本號顯示於主選單）。"
+msgstr "序列化和通訊協定和伺服器並不相容，請確認使用的遊戲版本和伺服器完全一致（版本號顯示於主選單）。"
 
 #v1.1.37
 msgctxt "wrong_schema_mod"
 msgid "This mod data is enabled in the current game, but its installed files require a newer game version. Update the game."
-msgstr "目前的遊戲已啟用這個模組，但是模組需要更新的遊戲版本，請更新遊戲。"
+msgstr "目前的遊戲已啟用這個模組，但是該模組需要較新的遊戲版本，請更新後再繼續。"
 
 
 
@@ -579,7 +579,7 @@ msgstr "賠償：等候太久"
 #v1.1.37
 msgctxt "conflicts_pop_desc"
 msgid "One or more tracks have conflicts and cannot be constructed, or their validation is still pending. Move, edit or delete all tracks marked in red."
-msgstr "一或多段軌道因為發生衝突而無法鋪設，或正在等待確認。請移動、編輯或刪除被標記為紅色的區段。"
+msgstr "一或多段軌道發生衝突、或是正在等待確認。請移動、編輯或刪除被標記為紅色的區段。"
 
 #v1.1.37
 msgctxt "editor_add"
@@ -594,7 +594,7 @@ msgstr "新增軌道支線 [B]"
 #v1.1.37
 msgctxt "editor_depot"
 msgid "Create new de[P]ot"
-msgstr "建立車站 [P]"
+msgstr "新增車站 [P]"
 
 #v1.1.37
 msgctxt "editor_move"
@@ -659,12 +659,12 @@ msgstr "貸款 {0} 之 {1}"
 #v1.1.37
 msgctxt "missing_mod"
 msgid "This mod data is enabled in the current game, but it is not installed in this PC. Some textures might be missing."
-msgstr "進行中的遊戲已啟用此模組但是本機尚未安裝，部份紋理貼圖可能會遺失。"
+msgstr "進行中的遊戲已啟用此模組但是本機尚未安裝，可能會缺少部份貼圖。"
 
 #v1.1.37
 msgctxt "mode_map_default"
 msgid "Plain map [Home]"
-msgstr "無圖層 [Home]"
+msgstr "圖層：無 [Home]"
 
 #v1.1.37
 msgctxt "mode_map_population"
@@ -689,7 +689,7 @@ msgstr "圖層：時速 [End]"
 #v1.1.37
 msgctxt "paxlist_n_new_pax"
 msgid "{} new"
-msgstr "{} 新的"
+msgstr "{} 新乘客"
 
 #v1.1.37
 msgctxt "subscribe_to_mods"
@@ -1019,12 +1019,12 @@ msgstr "你想要加入由 {} 主持的遊戲嗎？目前的進度會自動儲�
 #v1.1.31
 msgctxt "banner_prompt_client_join_user"
 msgid "{0} proposes you to join a game hosted by {1}. Do you want to join? Your current game will be autosaved and you will quit the current server."
-msgstr "{0} 提議希望你加入由 {1} 主持的遊戲，是否想要加入？目前的進度會自動儲存，並離開已連接的主機。"
+msgstr "{0} 提議希望你加入由 {1} 主持的遊戲，是否想要加入？目前的進度會自動儲存，並中斷已連接的主機。"
 
 #v1.1.31
 msgctxt "banner_prompt_game_join_anon"
 msgid "Do you want to join a game hosted by {}? Your current game will be autosaved."
-msgstr "你想要加入由 {} 主持的遊戲嗎？目前的進度會自動儲存，並離開已連接的主機。"
+msgstr "你想要加入由 {} 主持的遊戲嗎？目前的進度會自動儲存，並中斷已連接的主機。"
 
 #v1.1.31
 msgctxt "banner_prompt_game_join_user"
@@ -1034,7 +1034,7 @@ msgstr "{0} 提議希望你加入由 {1} 主持的遊戲，是否想要加入？
 #v1.1.31
 msgctxt "banner_prompt_nogame_join_anon"
 msgid "Do you want to join a game hosted by {}?"
-msgstr "你想要加入由 {} 主持的遊戲嗎？目前的進度會自動儲存，並離開已連接的主機。"
+msgstr "你想要加入由 {} 主持的遊戲嗎？目前的進度會自動儲存，並中斷已連接的主機。"
 
 #v1.1.31
 msgctxt "banner_prompt_nogame_join_user"
@@ -1044,12 +1044,12 @@ msgstr "{0} 提議希望你加入由 {1} 主持的遊戲，是否想要加入？
 #v1.1.31
 msgctxt "banner_prompt_server_join_anon"
 msgid "Do you want to join a game hosted by {}? WARNING: You are currently hosting a game. All your connected players will be disconnected. Your current game will be autosaved."
-msgstr "你想要加入由 {} 主持的遊戲嗎？注意：目前的遊戲是由你建立，所有已連線的玩家都會斷線。目前的進度會自動儲存。"
+msgstr "你想要加入由 {} 主持的遊戲嗎？注意：目前的遊戲是由你建立，所有已連線的玩家都會中斷，進度會自動儲存。"
 
 #v1.1.31
 msgctxt "banner_prompt_server_join_user"
 msgid "{0} proposes you to join a game hosted by {1}. Do you want to join? WARNING: You are currently hosting a game. All your connected players will be disconnected. Your current game will be autosaved."
-msgstr "{0} 提議希望你加入由 {1} 主持的遊戲，是否想要加入？注意：目前的遊戲是由你建立，所有已連線的玩家都會斷線。目前的進度會自動儲存。"
+msgstr "{0} 提議希望你加入由 {1} 主持的遊戲，是否想要加入？注意：目前的遊戲是由你建立，所有已連線的玩家都會中斷，進度會自動儲存。"
 
 #v1.1.31
 msgctxt "bill_tab_client"
@@ -1164,12 +1164,12 @@ msgstr "沒有可建造的軌道或車站藍圖"
 #v1.1.31
 msgctxt "construction_conflicts_cash"
 msgid "Not enough money for construction"
-msgstr "沒有足夠的資金可以建造"
+msgstr "建造資金不足"
 
 #v1.1.31
 msgctxt "construction_conflicts_error"
 msgid "Conflicts block construction"
-msgstr "發生衝突導致無法建造"
+msgstr "衝突導致無法建造"
 
 #v1.1.31
 msgctxt "copy"
@@ -1934,7 +1934,7 @@ msgstr "年利率："
 #v1.1.31
 msgctxt "loan_contract_total_interest"
 msgid "{} months interest:"
-msgstr "{} 個月的利息總計："
+msgstr "{} 個月的利息合計："
 
 #v1.1.31
 msgctxt "loan_contract_years"
@@ -1944,7 +1944,7 @@ msgstr "年限："
 #v1.1.31
 msgctxt "loan_created_on"
 msgid "Created on:"
-msgstr "貸款核放日："
+msgstr "貸款核放於："
 
 #v1.1.31
 msgctxt "loan_need_admin"
@@ -1954,7 +1954,7 @@ msgstr "只有管理員可以申請貸款"
 #v1.1.31
 msgctxt "loan_paid_interest"
 msgid "Paid interest:"
-msgstr "已支付利息："
+msgstr "已支付的利息："
 
 #v1.1.31
 msgctxt "loan_pay_early"
@@ -1969,7 +1969,7 @@ msgstr "還款："
 #v1.1.31
 msgctxt "loan_payments_fmt"
 msgid "{0} out of {1}, next on {2}"
-msgstr "{0} 之 {1}，下一期於 {2}"
+msgstr "{0} / {1} 期，下一期於 {2}"
 
 #v1.1.31
 msgctxt "loan_subtitle"
@@ -1989,7 +1989,7 @@ msgstr "上傳的本機模組："
 #v1.1.31
 msgctxt "lonely_station"
 msgid "Lonely Station"
-msgstr "Estación Solitaria"
+msgstr "Lonely Station"
 
 #v1.1.31
 msgctxt "main_options"
@@ -2054,7 +2054,7 @@ msgstr "模組上傳中..."
 #v1.1.31
 msgctxt "mod_uploader_info"
 msgid "The mod uploader is a tool for mod developers. If you want to use mods when playing the game, subscribe to them in the Steam Workshop and enable them when creating a new game."
-msgstr "模組上傳器是提供給模組開發者的工具。如果你想要在遊戲內使用模組，請前往 Steam 工作坊訂閱，並在開始新的遊戲時啟用。"
+msgstr "模組上傳器是提供給開發者使用的工具。如果你想要在遊戲內使用模組，請前往 Steam 工作坊訂閱，並在開始新的遊戲時啟用。"
 
 #v1.1.31
 msgctxt "mod_uploader_info_guide"
@@ -2064,7 +2064,7 @@ msgstr "模組開發者導覽"
 #v1.1.31
 msgctxt "mod_uploader_info_open_browser"
 msgid "Visit Workshop"
-msgstr "瀏覽 Steam 工作坊"
+msgstr "瀏覽工作坊"
 
 #v1.1.31
 msgctxt "mod_uploader_info_player_workshop"
@@ -2094,7 +2094,7 @@ msgstr "更新模組"
 #v1.1.31
 msgctxt "mod_uploader_view_ws_mod"
 msgid "View mod in Workshop"
-msgstr "在 Steam 工作坊檢視"
+msgstr "在工作坊檢視"
 
 #v1.1.31
 msgctxt "mod_version"
@@ -2169,62 +2169,62 @@ msgstr "九月"
 #v1.1.31
 msgctxt "month_short_april"
 msgid "Apr"
-msgstr "4月"
+msgstr "4 月"
 
 #v1.1.31
 msgctxt "month_short_august"
 msgid "Aug"
-msgstr "8月"
+msgstr "8 月"
 
 #v1.1.31
 msgctxt "month_short_december"
 msgid "Dec"
-msgstr "12月"
+msgstr "12 月"
 
 #v1.1.31
 msgctxt "month_short_february"
 msgid "Feb"
-msgstr "2月"
+msgstr "2 月"
 
 #v1.1.31
 msgctxt "month_short_january"
 msgid "Jan"
-msgstr "1月"
+msgstr "1 月"
 
 #v1.1.31
 msgctxt "month_short_july"
 msgid "Jul"
-msgstr "7月"
+msgstr "7 月"
 
 #v1.1.31
 msgctxt "month_short_june"
 msgid "Jun"
-msgstr "6月"
+msgstr "6 月"
 
 #v1.1.31
 msgctxt "month_short_march"
 msgid "Mar"
-msgstr "3月"
+msgstr "3 月"
 
 #v1.1.31
 msgctxt "month_short_may"
 msgid "May"
-msgstr "5月"
+msgstr "5 月"
 
 #v1.1.31
 msgctxt "month_short_november"
 msgid "Nov"
-msgstr "11月"
+msgstr "11 月"
 
 #v1.1.31
 msgctxt "month_short_october"
 msgid "Oct"
-msgstr "10月"
+msgstr "10 月"
 
 #v1.1.31
 msgctxt "month_short_september"
 msgid "Sep"
-msgstr "9月"
+msgstr "9 月"
 
 #v1.1.31
 msgctxt "mp_action_allow"
@@ -2244,7 +2244,7 @@ msgstr "拒絕"
 #v1.1.31
 msgctxt "mp_action_disconnect"
 msgid "Disconnect"
-msgstr "斷線"
+msgstr "中斷"
 
 #v1.1.31
 msgctxt "mp_action_forget"
@@ -2434,17 +2434,17 @@ msgstr "Distrito"
 #v1.1.31
 msgctxt "overpass_n_0"
 msgid "0 overpasses"
-msgstr "0 座陸橋"
+msgstr "0 陸橋"
 
 #v1.1.31
 msgctxt "overpass_n_1"
 msgid "1 overpass"
-msgstr "1 座陸橋"
+msgstr "1 陸橋"
 
 #v1.1.31
 msgctxt "overpass_n_many"
 msgid "%d overpasses"
-msgstr "%d 座陸橋"
+msgstr "%d 陸橋"
 
 #v1.1.31
 msgctxt "overwrite"
@@ -2599,37 +2599,37 @@ msgstr "儲存遊戲"
 #v1.1.31
 msgctxt "sax_0"
 msgid "Neutral"
-msgstr "普通"
+msgstr "無"
 
 #v1.1.31
 msgctxt "sax_m1"
 msgid "Mediocre"
-msgstr "不滿意"
+msgstr "普通"
 
 #v1.1.31
 msgctxt "sax_m2"
 msgid "Bad"
-msgstr "很不滿意"
+msgstr "糟糕"
 
 #v1.1.31
 msgctxt "sax_m3"
 msgid "Very bad"
-msgstr "非常不滿意"
+msgstr "非常糟糕"
 
 #v1.1.31
 msgctxt "sax_p1"
 msgid "Good"
-msgstr "滿意"
+msgstr "高"
 
 #v1.1.31
 msgctxt "sax_p2"
 msgid "Very good"
-msgstr "很滿意"
+msgstr "很高"
 
 #v1.1.31
 msgctxt "sax_p3"
 msgid "Excellent"
-msgstr "非常滿意"
+msgstr "非常高"
 
 #v1.1.31
 msgctxt "sax_score"
@@ -2729,12 +2729,12 @@ msgstr "Steam 聊天及好友"
 #v1.1.31
 msgctxt "steam_chat_client_info"
 msgid "The Join Game options in Steam Chat and Steam Friends can be used to request access to other player games."
-msgstr "Steam 聊天視窗以及好友清單的「加入遊戲」可以用來請求加入玩家的遊戲。"
+msgstr "Steam 聊天視窗以及好友清單的「加入遊戲」功能可以請求加入玩家的遊戲。"
 
 #v1.1.31
 msgctxt "steam_chat_server_info"
 msgid "The Invite options in Steam Chat and Steam Friends can be used to invite other players to your hosted game. Your settings for the the Access rules apply to Steam invites."
-msgstr "Steam 聊天視窗以及好友清單的「邀請」可以用來邀請好友加入你主持的遊戲。已設置的存取規則會套用至 Steam 邀請功能。"
+msgstr "Steam 聊天視窗以及好友清單的「邀請」功能可以邀請好友加入你主持的遊戲。已設置的存取規則會套用至 Steam 邀請功能。"
 
 #v1.1.31
 msgctxt "steam_friends"
@@ -2774,7 +2774,7 @@ msgstr "陌生人"
 #v1.1.31
 msgctxt "subs_in_workshop"
 msgid "Subscribe in Workshop"
-msgstr "從 Steam 工作坊訂閱"
+msgstr "從工作坊訂閱"
 
 #v1.1.31
 msgctxt "time_h_m"
@@ -2849,22 +2849,22 @@ msgstr "輕軌"
 #v1.1.31
 msgctxt "track_trench"
 msgid "Trench"
-msgstr "壕溝"
+msgstr "戰壕"
 
 #v1.1.31
 msgctxt "track_tunnel1"
 msgid "Tunnel"
-msgstr "地下"
+msgstr "地下軌"
 
 #v1.1.31
 msgctxt "track_tunnel2"
 msgid "Tunnel depth 4"
-msgstr "地下 #4"
+msgstr "地下軌 #4"
 
 #v1.1.31
 msgctxt "track_viaduct"
 msgid "Viaduct"
-msgstr "高架"
+msgstr "高架軌"
 
 #v1.1.31
 msgctxt "train_base_color_edit"
@@ -2954,7 +2954,7 @@ msgstr "乘客上限："
 #v1.1.31
 msgctxt "train_info_max_speed"
 msgid "Max speed:"
-msgstr "最高速度："
+msgstr "最高時速："
 
 #v1.1.31
 msgctxt "train_info_pax"
@@ -3049,7 +3049,7 @@ msgstr "資金不足，無法購買"
 #v1.1.31
 msgctxt "train_purchase_no_cash_desc"
 msgid "Not enough money to purchase the train(s). Pick a cheaper train, less trains, less cars, or make more money."
-msgstr "資金不足，無法購買列車。請選擇較便宜的車型、較少的車廂或賺進更多鈔票。"
+msgstr "資金不足，無法購買列車。請選擇較便宜的車型、較少的車廂或先賺進更多鈔票。"
 
 #v1.1.31
 msgctxt "train_sched_add"
@@ -3224,7 +3224,7 @@ msgstr "購買新列車"
 #v1.1.31
 msgctxt "traineditor_tooltip_list_mode"
 msgid "List trains and edit their details and schedule"
-msgstr "顯示列車並修改細節和排程表"
+msgstr "顯示列車並修改其細節及排程表"
 
 #v1.1.31
 msgctxt "traineditor_tooltip_sched_mode"
