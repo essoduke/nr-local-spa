@@ -49,7 +49,7 @@ msgstr "要移動或刪除軌道，必須先選取該段軌道的控制點。"
 #v1.1.37
 msgctxt "error_too_new_save_v"
 msgid "The game version ({}.{}.{}.{}) that created this save file is newer than your game version ({}.{}.{}.{}). Update the game to load this file."
-msgstr "此存檔的遊戲版本 ({}.{}.{}.{}) 比目前版本 ({}.{}.{}.{}) 還要新，請更新後再讀取。"
+msgstr "此存檔的遊戲版本 ({}.{}.{}.{}) 比目前版本 ({}.{}.{}.{}) 還要新，請更新後再繼續。"
 
 #v1.1.37
 msgctxt "error_too_old_save_v"
@@ -224,7 +224,7 @@ msgstr "旅程計時器"
 #v1.1.37
 msgctxt "lineeditor_auto_inverval_sugg"
 msgid "Min. interval hint:"
-msgstr "最小班距建議："
+msgstr "最短班距建議："
 
 #v1.1.37
 msgctxt "lineeditor_auto_inverval_title"
@@ -234,17 +234,17 @@ msgstr "批次修改班次間距時間"
 #v1.1.37
 msgctxt "lineeditor_auto_wait_title"
 msgid "Min. stop time bulk edit"
-msgstr "批次修改最小停靠時間"
+msgstr "批次修改最短停靠時間"
 
 #v1.1.37
 msgctxt "lineeditor_bulk_wait"
 msgid "Min. stop time (h:mm:ss):"
-msgstr "最小停靠時間 (h:mm:ss):"
+msgstr "最短停靠時間 (h:mm:ss):"
 
 #v1.1.37
 msgctxt "lineeditor_bulk_wait_run"
 msgid "Set min. stop times"
-msgstr "最小停靠時間"
+msgstr "最短停靠時間"
 
 #v1.1.37
 msgctxt "lineeditor_move_camera"
@@ -659,7 +659,7 @@ msgstr "貸款 {0} 之 {1}"
 #v1.1.37
 msgctxt "missing_mod"
 msgid "This mod data is enabled in the current game, but it is not installed in this PC. Some textures might be missing."
-msgstr "進行中的遊戲已啟用此模組但是本機尚未安裝，可能會缺少部份貼圖。"
+msgstr "進行中的遊戲已啟用此模組，但是本機尚未安裝，可能會缺少部份貼圖。"
 
 #v1.1.37
 msgctxt "mode_map_default"
@@ -684,7 +684,7 @@ msgstr "圖層：路線 [End]"
 #v1.1.37
 msgctxt "mode_map_tracks_speed"
 msgid "Speed overlay [End]"
-msgstr "圖層：時速 [End]"
+msgstr "圖層：軌道速度 [End]"
 
 #v1.1.37
 msgctxt "paxlist_n_new_pax"
@@ -1014,42 +1014,42 @@ msgstr "{} 已加入遊戲。"
 #v1.1.31
 msgctxt "banner_prompt_client_join_anon"
 msgid "Do you want to join a game hosted by {}? Your current game will be autosaved and you will quit the current server."
-msgstr "你想要加入由 {} 主持的遊戲嗎？目前的進度會自動儲存，並離開已連接的主機。"
+msgstr "你想要加入 {} 主持的遊戲嗎？目前的進度會自動儲存，並中斷已連接的主機。"
 
 #v1.1.31
 msgctxt "banner_prompt_client_join_user"
 msgid "{0} proposes you to join a game hosted by {1}. Do you want to join? Your current game will be autosaved and you will quit the current server."
-msgstr "{0} 提議希望你加入由 {1} 主持的遊戲，是否想要加入？目前的進度會自動儲存，並中斷已連接的主機。"
+msgstr "{0} 提議希望你加入 {1} 主持的遊戲，是否想要加入？目前的進度會自動儲存，並中斷已連接的主機。"
 
 #v1.1.31
 msgctxt "banner_prompt_game_join_anon"
 msgid "Do you want to join a game hosted by {}? Your current game will be autosaved."
-msgstr "你想要加入由 {} 主持的遊戲嗎？目前的進度會自動儲存，並中斷已連接的主機。"
+msgstr "你想要加入 {} 主持的遊戲嗎？目前的進度會自動儲存，並中斷已連接的主機。"
 
 #v1.1.31
 msgctxt "banner_prompt_game_join_user"
 msgid "{0} proposes you to join a game hosted by {1}. Do you want to join? Your current game will be autosaved."
-msgstr "{0} 提議希望你加入由 {1} 主持的遊戲，是否想要加入？目前的進度會自動儲存。"
+msgstr "{0} 提議希望你加入 {1} 主持的遊戲，是否想要加入？目前的進度會自動儲存。"
 
 #v1.1.31
 msgctxt "banner_prompt_nogame_join_anon"
 msgid "Do you want to join a game hosted by {}?"
-msgstr "你想要加入由 {} 主持的遊戲嗎？目前的進度會自動儲存，並中斷已連接的主機。"
+msgstr "你想要加入 {} 主持的遊戲嗎？目前的進度會自動儲存，並中斷已連接的主機。"
 
 #v1.1.31
 msgctxt "banner_prompt_nogame_join_user"
 msgid "{0} proposes you to join a game hosted by {1}. Do you want to join?"
-msgstr "{0} 提議希望你加入由 {1} 主持的遊戲，是否想要加入？目前的進度會自動儲存。"
+msgstr "{0} 提議希望你加入 {1} 主持的遊戲，是否想要加入？目前的進度會自動儲存。"
 
 #v1.1.31
 msgctxt "banner_prompt_server_join_anon"
 msgid "Do you want to join a game hosted by {}? WARNING: You are currently hosting a game. All your connected players will be disconnected. Your current game will be autosaved."
-msgstr "你想要加入由 {} 主持的遊戲嗎？注意：目前的遊戲是由你建立，所有已連線的玩家都會中斷，進度會自動儲存。"
+msgstr "你想要加入 {} 主持的遊戲嗎？注意：目前的遊戲是由你建立，所有已連線的玩家都會中斷，進度會自動儲存。"
 
 #v1.1.31
 msgctxt "banner_prompt_server_join_user"
 msgid "{0} proposes you to join a game hosted by {1}. Do you want to join? WARNING: You are currently hosting a game. All your connected players will be disconnected. Your current game will be autosaved."
-msgstr "{0} 提議希望你加入由 {1} 主持的遊戲，是否想要加入？注意：目前的遊戲是由你建立，所有已連線的玩家都會中斷，進度會自動儲存。"
+msgstr "{0} 提議希望你加入 {1} 主持的遊戲，是否想要加入？注意：目前的遊戲是由你建立，所有已連線的玩家都會中斷，進度會自動儲存。"
 
 #v1.1.31
 msgctxt "bill_tab_client"
@@ -1134,7 +1134,7 @@ msgstr "確認刪除"
 #v1.1.31
 msgctxt "confirm_delete_desc"
 msgid "One or more selected tracks are already built. Deleting them will not refund your money. This operation cannot be undone. Are you sure?"
-msgstr "一或多段選取的軌道已完工。刪除既不能退回費用也無法復原，確定嗎？"
+msgstr "一或多段選取的軌道已完工。刪除不能退回費用也無法復原，確定嗎？"
 
 #v1.1.31
 msgctxt "conflict_map_hit"
@@ -1774,7 +1774,7 @@ msgstr "班距"
 #v1.1.31
 msgctxt "line_stop_min_header"
 msgid "Min."
-msgstr "最小"
+msgstr "最短"
 
 #v1.1.31
 msgctxt "line_stop_passthru_short"
