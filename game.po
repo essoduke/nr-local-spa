@@ -319,7 +319,7 @@ msgstr "主機訊息"
 #v1.1.37
 msgctxt "motd_desc"
 msgid "Optionally write here a message to be shown to all clients on joining your game."
-msgstr "(非必要)其他玩家加入你的遊戲時會顯示這裡填寫的文字。"
+msgstr "其他玩家加入你的遊戲時會顯示這裡填寫的文字 (非必要)。"
 
 #v1.1.37
 msgctxt "motd_empty_text"
@@ -334,7 +334,7 @@ msgstr "< 主機聊天連結為空白或無效 >"
 #v1.1.37
 msgctxt "motd_url_desc"
 msgid "Optionally paste here a URL that clients can visit to join your chat. For example, a Discord invite."
-msgstr "(非必要)其他玩家可點擊這裡填寫的連結(例如 Discord 邀請)。"
+msgstr "其他玩家可點擊這裡填寫的連結，例如：Discord 邀請 (非必要)。"
 
 #v1.1.37
 msgctxt "mpinfo_stats_stream"
