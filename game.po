@@ -104,7 +104,7 @@ msgstr "遊戲速度："
 #v1.1.37
 msgctxt "host_game_speed_warn"
 msgid "Large and complex builds, with many trains and stations, may not be playable at more than 1x speed in a multiplayer session."
-msgstr "大型複雜的建造以及過多的列車和車站，在多人模式可能無法使用 x1 以上的遊戲速度。"
+msgstr "大型複雜的建造以及過多的列車和車站，在多人模式可能無法使用 1x 以上的遊戲速度。"
 
 #v1.1.37
 msgctxt "info_table_count_tp"
