@@ -94,7 +94,7 @@ msgstr "1.1.35 或更早的版本 (model v{})"
 #v1.1.37
 msgctxt "full_date_time"
 msgid "{weekday} {day} {month}, {year} / {hours:02d}:{mins:02d}:{secs:02d}"
-msgstr "{year} 年 {month} {day} {weekday} / {hours:02d}:{mins:02d}:{secs:02d}"
+msgstr "{year}年{month}{day} {weekday} / {hours:02d}:{mins:02d}:{secs:02d}"
 
 #v1.1.37
 msgctxt "host_game_speed"
@@ -2974,7 +2974,7 @@ msgstr "${:.4} / 每人每公里"
 #v1.1.31
 msgctxt "train_info_speed"
 msgid "Speed / max:"
-msgstr "速度 / 上限："
+msgstr "時速 / 上限："
 
 #v1.1.31
 msgctxt "train_info_status"
