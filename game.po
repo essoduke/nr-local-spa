@@ -259,12 +259,12 @@ msgstr "計時器"
 #v1.1.37
 msgctxt "list_sort_reverse"
 msgid "Reverse"
-msgstr "反向"
+msgstr "反向排序"
 
 #v1.1.37
 msgctxt "max_speed_desc"
 msgid "Map and UI is disabled in max speed mode. Slow down to cancel."
-msgstr "地圖和 UI 在遊戲速度最快時自動停用，減速即可恢復。"
+msgstr "地圖和 UI 在遊戲速度最快時會自動停用，減速即可恢復。"
 
 #v1.1.37
 msgctxt "mod_disable_in_game"
@@ -484,7 +484,7 @@ msgstr "動力："
 #v1.1.37
 msgctxt "train_info_total_power"
 msgid "Total power:"
-msgstr "動力合計"
+msgstr "動力合計："
 
 #v1.1.37
 msgctxt "train_list_filter_all"
@@ -539,7 +539,7 @@ msgstr "這個模組在遊戲內已被使用一或多個物件，無法停用。
 #v1.1.37
 msgctxt "wrong_protocol_desc"
 msgid "Your serialization and protocol do not match with the server. Make sure both your game and the server are running exactly the same game version, as displayed in the main menu."
-msgstr "序列化和通訊協定和伺服器並不相容，請確認使用的遊戲版本和伺服器一致(版本號顯示於主選單)。"
+msgstr "序列化和通訊協定並不相容於伺服器，請確認使用的遊戲版本和伺服器一致 (版本號顯示於主選單)。"
 
 #v1.1.37
 msgctxt "wrong_schema_mod"
@@ -564,7 +564,7 @@ msgstr "退款：被載回車庫"
 #v1.1.37
 msgctxt "accounting_pax_refunded"
 msgid "Refunded (incl. compen.)"
-msgstr "退款(含賠償)"
+msgstr "退款 (含賠償)"
 
 #v1.1.37
 msgctxt "accounting_pax_refused_fare"
@@ -609,22 +609,22 @@ msgstr "新增車站月臺 [T]"
 #v1.1.37
 msgctxt "editor_tip_create_left1"
 msgid "Left click on track or station control points to select them"
-msgstr "滑鼠左鍵點選軌道或車站的控制點可以選取"
+msgstr "滑鼠左鍵點選軌道或車站的控制點可以選取。"
 
 #v1.1.37
 msgctxt "editor_tip_create_left2"
 msgid "Left click on station name plates to edit station details"
-msgstr "滑鼠左鍵點選車站名稱可以編輯"
+msgstr "滑鼠左鍵點選車站名稱可以編輯。"
 
 #v1.1.37
 msgctxt "editor_tip_create_left3"
 msgid "Left click on track or station control points to reset selection"
-msgstr "滑鼠左鍵點選軌道或車站的控制點可以重新選取"
+msgstr "滑鼠左鍵點選軌道或車站的控制點可以重新選取。"
 
 #v1.1.37
 msgctxt "editor_warn_zero_leg"
 msgid "At least one travel time is set to 0. Pax AI will get confused when riding this line. Try the timing calculator."
-msgstr "至少有一段的旅程時間被設成 0！搭乘這條路線的乘客 AI 可能會被混淆。"
+msgstr "至少有一段的旅程時間被設成零！搭乘這條路線的乘客可能會被混淆。"
 
 #v1.1.37
 msgctxt "error_too_old_save"
@@ -639,7 +639,7 @@ msgstr "#"
 #v1.1.37
 msgctxt "info_table_pax_fare"
 msgid "Paid"
-msgstr "已支付"
+msgstr "已付"
 
 #v1.1.37
 msgctxt "lineeditor_auto_eta_run"
